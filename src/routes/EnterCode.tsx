@@ -19,7 +19,7 @@ const inputStyle: CSSProperties = {
   width: '80%',
 };
 
-export function TestIdUnknown({ testId }: { testId: string }) {
+export function TestIdUnknown({ testId }: { testId: string }): JSX.Element {
   return (
     <>
       <p style={{ color: 'red' }}>Leider konnten wir diesen Test nicht finden.</p>
@@ -36,7 +36,7 @@ export function TestIdUnknown({ testId }: { testId: string }) {
     </>
   );
 }
-export function TestIdKnown({ testId }: { testId: string }) {
+export function TestIdKnown({ testId }: { testId: string }): JSX.Element {
   return (
     <>
       <div style={{ flexGrow: 1 }} />
