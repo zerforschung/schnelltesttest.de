@@ -1,15 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './App.css';
+import Logo from './components/Logo';
+import { BigLinkButton } from './components/Buttons';
 
 function App(): JSX.Element {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>schnelltesttest.de</h1>
-        <Link to="/scan">Alright, let's start scanning</Link>
-      </header>
+    <div style={{display:"flex",justifyContent:"center",alignItems:"center",width:"100%",height:"100%",alignContent:'center',flexDirection:'column'}}>
+      <div style={{maxWidth: "800px", padding: '2em', display:"flex",justifyContent:"center",alignItems:"center",height:"100%",alignContent:'center',flexDirection:'column'}}>
+        <Logo/>
+        <BigLinkButton to={'/scan'} content={"Code scannen"} appearance={'primary'}/>
+        <BigLinkButton to={'/enter_code'} content={'Code eingeben'} appearance={'primary'}/>
+        <BigLinkButton to={'/about'} content={'Über'} appearance={'primary'}/>
+      </div>
     </div>
+
   );
 }
 

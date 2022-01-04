@@ -33,7 +33,7 @@ export default function NoTestFound({ test_id }: { test_id: string }): JSX.Eleme
           alignContent: 'center',
           flexDirection: 'column',
           alignItems: 'center',
-          padding: '0 2em',
+          padding: '0 2em 2em 2em',
           maxWidth: '800px',
         }}
       >

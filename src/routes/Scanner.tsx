@@ -3,7 +3,7 @@ import { HowToOverlay } from '../components/Scanner/HowToOverlay';
 import './Scanner.css';
 import BarcodeScanner from '../components/Scanner/BarcodeScanner';
 import { Link } from 'react-router-dom';
-import Logo from '../components/Logo';
+import LogoHeader from '../components/LogoHeader';
 
 function NavButton({ to, content }: { to: string; content: JSX.Element | string }): JSX.Element {
   return (
@@ -31,7 +31,8 @@ function NavButton({ to, content }: { to: string; content: JSX.Element | string 
 export default function Scanner(): JSX.Element {
   return (
     <>
-      <Logo />
+      <LogoHeader
+      />
       <div style={{ position: 'relative', height: '80%', width: '100%' }}>
         <HowToOverlay />
         <BarcodeScanner />
@@ -46,7 +47,7 @@ export default function Scanner(): JSX.Element {
           alignItems: 'center',
         }}
       >
-        <NavButton to="/enter" content="Code eingeben" />
+        <NavButton to="/enter_code" content="Code eingeben" />
         <NavButton to="/about" content="Über" />
       </div>
     </>
