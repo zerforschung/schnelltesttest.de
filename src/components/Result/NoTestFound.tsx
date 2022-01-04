@@ -2,7 +2,6 @@ import React from 'react';
 import TextHeadingPage from '../TextHeadingPage';
 import { ContactInfo } from '../ContactInfo';
 
-
 export default function NoTestFound({ test_id }: { test_id: string }): JSX.Element {
   return (
     <TextHeadingPage heading={'Hilf Uns!'}>
@@ -29,7 +28,7 @@ export default function NoTestFound({ test_id }: { test_id: string }): JSX.Eleme
           den Test dann in den nächsten Tagen ein.
         </p>
         <p>Du erreichst uns per:</p>
-        <ContactInfo/>
+        <ContactInfo />
       </div>
       <div style={{ flexGrow: 1 }} />
     </TextHeadingPage>
