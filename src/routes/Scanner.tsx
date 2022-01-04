@@ -9,8 +9,6 @@ export default function Scanner() {
     return (
         <>
             <BarcodeScannerComponent
-                width={500}
-                height={500}
                 onUpdate={(err, result) => {
                     if (result) navigate(`/result/${result.getText()}`);
                 }}
