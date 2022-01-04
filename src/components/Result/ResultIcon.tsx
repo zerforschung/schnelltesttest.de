@@ -1,6 +1,6 @@
 import React from 'react';
-import failedIcon from './failed.png';
-import passedIcon from './passed.png';
+import failedIcon from './failed.svg';
+import passedIcon from './passed.svg';
 
 export function ResultIcon({ passed }: { passed: boolean }): JSX.Element {
   // TODO: Icons as SVG
