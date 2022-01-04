@@ -5,10 +5,10 @@
     "manufacturer": "Healgen Scientific Limited Liability Company (Siemens Healthineers)",
     "test_name": "CLINITESTR Rapid COVID-19 Antigen Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "87,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "76,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 87.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 76.0
   },
   "AT001/21": {
     "at_nr": "AT001/21",
@@ -16,10 +16,10 @@
     "manufacturer": "Xiamen Jiqing Biomedical Technology Co., Ltd.",
     "test_name": "Gruenbanka SARS-CoV-2 Antigen detection Kit (colloidal gold method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "25,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "10,0%"
+    "sensitivity_cq<25": 25.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 10.0
   },
   "AT002/20": {
     "at_nr": "AT002/20",
@@ -27,10 +27,10 @@
     "manufacturer": "Unioninvest",
     "test_name": "Unibioscience COVID-19 Rapid Antigen Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT005/20": {
     "at_nr": "AT005/20",
@@ -38,10 +38,10 @@
     "manufacturer": "Abbott Rapid Diagnostics Jena GmbH",
     "test_name": "Panbio\u00b9 TM COVID-19 Ag Rapid Test Device (NASOPHARYNGEAL)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,9%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "64,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.9,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 64.0
   },
   "AT007/20": {
     "at_nr": "AT007/20",
@@ -49,10 +49,10 @@
     "manufacturer": "Mexacare GmbH Heidelberg",
     "test_name": "QuickTestCorona COVID-19 Antigen Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "52,9%",
-    "sensitivity_cq25-30": "4,3%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "20,0%"
+    "sensitivity_cq<25": 52.9,
+    "sensitivity_cq25-30": 4.3,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 20.0
   },
   "AT007/21": {
     "at_nr": "AT007/21",
@@ -60,10 +60,10 @@
     "manufacturer": "BIOMERICA Inc.",
     "test_name": "COVID-19-Antigen-Schnelltest (Nasopharyngeal-Abstrich)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "30,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 30.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT008/20": {
     "at_nr": "AT008/20",
@@ -71,10 +71,10 @@
     "manufacturer": "R-Biopharm AG",
     "test_name": "RIDA\u00aeQUICK SARS-CoV-2 Antigen",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "17,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "44,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 17.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 44.0
   },
   "AT010/20": {
     "at_nr": "AT010/20",
@@ -82,10 +82,10 @@
     "manufacturer": "Sugentech, Inc.",
     "test_name": "SGTi-flex COVID-19 Ag",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "73,9%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "68,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 73.9,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 68.0
   },
   "AT011/20": {
     "at_nr": "AT011/20",
@@ -93,10 +93,10 @@
     "manufacturer": "Hangzhou Laihe Biotech Co., Ltd. (Lissner Qi GmbH)",
     "test_name": "Lyher Novel Coronavirus (COVID-19) Antigen Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,4%",
-    "sensitivity_cq25-30": "17,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 94.4,
+    "sensitivity_cq25-30": 17.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT012/20": {
     "at_nr": "AT012/20",
@@ -104,10 +104,10 @@
     "manufacturer": "MEDsan GmbH",
     "test_name": "MEDsan\u00ae SARS-CoV-2 Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "47,8%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 47.8,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT012/21": {
     "at_nr": "AT012/21",
@@ -115,10 +115,10 @@
     "manufacturer": "Xiamen Zhongsheng Langjie Biotechnology Co., Ltd",
     "test_name": "Covid-19 Antigen Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "11,8%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "4,0%"
+    "sensitivity_cq<25": 11.8,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 4.0
   },
   "AT013/20": {
     "at_nr": "AT013/20",
@@ -126,10 +126,10 @@
     "manufacturer": "RapiGEN, Inc.",
     "test_name": "Biocredit COVID-19 Ag",
     "target_antigen": "n.a.",
-    "sensitivity_cq<25": "16,7%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "6,0%"
+    "sensitivity_cq<25": 16.7,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 6.0
   },
   "AT014/20": {
     "at_nr": "AT014/20",
@@ -137,10 +137,10 @@
     "manufacturer": "BIONOTE",
     "test_name": "NowCheck\u00ae COVID-19 Ag Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "65,2%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "66,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 65.2,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 66.0
   },
   "AT015/20": {
     "at_nr": "AT015/20",
@@ -148,10 +148,10 @@
     "manufacturer": "Hangzhou Realy Tech Co., Ltd.",
     "test_name": "Novel Coronavirus (SARS-Cov-2) Antigen Rapid Test Cassette (swab)",
     "target_antigen": "n.a.",
-    "sensitivity_cq<25": "58,8%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "20,0%"
+    "sensitivity_cq<25": 58.8,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 20.0
   },
   "AT018/20": {
     "at_nr": "AT018/20",
@@ -159,10 +159,10 @@
     "manufacturer": "Green Cross Medical Science Corp. (Weko Pharma GmbH)",
     "test_name": "Genedia W Covid-19 Ag",
     "target_antigen": "N",
-    "sensitivity_cq<25": "83,3%",
-    "sensitivity_cq25-30": "8,7%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "34,0%"
+    "sensitivity_cq<25": 83.3,
+    "sensitivity_cq25-30": 8.7,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 34.0
   },
   "AT018/21": {
     "at_nr": "AT018/21",
@@ -170,10 +170,10 @@
     "manufacturer": "Abioteq",
     "test_name": "Cora Gentest-19",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "45,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 45.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT019/20": {
     "at_nr": "AT019/20",
@@ -181,10 +181,10 @@
     "manufacturer": "GenBody Inc.",
     "test_name": "GenBody COVID-19 Ag",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,4%",
-    "sensitivity_cq25-30": "26,1%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "46,0%"
+    "sensitivity_cq<25": 94.4,
+    "sensitivity_cq25-30": 26.1,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 46.0
   },
   "AT021/20": {
     "at_nr": "AT021/20",
@@ -192,10 +192,10 @@
     "manufacturer": "nal von minden gmbh",
     "test_name": "NADAL COVID-19 Ag Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "83,3%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 83.3,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 36.0
   },
   "AT022/20": {
     "at_nr": "AT022/20",
@@ -203,10 +203,10 @@
     "manufacturer": "SD Biosensor, Inc.",
     "test_name": "STANDARD F COVID-19 Ag FIA",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "65,2%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "66,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 65.2,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 66.0
   },
   "AT022/21": {
     "at_nr": "AT022/21",
@@ -214,10 +214,10 @@
     "manufacturer": "Beijing Wantai Biological Pharmacy Enterprise Co., Ltd.",
     "test_name": "Wantai SARS-CoV-2 Ag Rapid Test (FIA)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "78,3%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "72,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 78.3,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 72.0
   },
   "AT023/20 (AT004/20)": {
     "at_nr": "AT023/20 (AT004/20)",
@@ -225,10 +225,10 @@
     "manufacturer": "SD Biosensor, Inc. (Roche Diagnostics GmbH)",
     "test_name": "STANDARD Q COVID-19 Ag Test (SARS-CoV-2 Rapid Antigen Test)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "88,9%",
-    "sensitivity_cq25-30": "30,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "46,0%"
+    "sensitivity_cq<25": 88.9,
+    "sensitivity_cq25-30": 30.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 46.0
   },
   "AT025/20": {
     "at_nr": "AT025/20",
@@ -236,10 +236,10 @@
     "manufacturer": "BIOSYNEX SWISS SA",
     "test_name": "BIOSYNEX COVID-19 Ag BSS",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "78,3%",
-    "sensitivity_cq>30": "11,1%",
-    "sensitivity_total": "74,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 78.3,
+    "sensitivity_cq>30": 11.1,
+    "sensitivity_total": 74.0
   },
   "AT029/20": {
     "at_nr": "AT029/20",
@@ -247,10 +247,10 @@
     "manufacturer": "Fujirebio Inc. (Mast Diagnostica GmbH)",
     "test_name": "ESPLINE\u00ae SARS-CoV-2",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "21,7%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "46,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 21.7,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 46.0
   },
   "AT031/20": {
     "at_nr": "AT031/20",
@@ -258,10 +258,10 @@
     "manufacturer": "Anhui Deepblue Medical Technology Co. , Ltd.",
     "test_name": "COVID-19 (SARS CoV-2) Antigen Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "39,1%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "52,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 39.1,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 52.0
   },
   "AT032/20": {
     "at_nr": "AT032/20",
@@ -269,10 +269,10 @@
     "manufacturer": "Edinburgh Genetics Limited",
     "test_name": "Edinburgh Genetics ActivXpress+ COVID-19 Antigen Complete Testing Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "34,8%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "50,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 34.8,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 50.0
   },
   "AT033/20": {
     "at_nr": "AT033/20",
@@ -280,10 +280,10 @@
     "manufacturer": "Ameda Labordiagnostik GmbH",
     "test_name": "AMP Rapid Test SARS-CoV-2 Ag",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "78,3%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "70,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 78.3,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 70.0
   },
   "AT036/20": {
     "at_nr": "AT036/20",
@@ -291,10 +291,10 @@
     "manufacturer": "Servoprax GmbH",
     "test_name": "Cleartest Corona-Antigen",
     "target_antigen": "n.a.",
-    "sensitivity_cq<25": "66,7%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "24,0%"
+    "sensitivity_cq<25": 66.7,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 24.0
   },
   "AT036/21": {
     "at_nr": "AT036/21",
@@ -302,10 +302,10 @@
     "manufacturer": "Novatech Tibbi Cihaz \u00dcr\u00fcnleri San. Ve Tic.A.S.",
     "test_name": "novacheck\u00ae-Ag SARS-CoV-2 Covid-19 Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "21,7%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 21.7,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT039/20": {
     "at_nr": "AT039/20",
@@ -313,10 +313,10 @@
     "manufacturer": "Zhejiang Orient Gene Biotech Co.,Ltd",
     "test_name": "Coronavirus Ag Rapid Test Cassette (Swab)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "87,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "76,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 87.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 76.0
   },
   "AT041/20": {
     "at_nr": "AT041/20",
@@ -324,10 +324,10 @@
     "manufacturer": "Hangzhou Biotest Biotech Co., Ltd.",
     "test_name": "Lumiratek SARS-CoV-2 Antigen Rapid Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "29,4%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "10,0%"
+    "sensitivity_cq<25": 29.4,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 10.0
   },
   "AT044/21": {
     "at_nr": "AT044/21",
@@ -335,10 +335,10 @@
     "manufacturer": "Triplex International Biosciences (China) Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "87,0%",
-    "sensitivity_cq>30": "20,0%",
-    "sensitivity_total": "78,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 87.0,
+    "sensitivity_cq>30": 20.0,
+    "sensitivity_total": 78.0
   },
   "AT046/20": {
     "at_nr": "AT046/20",
@@ -346,10 +346,10 @@
     "manufacturer": "Joysbio (Tianjin) Biotechnology Co., Ltd.",
     "test_name": "Joysbio SARS-CoV-2 Antigen Rapid Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "47,1%",
-    "sensitivity_cq25-30": "4,3%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "18,0%"
+    "sensitivity_cq<25": 47.1,
+    "sensitivity_cq25-30": 4.3,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 18.0
   },
   "AT047/20": {
     "at_nr": "AT047/20",
@@ -357,10 +357,10 @@
     "manufacturer": "M\u00f6lab GmbH",
     "test_name": "m\u00f6-screen Corona Antigen Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "47,8%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 47.8,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT048/20": {
     "at_nr": "AT048/20",
@@ -368,10 +368,10 @@
     "manufacturer": "Coris BioConcept",
     "test_name": "COVID-19 Ag Respi-Strip",
     "target_antigen": "N",
-    "sensitivity_cq<25": "33,3%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "12,0%"
+    "sensitivity_cq<25": 33.3,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 12.0
   },
   "AT051/20": {
     "at_nr": "AT051/20",
@@ -379,10 +379,10 @@
     "manufacturer": "CertestT Biotec S. L.",
     "test_name": "CerTest Biotec SARS-CoV-2 Ag Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "29,4%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "10,0%"
+    "sensitivity_cq<25": 29.4,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 10.0
   },
   "AT054/20": {
     "at_nr": "AT054/20",
@@ -390,10 +390,10 @@
     "manufacturer": "Acro Biotech, Inc.",
     "test_name": "Acro COVID-19 Antigen Rapid Test",
     "target_antigen": "n.a.",
-    "sensitivity_cq<25": "16,7%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "6,0%"
+    "sensitivity_cq<25": 16.7,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 6.0
   },
   "AT060/20": {
     "at_nr": "AT060/20",
@@ -401,10 +401,10 @@
     "manufacturer": "Hangzhou Lysun Biotechnology Co., Ltd.",
     "test_name": "Lysun COVID-19 Antigen Rapid Test Device (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "78,3%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "70,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 78.3,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 70.0
   },
   "AT061/20": {
     "at_nr": "AT061/20",
@@ -412,10 +412,10 @@
     "manufacturer": "Azure Biotech Inc.",
     "test_name": "Dia Sure Covid-19 Antigen Rapid Test Device (Nasopharyngeal/Oropharyngeal Swab)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "76,5%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "20,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 76.5,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 20.0,
+    "sensitivity_total": 36.0
   },
   "AT062/20": {
     "at_nr": "AT062/20",
@@ -423,10 +423,10 @@
     "manufacturer": "VivaChek Biotech (Hangzhou) Co., Ltd.",
     "test_name": "VivaDiag SARS-CoV-2 Ag Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "50,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "18,0%"
+    "sensitivity_cq<25": 50.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 18.0
   },
   "AT069/20": {
     "at_nr": "AT069/20",
@@ -434,10 +434,10 @@
     "manufacturer": "ScheBo Biotech AG",
     "test_name": "ScheBo SARS-CoV-2 Quick Antigen",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "91,3%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "78,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 91.3,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 78.0
   },
   "AT070/20": {
     "at_nr": "AT070/20",
@@ -445,10 +445,10 @@
     "manufacturer": "Shenzhen Microprofit Biotech Co., Ltd.",
     "test_name": "fluorecare COVID-19 SARS-CoV-2 Spike Protein Test Kit (Colloidal Gold Chromatographic Immunoassay)",
     "target_antigen": "S",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "47,8%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 47.8,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 58.0
   },
   "AT071/20": {
     "at_nr": "AT071/20",
@@ -456,10 +456,10 @@
     "manufacturer": "Shenzhen Microprofit Biotech Co., Ltd.",
     "test_name": "SARS-CoV-2 Spike Protein Test Kit (Fluorescence Immunoassay)",
     "target_antigen": "S",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "85,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "76,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 85.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 76.0
   },
   "AT074/20": {
     "at_nr": "AT074/20",
@@ -467,10 +467,10 @@
     "manufacturer": "Beijing Beier Bioengineering Co., Ltd.",
     "test_name": "Covid-19 Antigen Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "77,8%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "28,0%"
+    "sensitivity_cq<25": 77.8,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 28.0
   },
   "AT075/20": {
     "at_nr": "AT075/20",
@@ -478,10 +478,10 @@
     "manufacturer": "LumiraDX",
     "test_name": "LumiraDx SARS-CoV-2 Ag Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "52,2%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "60,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 52.2,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 60.0
   },
   "AT075/21": {
     "at_nr": "AT075/21",
@@ -489,10 +489,10 @@
     "manufacturer": "ulti med Products (Deutschland) GmbH",
     "test_name": "COVID-19 Antigen Speicheltest (Immunochromatographie)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,7%",
-    "sensitivity_cq>30": "20,0%",
-    "sensitivity_total": "82,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.7,
+    "sensitivity_cq>30": 20.0,
+    "sensitivity_total": 82.0
   },
   "AT078/20": {
     "at_nr": "AT078/20",
@@ -500,10 +500,10 @@
     "manufacturer": "Precision Biosensor Inc. (Axon Lab AG)",
     "test_name": "Exdia COVID-19-Ag-Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,9%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "64,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.9,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 64.0
   },
   "AT079/20": {
     "at_nr": "AT079/20",
@@ -511,10 +511,10 @@
     "manufacturer": "Hangzhou Clongene Biotech Co., Ltd.",
     "test_name": "Clungene COVID-19 Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,4%",
-    "sensitivity_cq25-30": "34,8%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "50,0%"
+    "sensitivity_cq<25": 94.4,
+    "sensitivity_cq25-30": 34.8,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 50.0
   },
   "AT082/20": {
     "at_nr": "AT082/20",
@@ -522,10 +522,10 @@
     "manufacturer": "Hangzhou Testsea Biotechnology Co., Ltd",
     "test_name": "Testsealabs\u00ae Rapid Test Kit COVID-19 Antigen Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "47,8%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "56,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 47.8,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 56.0
   },
   "AT083/20": {
     "at_nr": "AT083/20",
@@ -533,10 +533,10 @@
     "manufacturer": "Humasis Co., Ltd.",
     "test_name": "Humasis COVID-19 Ag Test",
     "target_antigen": "N+S",
-    "sensitivity_cq<25": "88,2%",
-    "sensitivity_cq25-30": "21,7%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "40,0%"
+    "sensitivity_cq<25": 88.2,
+    "sensitivity_cq25-30": 21.7,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 40.0
   },
   "AT084/21": {
     "at_nr": "AT084/21",
@@ -544,10 +544,10 @@
     "manufacturer": "AccuBioTech Co.,Ltd.",
     "test_name": "Accu-Tell Rapid In-vitro Diagnostiktest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "75,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "70,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 75.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 70.0
   },
   "AT085/21": {
     "at_nr": "AT085/21",
@@ -555,10 +555,10 @@
     "manufacturer": "DNA Diagnostic A/S.",
     "test_name": "Covid-19 Antigen Detection Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "39,1%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 39.1,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 54.0
   },
   "AT086/20": {
     "at_nr": "AT086/20",
@@ -566,10 +566,10 @@
     "manufacturer": "Guangdong Wesail Biotech Co., Ltd.",
     "test_name": "COVID-19 Ag Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "52,2%",
-    "sensitivity_cq>30": "11,1%",
-    "sensitivity_total": "62,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 52.2,
+    "sensitivity_cq>30": 11.1,
+    "sensitivity_total": 62.0
   },
   "AT088/21": {
     "at_nr": "AT088/21",
@@ -577,10 +577,10 @@
     "manufacturer": "Hangzhou Realy Tech Co., Ltd.",
     "test_name": "Heinzer Antigen Covid19 Spucktest Schnelltest [Original Name: Novel Coronavirus (SARS-CoV-2) Antigen Rapid Test Device (saliva)]",
     "target_antigen": "N+S",
-    "sensitivity_cq<25": "65,0%",
-    "sensitivity_cq25-30": "5,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "28,0%"
+    "sensitivity_cq<25": 65.0,
+    "sensitivity_cq25-30": 5.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 28.0
   },
   "AT090/20": {
     "at_nr": "AT090/20",
@@ -588,10 +588,10 @@
     "manufacturer": "NanoEntek Inc",
     "test_name": "FREND TM COVID-19 Ag",
     "target_antigen": "N",
-    "sensitivity_cq<25": "88,2%",
-    "sensitivity_cq25-30": "8,7%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "34,0%"
+    "sensitivity_cq<25": 88.2,
+    "sensitivity_cq25-30": 8.7,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 34.0
   },
   "AT1010/21": {
     "at_nr": "AT1010/21",
@@ -599,10 +599,10 @@
     "manufacturer": "Changzhou Biowin Pharmaceutical Co.,Ltd.",
     "test_name": "Novel Coronavirus(COVID-19) Antigen Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "35,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 35.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT1019/21": {
     "at_nr": "AT1019/21",
@@ -610,10 +610,10 @@
     "manufacturer": "Shenzhen Kingfocus Biomedical Engineering Co., Ltd.",
     "test_name": "COVID-19 Antigen Detection Kit (Quantum Dots-Based Immunofluorescence Chromatography)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,0%",
-    "sensitivity_cq>30": "60,0%",
-    "sensitivity_total": "90,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.0,
+    "sensitivity_cq>30": 60.0,
+    "sensitivity_total": 90.0
   },
   "AT102/20": {
     "at_nr": "AT102/20",
@@ -621,10 +621,10 @@
     "manufacturer": "Zhejiang Anji Saianfu Biotech Co.,Ltd.",
     "test_name": "reOpenTest COVID-19 Antigen Rapid Test (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "30,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "46,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 30.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 46.0
   },
   "AT1024/21": {
     "at_nr": "AT1024/21",
@@ -632,10 +632,10 @@
     "manufacturer": "Acro Diagnostics Co., Ltd",
     "test_name": "SARS-CoV-2 Antigen Rapid Detection Kit (LFA)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "80,0%",
-    "sensitivity_total": "96,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 80.0,
+    "sensitivity_total": 96.0
   },
   "AT1054/21": {
     "at_nr": "AT1054/21",
@@ -643,10 +643,10 @@
     "manufacturer": "Lifecosm Biotech Limited",
     "test_name": "COVID-19 Rapid Test Cassette Antigen Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "100,0%",
-    "sensitivity_total": "100,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 100.0,
+    "sensitivity_total": 100.0
   },
   "AT106/20": {
     "at_nr": "AT106/20",
@@ -654,10 +654,10 @@
     "manufacturer": "Salofa OY",
     "test_name": "salocor SARS-CoV-2 Antigen Rapid Test Cassette (Nasopharyngeal swab)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "82,4%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "34,0%"
+    "sensitivity_cq<25": 82.4,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 34.0
   },
   "AT1064/21": {
     "at_nr": "AT1064/21",
@@ -665,10 +665,10 @@
     "manufacturer": "Senova Gesellschaft f\u00fcr Biowissenschaft und Technik mbH",
     "test_name": "GreenLight SARS-CoV-2 Antigen-Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT1065/21": {
     "at_nr": "AT1065/21",
@@ -676,10 +676,10 @@
     "manufacturer": "Shenzhen Kang Sheng Bao Bio- Technology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Rapid Test (Lateral Flow Assay)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT1073/21": {
     "at_nr": "AT1073/21",
@@ -687,10 +687,10 @@
     "manufacturer": "Innovation Biotech (Beijing) Co. LTD",
     "test_name": "INVBIO One Step Diagnostic Rapid Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "70,0%",
-    "sensitivity_total": "94,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 70.0,
+    "sensitivity_total": 94.0
   },
   "AT1076/21": {
     "at_nr": "AT1076/21",
@@ -698,10 +698,10 @@
     "manufacturer": "Hubei Jinjian Biology Co.,Ltd.",
     "test_name": "SARS-CoV-2 Antigen Test Kit (Colloidal Gold Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "65,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "66,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 65.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 66.0
   },
   "AT108/20": {
     "at_nr": "AT108/20",
@@ -709,10 +709,10 @@
     "manufacturer": "Shenzhen Watmind Medical Co., Ltd.",
     "test_name": "SARS-CoV-2 Ag Diagnostic Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,7%",
-    "sensitivity_cq>30": "20,0%",
-    "sensitivity_total": "82,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.7,
+    "sensitivity_cq>30": 20.0,
+    "sensitivity_total": 82.0
   },
   "AT1082/21": {
     "at_nr": "AT1082/21",
@@ -720,10 +720,10 @@
     "manufacturer": "Jiangsu Mole Bioscience Co., Ltd",
     "test_name": "SARS-CoV-2 Antigen Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "65,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "66,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 65.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 66.0
   },
   "AT109/20": {
     "at_nr": "AT109/20",
@@ -731,10 +731,10 @@
     "manufacturer": "Xiamen WIZ Biotech Co., Ltd.",
     "test_name": "Wizbiotech SARS-CoV-2 Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "88,2%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 88.2,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 36.0
   },
   "AT1100/21": {
     "at_nr": "AT1100/21",
@@ -742,10 +742,10 @@
     "manufacturer": "Genobio Pharmaceutical Co., Ltd.",
     "test_name": "Virusee\u00ae SARS-CoV-2 Antigen Rapid Test (Colloidal Gold) (Saliva/Swab)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,0%",
-    "sensitivity_cq>30": "40,0%",
-    "sensitivity_total": "86,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.0,
+    "sensitivity_cq>30": 40.0,
+    "sensitivity_total": 86.0
   },
   "AT111/20": {
     "at_nr": "AT111/20",
@@ -753,10 +753,10 @@
     "manufacturer": "Genrui Biotech Inc.",
     "test_name": "Genrui SARS-CoV-2 Antigen Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "56,5%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 56.5,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT116/20": {
     "at_nr": "AT116/20",
@@ -764,10 +764,10 @@
     "manufacturer": "Xiamen Boson Biotech Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "43,5%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 43.5,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT117/20": {
     "at_nr": "AT117/20",
@@ -775,10 +775,10 @@
     "manufacturer": "Oncosem Onkolojik Sistemler San. Ve Tic.A.S.",
     "test_name": "CAT Antigen Covid Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "30,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "46,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 30.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 46.0
   },
   "AT1173/21": {
     "at_nr": "AT1173/21",
@@ -786,10 +786,10 @@
     "manufacturer": "Dr\u00e4ger Safety AG & Co. KGaA",
     "test_name": "Dr\u00e4ger Antigen Test SARS-CoV-2",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT120/20": {
     "at_nr": "AT120/20",
@@ -797,10 +797,10 @@
     "manufacturer": "Beijing Hotgen Biotech Co., Ltd.",
     "test_name": "Novel Coronavirus 2019-nCoV Antigen Test (Colloidal gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "47,8%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "56,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 47.8,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 56.0
   },
   "AT122/21": {
     "at_nr": "AT122/21",
@@ -808,10 +808,10 @@
     "manufacturer": "Beijing Tigsun Diagnostics Co.;Ltd.",
     "test_name": "Tigsun COVID-19 Saliva Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "87,0%",
-    "sensitivity_cq>30": "30,0%",
-    "sensitivity_total": "80,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 87.0,
+    "sensitivity_cq>30": 30.0,
+    "sensitivity_total": 80.0
   },
   "AT125/20": {
     "at_nr": "AT125/20",
@@ -819,10 +819,10 @@
     "manufacturer": "Guangzhou Wondfo Biotech Co. Ltd",
     "test_name": "Wondfo SARS-CoV-2 Antigen Test (Lateral Flow Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "88,2%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "30,0%"
+    "sensitivity_cq<25": 88.2,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 30.0
   },
   "AT127/20": {
     "at_nr": "AT127/20",
@@ -830,10 +830,10 @@
     "manufacturer": "Labnovation Technologies, Inc.",
     "test_name": "Labnovation SARS-CoV-2 Antigen Rapid Test Kit (Immunochromatography)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "17,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "40,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 17.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 40.0
   },
   "AT128/20": {
     "at_nr": "AT128/20",
@@ -841,10 +841,10 @@
     "manufacturer": "TaiDoc Technology Corporation",
     "test_name": "FORA COVID-19 ANTIGEN RAPID TEST",
     "target_antigen": "N",
-    "sensitivity_cq<25": "27,8%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "10,0%"
+    "sensitivity_cq<25": 27.8,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 10.0
   },
   "AT132/20": {
     "at_nr": "AT132/20",
@@ -852,10 +852,10 @@
     "manufacturer": "Atlas Link Technology Co. ,Ltd.",
     "test_name": "Nova Test SARS-CoV-2 Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,9%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "62,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.9,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 62.0
   },
   "AT139/20": {
     "at_nr": "AT139/20",
@@ -863,10 +863,10 @@
     "manufacturer": "Inzek International Trading B.V",
     "test_name": "BIOZEK COVID-19-Antigen-Schnelltestkassette",
     "target_antigen": "n.a.",
-    "sensitivity_cq<25": "52,9%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "18,0%"
+    "sensitivity_cq<25": 52.9,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 18.0
   },
   "AT147/20": {
     "at_nr": "AT147/20",
@@ -874,10 +874,10 @@
     "manufacturer": "Anbio (Xiamen) Biotechnology Co., Ltd",
     "test_name": "Rapid Covid-19 Antigen Test (Colloidal Gold )",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "52,2%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 52.2,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT151/20": {
     "at_nr": "AT151/20",
@@ -885,10 +885,10 @@
     "manufacturer": "LumiQuick Diagnostics, Inc.",
     "test_name": "Quick Profile Covid-19 Antigen Test Card",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "91,3%",
-    "sensitivity_cq>30": "20,0%",
-    "sensitivity_total": "80,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 91.3,
+    "sensitivity_cq>30": 20.0,
+    "sensitivity_total": 80.0
   },
   "AT155/20": {
     "at_nr": "AT155/20",
@@ -896,10 +896,10 @@
     "manufacturer": "ACON Biotech (Hangzhou) Co., Ltd",
     "test_name": "Flowflex SARS-CoV-2-Antigenschnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "4,3%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "34,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 4.3,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 34.0
   },
   "AT160/20": {
     "at_nr": "AT160/20",
@@ -907,10 +907,10 @@
     "manufacturer": "Hangzhou Genesis Biocontrol Co., Ltd",
     "test_name": "KaiBiLi COVID-19 Antigen Rapid Test Device",
     "target_antigen": "N",
-    "sensitivity_cq<25": "52,9%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "18,0%"
+    "sensitivity_cq<25": 52.9,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 18.0
   },
   "AT161/20": {
     "at_nr": "AT161/20",
@@ -918,10 +918,10 @@
     "manufacturer": "GenSure Biotech Inc.",
     "test_name": "DIA-COVID\u00ae COVID-19 Ag Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "38,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 38.0
   },
   "AT163/20": {
     "at_nr": "AT163/20",
@@ -929,10 +929,10 @@
     "manufacturer": "Beijing Savant Biotechnology Co., Ltd.",
     "test_name": "New Coronavirus (SARS-CoV-2) N Protein Detection Kit (Fluorescence Immunchromatography)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT166/20": {
     "at_nr": "AT166/20",
@@ -940,10 +940,10 @@
     "manufacturer": "Getein Biotech, Inc.",
     "test_name": "One Step Test for SARS-CoV-2 Antigen (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "82,6%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "72,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 82.6,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 72.0
   },
   "AT167/20": {
     "at_nr": "AT167/20",
@@ -951,10 +951,10 @@
     "manufacturer": "Zet Medikal Tekstil Dis Ticaret Ltd. STI.",
     "test_name": "softec SARS COV-2 (Covid-19) Antigen Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "82,4%",
-    "sensitivity_cq25-30": "21,7%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "40,0%"
+    "sensitivity_cq<25": 82.4,
+    "sensitivity_cq25-30": 21.7,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 40.0
   },
   "AT171/20": {
     "at_nr": "AT171/20",
@@ -962,10 +962,10 @@
     "manufacturer": "Medicon Co., Ltd.",
     "test_name": "Trueline COVID-19 Ag Rapid Test",
     "target_antigen": "N+S",
-    "sensitivity_cq<25": "58,8%",
-    "sensitivity_cq25-30": "4,3%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "22,0%"
+    "sensitivity_cq<25": 58.8,
+    "sensitivity_cq25-30": 4.3,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 22.0
   },
   "AT172/20": {
     "at_nr": "AT172/20",
@@ -973,10 +973,10 @@
     "manufacturer": "Wuhan Life Origin Biotech Joint Stock Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Assay Kit (Immunochromatography)",
     "target_antigen": "n.a.",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "56,5%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "60,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 56.5,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 60.0
   },
   "AT172/21": {
     "at_nr": "AT172/21",
@@ -984,10 +984,10 @@
     "manufacturer": "BioMaxima S.A.",
     "test_name": "SARS-CoV-2 Ag Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "64,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 64.0
   },
   "AT178/20": {
     "at_nr": "AT178/20",
@@ -995,10 +995,10 @@
     "manufacturer": "Joinstar Biomedical Technology Co., Ltd",
     "test_name": "COVID-19 Antigen Rapid Test (Latex)",
     "target_antigen": "S",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT181/21": {
     "at_nr": "AT181/21",
@@ -1006,10 +1006,10 @@
     "manufacturer": "Affimedix",
     "test_name": "TestNOW\u00ae COVID-19-Antigen-Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "47,8%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 47.8,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT186/20": {
     "at_nr": "AT186/20",
@@ -1017,10 +1017,10 @@
     "manufacturer": "SureScreen Diagnostics Ltd.",
     "test_name": "COVID-19 Antigen Rapid Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "52,9%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "18,0%"
+    "sensitivity_cq<25": 52.9,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 18.0
   },
   "AT198/20": {
     "at_nr": "AT198/20",
@@ -1028,10 +1028,10 @@
     "manufacturer": "MP Biomedicals Germany GmbH",
     "test_name": "Rapid SARS-CoV-2 Antigen Test Card",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "43,5%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 43.5,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT199/20": {
     "at_nr": "AT199/20",
@@ -1039,10 +1039,10 @@
     "manufacturer": "Safecare Biotech Hangzhou Co., Ltd.",
     "test_name": "Safecare COVID-19 Ag Rapid Test Kit (Swab)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,9%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "62,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.9,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 62.0
   },
   "AT199/21": {
     "at_nr": "AT199/21",
@@ -1050,10 +1050,10 @@
     "manufacturer": "Innovita (Tangshan) Biological Technology Co.; LTD.",
     "test_name": "2019-nCoV Ag Test (Latex Chromatography Assay)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "85,0%",
-    "sensitivity_cq25-30": "5,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 85.0,
+    "sensitivity_cq25-30": 5.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 36.0
   },
   "AT200/20": {
     "at_nr": "AT200/20",
@@ -1061,10 +1061,10 @@
     "manufacturer": "Becton Dickinson",
     "test_name": "BD Veritor TM System for Rapid Detection of SARS-CoV-2",
     "target_antigen": "N",
-    "sensitivity_cq<25": "83,3%",
-    "sensitivity_cq25-30": "8,7%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "34,0%"
+    "sensitivity_cq<25": 83.3,
+    "sensitivity_cq25-30": 8.7,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 34.0
   },
   "AT201/20": {
     "at_nr": "AT201/20",
@@ -1072,10 +1072,10 @@
     "manufacturer": "Hangzhou AllTest Biotech Co. Ltd.",
     "test_name": "COVID-19 Antigen Rapid Test (Nasopharyngeal swab)",
     "target_antigen": "n.a.",
-    "sensitivity_cq<25": "16,7%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "6,0%"
+    "sensitivity_cq<25": 16.7,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 6.0
   },
   "AT205/20": {
     "at_nr": "AT205/20",
@@ -1083,10 +1083,10 @@
     "manufacturer": "Beijing Jinwofu Bioengineering Technology Co. Ltd.",
     "test_name": "Jinwofu Novel Coronavirus (SARS-COV-2) Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "50,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "60,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 50.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 60.0
   },
   "AT209/20": {
     "at_nr": "AT209/20",
@@ -1094,10 +1094,10 @@
     "manufacturer": "PerGrande BioTech Development Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Detection Kit (Colloidal Gold Immunochromatographic Assay)",
     "target_antigen": "N+S",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "17,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 17.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT211/20": {
     "at_nr": "AT211/20",
@@ -1105,10 +1105,10 @@
     "manufacturer": "Shenzhen Zhenrui Biotech Co., Ltd.",
     "test_name": "Zhenrui COVID-19 (SARS-COV-2) Antigen Test Kits",
     "target_antigen": "N",
-    "sensitivity_cq<25": "82,4%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "34,0%"
+    "sensitivity_cq<25": 82.4,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 34.0
   },
   "AT214/20": {
     "at_nr": "AT214/20",
@@ -1116,10 +1116,10 @@
     "manufacturer": "Merlin Biomedical (Xiamen) Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Rapid Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "82,6%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "72,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 82.6,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 72.0
   },
   "AT216/20 (AT052/20)": {
     "at_nr": "AT216/20 (AT052/20)",
@@ -1127,10 +1127,10 @@
     "manufacturer": "Beijing Lepu Medical Technology Co., Ltd",
     "test_name": "SARS-CoV-2 Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "26,1%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "46,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 26.1,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 46.0
   },
   "AT218/20": {
     "at_nr": "AT218/20",
@@ -1138,10 +1138,10 @@
     "manufacturer": "W.H.P.M, Inc.",
     "test_name": "First Sign SARS-CoV-2 Antigen Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "47,1%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "16,0%"
+    "sensitivity_cq<25": 47.1,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 16.0
   },
   "AT219/20": {
     "at_nr": "AT219/20",
@@ -1149,10 +1149,10 @@
     "manufacturer": "BioRepair GmbH",
     "test_name": "Covid 19 Antigen Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "78,3%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "70,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 78.3,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 70.0
   },
   "AT225/20": {
     "at_nr": "AT225/20",
@@ -1160,10 +1160,10 @@
     "manufacturer": "Spring Healthcare Services Sp zoo",
     "test_name": "SARS-Cov-2 Antigen Rapid Test Cassette (swab)",
     "target_antigen": "N+S",
-    "sensitivity_cq<25": "29,4%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "10,0%"
+    "sensitivity_cq<25": 29.4,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 10.0
   },
   "AT228/20": {
     "at_nr": "AT228/20",
@@ -1171,10 +1171,10 @@
     "manufacturer": "Hangzhou Immuno Biotech Co. Ltd.",
     "test_name": "IMMUNOBIO SARS-CoV-2 Antigen-Schnelltest (COVID-19 Ag)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "88,2%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 88.2,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 36.0
   },
   "AT231/20": {
     "at_nr": "AT231/20",
@@ -1182,10 +1182,10 @@
     "manufacturer": "Jiangsu Konsung Bio-Medical Science And Technology Co., Ltd",
     "test_name": "Konsung COVID-19 Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "70,0%",
-    "sensitivity_cq>30": "30,0%",
-    "sensitivity_total": "74,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 70.0,
+    "sensitivity_cq>30": 30.0,
+    "sensitivity_total": 74.0
   },
   "AT236/20": {
     "at_nr": "AT236/20",
@@ -1193,10 +1193,10 @@
     "manufacturer": "Joinstar Biomedical Technology Co., Ltd (CIV care impuls Vertrieb)",
     "test_name": "COVID-19 Antigen Schnelltest (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,9%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "64,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.9,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 64.0
   },
   "AT242/21": {
     "at_nr": "AT242/21",
@@ -1204,10 +1204,10 @@
     "manufacturer": "SG Diagnostics Pte Ltd",
     "test_name": "SG Diagnostics COVID-19 Antigen Rapid Test Kit (Colloidal Gold-Based)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "50,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "20,0%"
+    "sensitivity_cq<25": 50.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 20.0
   },
   "AT244/20": {
     "at_nr": "AT244/20",
@@ -1215,10 +1215,10 @@
     "manufacturer": "Jiangsu Medomics Medical Technology Co., Ltd",
     "test_name": "SARS-CoV-2-Antigen-Testkit (LFIA)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "21,7%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 21.7,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT246/21": {
     "at_nr": "AT246/21",
@@ -1226,10 +1226,10 @@
     "manufacturer": "Xiamen AmonMed Biotechnology Co., Ltd.",
     "test_name": "COVID-19 Antigen Rapid Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "87,0%",
-    "sensitivity_cq>30": "30,0%",
-    "sensitivity_total": "80,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 87.0,
+    "sensitivity_cq>30": 30.0,
+    "sensitivity_total": 80.0
   },
   "AT247/21": {
     "at_nr": "AT247/21",
@@ -1237,10 +1237,10 @@
     "manufacturer": "Innovation Biotech (Beijing) Co.,Ltd",
     "test_name": "INVBIO Antigen Rapid Test Device (Saliva)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "25,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 25.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT255/20": {
     "at_nr": "AT255/20",
@@ -1248,10 +1248,10 @@
     "manufacturer": "Nanjing Vazyme Medical Technology Co., Ltd.",
     "test_name": "Vazyme SARS-CoV-2 Antigen Detection Kit (Colloidal Gold- Based)",
     "target_antigen": "N+S",
-    "sensitivity_cq<25": "85,0%",
-    "sensitivity_cq25-30": "5,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 85.0,
+    "sensitivity_cq25-30": 5.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 36.0
   },
   "AT260/21": {
     "at_nr": "AT260/21",
@@ -1259,10 +1259,10 @@
     "manufacturer": "Shenzhen Dymind Biotechnology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "30,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "52,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 30.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 52.0
   },
   "AT267/20": {
     "at_nr": "AT267/20",
@@ -1270,10 +1270,10 @@
     "manufacturer": "Core Technology Co., Ltd.",
     "test_name": "Canea COVID-19 Antigen Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "88,2%",
-    "sensitivity_cq25-30": "26,1%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 88.2,
+    "sensitivity_cq25-30": 26.1,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT276/21": {
     "at_nr": "AT276/21",
@@ -1281,10 +1281,10 @@
     "manufacturer": "Hangzhou AllTest Biotech Co., Ltd.",
     "test_name": "Covid-19 Antigen Rapid Test (Oral fluid)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "55,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "62,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 55.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 62.0
   },
   "AT284/21": {
     "at_nr": "AT284/21",
@@ -1292,10 +1292,10 @@
     "manufacturer": "Biocan Diagnostics Inc.",
     "test_name": "Tell Me Fast Rapid Diagnostic Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT286/20": {
     "at_nr": "AT286/20",
@@ -1303,10 +1303,10 @@
     "manufacturer": "Assure Tech (Hangzhou) Co.,Ltd",
     "test_name": "ECOTEST COVID-19 Antigen Rapid Test Device",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "50,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 50.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT294/20": {
     "at_nr": "AT294/20",
@@ -1314,10 +1314,10 @@
     "manufacturer": "VivaChek Biotech (Hangzhou) Co., Ltd.",
     "test_name": "VivaDiag Pro SARS-CoV-2 Ag Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "64,7%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "22,0%"
+    "sensitivity_cq<25": 64.7,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 22.0
   },
   "AT302/21": {
     "at_nr": "AT302/21",
@@ -1325,10 +1325,10 @@
     "manufacturer": "Redcell Bioteknoloji Anim Sirketi",
     "test_name": "COVID-19 Antigen Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT303/20": {
     "at_nr": "AT303/20",
@@ -1336,10 +1336,10 @@
     "manufacturer": "Amazing Biotech (Shanghai) Co., Ltd",
     "test_name": "CoroVisio Covid-19 Ag Versieglungsr\u00f6hrchen Teststreifen (Kolloidales Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "76,5%",
-    "sensitivity_cq25-30": "8,7%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "30,0%"
+    "sensitivity_cq<25": 76.5,
+    "sensitivity_cq25-30": 8.7,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 30.0
   },
   "AT311/21": {
     "at_nr": "AT311/21",
@@ -1347,10 +1347,10 @@
     "manufacturer": "ZandCell AB",
     "test_name": "ZandCell COVID-19 Saliva Antigen-Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "5,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "38,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 5.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 38.0
   },
   "AT313/20": {
     "at_nr": "AT313/20",
@@ -1358,10 +1358,10 @@
     "manufacturer": "Beijing Kewei Clinical Diagnostic Reagent Inc.",
     "test_name": "COVID-19 Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "38,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 38.0
   },
   "AT315/21": {
     "at_nr": "AT315/21",
@@ -1369,10 +1369,10 @@
     "manufacturer": "Vision Biyoteknologi Arastirma Gelistirme Labt. Sist. San ve Tic STI",
     "test_name": "LTD VISION\u00ae SARS-CoV-2 Saliva Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "45,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "22,0%"
+    "sensitivity_cq<25": 45.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 22.0
   },
   "AT320/20": {
     "at_nr": "AT320/20",
@@ -1380,10 +1380,10 @@
     "manufacturer": "Qingdao Hightop Biotech Co., Ltd.",
     "test_name": "Hightop SARS-CoV-2 (Covid-19) Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "43,5%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 43.5,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT331/21": {
     "at_nr": "AT331/21",
@@ -1391,10 +1391,10 @@
     "manufacturer": "New Gene (Hangzhou) Bioengineering Co., Ltd.",
     "test_name": "Covid-19-Antigen-Testkit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "87,0%",
-    "sensitivity_cq>30": "20,0%",
-    "sensitivity_total": "78,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 87.0,
+    "sensitivity_cq>30": 20.0,
+    "sensitivity_total": 78.0
   },
   "AT337/20": {
     "at_nr": "AT337/20",
@@ -1402,10 +1402,10 @@
     "manufacturer": "Chil Tibbi Mal. San. Tic. Ltd. Sti",
     "test_name": "COVID-19 Antigen Schnell Test (Nasopharyngeal / Oropharyngeal Tupfer Kassette)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,9%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "62,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.9,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 62.0
   },
   "AT342/21": {
     "at_nr": "AT342/21",
@@ -1413,10 +1413,10 @@
     "manufacturer": "Dynamiker Biotechnology (Tianjin) Co., Ltd.",
     "test_name": "Dynamiker SARS-CoV-2 AG Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "60,0%",
-    "sensitivity_total": "92,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 60.0,
+    "sensitivity_total": 92.0
   },
   "AT349/21": {
     "at_nr": "AT349/21",
@@ -1424,10 +1424,10 @@
     "manufacturer": "BioTeke Corporation (Wuxi) Co.,Ltd.",
     "test_name": "SARS-CoV-2 Antigen Test Kit (Colloidal Gold Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT362/20": {
     "at_nr": "AT362/20",
@@ -1435,10 +1435,10 @@
     "manufacturer": "PCL, Inc.",
     "test_name": "PCL COVID19 Ag Gold Saliva",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "52,2%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 52.2,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT363/20": {
     "at_nr": "AT363/20",
@@ -1446,10 +1446,10 @@
     "manufacturer": "Aesku Diagnostics GmbH",
     "test_name": "Aesku Rapid SARS-CoV-2 Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "82,4%",
-    "sensitivity_cq25-30": "17,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 82.4,
+    "sensitivity_cq25-30": 17.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 36.0
   },
   "AT373/20": {
     "at_nr": "AT373/20",
@@ -1457,10 +1457,10 @@
     "manufacturer": "BTNX, Inc.",
     "test_name": "Rapid Response COVID-19 Rapid Test Device",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "40,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 40.0
   },
   "AT374/20": {
     "at_nr": "AT374/20",
@@ -1468,10 +1468,10 @@
     "manufacturer": "AXIOM Gesellschaft f\u00fcr Diagnostica und Biochemica mbH",
     "test_name": "Axiom Diagnostics COVID-19 Ag Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "52,2%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 52.2,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT376/20": {
     "at_nr": "AT376/20",
@@ -1479,10 +1479,10 @@
     "manufacturer": "ProGnosis Biotech",
     "test_name": "Rapid Test Ag 2019-nCoV",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "65,2%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "64,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 65.2,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 64.0
   },
   "AT379/20": {
     "at_nr": "AT379/20",
@@ -1490,10 +1490,10 @@
     "manufacturer": "Toda Pharma",
     "test_name": "Toda Coronadiag Ag",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,7%",
-    "sensitivity_cq>30": "40,0%",
-    "sensitivity_total": "86,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.7,
+    "sensitivity_cq>30": 40.0,
+    "sensitivity_total": 86.0
   },
   "AT385/20": {
     "at_nr": "AT385/20",
@@ -1501,10 +1501,10 @@
     "manufacturer": "Shenzhen Watmind Medical Co., Ltd.",
     "test_name": "SARS-CoV-2 Ag Diagnostic Test Kit (Immunofluorescence)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,9%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "62,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.9,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 62.0
   },
   "AT390/21": {
     "at_nr": "AT390/21",
@@ -1512,10 +1512,10 @@
     "manufacturer": "CTK Biotech, Inc.",
     "test_name": "OnSite COVID-19 Ag Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "50,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "60,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 50.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 60.0
   },
   "AT400/20": {
     "at_nr": "AT400/20",
@@ -1523,10 +1523,10 @@
     "manufacturer": "Lionex GmbH",
     "test_name": "Lionex COVID-19 Ag Rapid Test",
     "target_antigen": "S",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT409/20": {
     "at_nr": "AT409/20",
@@ -1534,10 +1534,10 @@
     "manufacturer": "Co-Innovation Biotech Co. Ltd",
     "test_name": "Whole Power One Step 2019-Novel Coronavirus(2019-nCoV) Antigen Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "20,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 20.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT409/21": {
     "at_nr": "AT409/21",
@@ -1545,10 +1545,10 @@
     "manufacturer": "Shenzhen YHLO Biotech Co., Ltd.",
     "test_name": "GLINE-2019-nCoV Ag",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "30,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 30.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT412/21": {
     "at_nr": "AT412/21",
@@ -1556,10 +1556,10 @@
     "manufacturer": "Amper, Inc.",
     "test_name": "Amper COVID-19 Antigen Rapid Testing Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "40,0%",
-    "sensitivity_total": "88,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 40.0,
+    "sensitivity_total": 88.0
   },
   "AT415/21": {
     "at_nr": "AT415/21",
@@ -1567,10 +1567,10 @@
     "manufacturer": "Hangzhou Funworld Biotech. Co., Ltd",
     "test_name": "SARS-CoV-2-Antigen-Schnelltestger\u00e4t",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "75,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "70,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 75.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 70.0
   },
   "AT417/20": {
     "at_nr": "AT417/20",
@@ -1578,10 +1578,10 @@
     "manufacturer": "Shenzhen Lvshiyuan Biotechnology Co., Ltd.",
     "test_name": "Green Spring SARS-CoV-2 Antigen Rapid Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,7%",
-    "sensitivity_cq>30": "40,0%",
-    "sensitivity_total": "86,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.7,
+    "sensitivity_cq>30": 40.0,
+    "sensitivity_total": 86.0
   },
   "AT418/20": {
     "at_nr": "AT418/20",
@@ -1589,10 +1589,10 @@
     "manufacturer": "Jiangsu Diagnostics Biotechnology Co., Ltd",
     "test_name": "COVID-19 Antigen Rapid Test Cassette (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "78,3%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "68,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 78.3,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 68.0
   },
   "AT420/21": {
     "at_nr": "AT420/21",
@@ -1600,10 +1600,10 @@
     "manufacturer": "Shenzhen Kisshealth Biotechnology Co., Ltd.",
     "test_name": "KISSH SARS-CoV-2 Antigen Test Kit (GICA)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "85,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "76,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 85.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 76.0
   },
   "AT424/21": {
     "at_nr": "AT424/21",
@@ -1611,10 +1611,10 @@
     "manufacturer": "Shenzhen Huaree Technology Co. Ltd.",
     "test_name": "SARS-CoV-2 Antigen Rapid Test Kit (Immunochromatography)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "45,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "58,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 45.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 58.0
   },
   "AT425/21": {
     "at_nr": "AT425/21",
@@ -1622,10 +1622,10 @@
     "manufacturer": "Nantong Egens Biotechnology",
     "test_name": "SARS-CoV-2 Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "50,0%",
-    "sensitivity_total": "90,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 50.0,
+    "sensitivity_total": 90.0
   },
   "AT429/20": {
     "at_nr": "AT429/20",
@@ -1633,10 +1633,10 @@
     "manufacturer": "Wuhan UNscience Biotechnology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "88,2%",
-    "sensitivity_cq25-30": "17,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "38,0%"
+    "sensitivity_cq<25": 88.2,
+    "sensitivity_cq25-30": 17.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 38.0
   },
   "AT430/20": {
     "at_nr": "AT430/20",
@@ -1644,10 +1644,10 @@
     "manufacturer": "Wuhan EasyDiagnosis Biomedicine Co., Ltd.",
     "test_name": "COVID-19 (SARS-CoV-2) Antigen Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "73,9%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "68,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 73.9,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 68.0
   },
   "AT431/20": {
     "at_nr": "AT431/20",
@@ -1655,10 +1655,10 @@
     "manufacturer": "ASAN PHARM.CO.,LTD.",
     "test_name": "Asan Easy Test COVID-19 Ag",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "69,6%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "66,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 69.6,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 66.0
   },
   "AT437/21": {
     "at_nr": "AT437/21",
@@ -1666,10 +1666,10 @@
     "manufacturer": "Hangzhou Singclean Medical Products Co., Ltd.",
     "test_name": "COVID-19 Test Kit (Colloidal Gold Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT441/20": {
     "at_nr": "AT441/20",
@@ -1677,10 +1677,10 @@
     "manufacturer": "Avalun",
     "test_name": "Ksmart\u00ae SARS-COV2 Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "38,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 38.0
   },
   "AT455/20": {
     "at_nr": "AT455/20",
@@ -1688,10 +1688,10 @@
     "manufacturer": "Lumigenex (Suzhou) Co., Ltd.",
     "test_name": "PocRoc SARS-CoV-2, Antigen Schnelltest Set (Kolloidales Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "65,2%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "64,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 65.2,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 64.0
   },
   "AT458/21": {
     "at_nr": "AT458/21",
@@ -1699,10 +1699,10 @@
     "manufacturer": "Shenzhen Huaree Technology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Saliva Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "90,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "78,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 90.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 78.0
   },
   "AT462/20": {
     "at_nr": "AT462/20",
@@ -1710,10 +1710,10 @@
     "manufacturer": "Nanjing Norman Biological Technology Co., Ltd",
     "test_name": "Novel Coronavirus (2019-nCOV) Antigen Testing Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "26,1%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "44,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 26.1,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 44.0
   },
   "AT469/20": {
     "at_nr": "AT469/20",
@@ -1721,10 +1721,10 @@
     "manufacturer": "Aikang Diagnostics Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Test Kit (Immunochromatography)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "11,8%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "4,0%"
+    "sensitivity_cq<25": 11.8,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 4.0
   },
   "AT470/20": {
     "at_nr": "AT470/20",
@@ -1732,10 +1732,10 @@
     "manufacturer": "nal von minden GmbH",
     "test_name": "dedicio Medical Test COVID-19 Ag plus Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "35,3%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "12,0%"
+    "sensitivity_cq<25": 35.3,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 12.0
   },
   "AT472/21": {
     "at_nr": "AT472/21",
@@ -1743,10 +1743,10 @@
     "manufacturer": "Shenzhen Huian Biosci Technology Co., Ltd.",
     "test_name": "SARS-CoV-2Antigen Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "64,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 64.0
   },
   "AT487/21": {
     "at_nr": "AT487/21",
@@ -1754,10 +1754,10 @@
     "manufacturer": "Koch Biotechnology (Beijing) Co., Ltd.",
     "test_name": "COVID-19 Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "60,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "24,0%"
+    "sensitivity_cq<25": 60.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 24.0
   },
   "AT491/20": {
     "at_nr": "AT491/20",
@@ -1765,10 +1765,10 @@
     "manufacturer": "Eurobio Scientific",
     "test_name": "EBS SARS-CoV-2 Ag Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "34,8%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 34.8,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT492/20": {
     "at_nr": "AT492/20",
@@ -1776,10 +1776,10 @@
     "manufacturer": "T\u00fcrklab Tibbi Malzemeleri San. Ve Tic. A.S",
     "test_name": "Rapidan Tester COVID-19 Ag Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "40,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 40.0
   },
   "AT496/20": {
     "at_nr": "AT496/20",
@@ -1787,10 +1787,10 @@
     "manufacturer": "Beijing Wantai Biological Pharmacy Enterprise Co., Ltd.",
     "test_name": "Wantai SARS-CoV-2 Ag Schnelltest (Kolloidales Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "25,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "50,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 25.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 50.0
   },
   "AT498/20": {
     "at_nr": "AT498/20",
@@ -1798,10 +1798,10 @@
     "manufacturer": "Convergent Technologies",
     "test_name": "Convergys\u00ae COVID-19 Rapid Antigen Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "35,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "56,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 35.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 56.0
   },
   "AT506/20": {
     "at_nr": "AT506/20",
@@ -1809,10 +1809,10 @@
     "manufacturer": "Absology Co.,Ltd.",
     "test_name": "INIST COVID-19 Ag Rapid",
     "target_antigen": "N",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT506/21": {
     "at_nr": "AT506/21",
@@ -1820,10 +1820,10 @@
     "manufacturer": "Sansure Biotech Inc.",
     "test_name": "SARS-CoV-2 Rapid Antigen Test (Colloidal Gold Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "25,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "50,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 25.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 50.0
   },
   "AT507/20": {
     "at_nr": "AT507/20",
@@ -1831,10 +1831,10 @@
     "manufacturer": "Vitrosens Biyoteknoloji Ltd. Sti",
     "test_name": "RapidFor SARS-CoV-2 Rapid Antigen Test Colloidal Gold",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "30,4%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 30.4,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT516/21": {
     "at_nr": "AT516/21",
@@ -1842,10 +1842,10 @@
     "manufacturer": "Zhejiang Gene Science Co., Ltd.",
     "test_name": "Novel Coronavirus (COVID-19) Antigen Detection Kit (Latex Immunochromatography)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "70,0%",
-    "sensitivity_cq>30": "40,0%",
-    "sensitivity_total": "76,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 70.0,
+    "sensitivity_cq>30": 40.0,
+    "sensitivity_total": 76.0
   },
   "AT517/20": {
     "at_nr": "AT517/20",
@@ -1853,10 +1853,10 @@
     "manufacturer": "Nantong Diagnos Biotechnology Co., Ltd.",
     "test_name": "COVID-19 Antigen Saliva Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "56,5%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "60,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 56.5,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 60.0
   },
   "AT518/20": {
     "at_nr": "AT518/20",
@@ -1864,10 +1864,10 @@
     "manufacturer": "Artron Laboratories Inc.",
     "test_name": "COVID-19 Antigentest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,0%",
-    "sensitivity_cq>30": "20,0%",
-    "sensitivity_total": "82,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.0,
+    "sensitivity_cq>30": 20.0,
+    "sensitivity_total": 82.0
   },
   "AT527/20": {
     "at_nr": "AT527/20",
@@ -1875,10 +1875,10 @@
     "manufacturer": "JOYSBIO (Tianjin) Biotechnology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Rapid Test Kit (Colloidal Gold) SPUCKTEST",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "90,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "76,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 90.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 76.0
   },
   "AT533/21": {
     "at_nr": "AT533/21",
@@ -1886,10 +1886,10 @@
     "manufacturer": "Goldsite Diagnostics Inc.",
     "test_name": "Goldsite COVID-19 SARS-CoV-2 Antigen Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "35,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 35.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT542/20": {
     "at_nr": "AT542/20",
@@ -1897,10 +1897,10 @@
     "manufacturer": "Guangdong Hecin Scientific,Inc.",
     "test_name": "2019-nCoV Antigen Test Kit (colloidal gold method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "82,4%",
-    "sensitivity_cq25-30": "13,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "34,0%"
+    "sensitivity_cq<25": 82.4,
+    "sensitivity_cq25-30": 13.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 34.0
   },
   "AT542/21": {
     "at_nr": "AT542/21",
@@ -1908,10 +1908,10 @@
     "manufacturer": "Zhuhai Lituo Biotechnology Co., Ltd.",
     "test_name": "COVID-19 Antigen Detection Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "80,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "72,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 80.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 72.0
   },
   "AT543/21": {
     "at_nr": "AT543/21",
@@ -1919,10 +1919,10 @@
     "manufacturer": "Changsha Sanji Bio-technology Co., Ltd",
     "test_name": "SARS-CoV-2 Antigen Rapid Test (Laterial Flow Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "20,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "8,0%"
+    "sensitivity_cq<25": 20.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 8.0
   },
   "AT544/21": {
     "at_nr": "AT544/21",
@@ -1930,10 +1930,10 @@
     "manufacturer": "Shenzhen Microprofit Biotech Co., Ltd.",
     "test_name": "fluorecare SARS-CoV-2 Antigen Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "15,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 15.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT559/21": {
     "at_nr": "AT559/21",
@@ -1941,10 +1941,10 @@
     "manufacturer": "Jinan Babio Biotechnology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Rapid Detection Kit (Colloidal Gold Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "35,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 35.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT563/21": {
     "at_nr": "AT563/21",
@@ -1952,10 +1952,10 @@
     "manufacturer": "Hoyotek Biomedical Co., Ltd.",
     "test_name": "Corona Virus (COVID-19) Antigen Rapid Test (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "40,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 40.0
   },
   "AT568/21": {
     "at_nr": "AT568/21",
@@ -1963,10 +1963,10 @@
     "manufacturer": "Hangzhou Biotest Biotech Co., Ltd",
     "test_name": "Sienna COVID-19 Antigen-Schnelltestkassette (Nasenabstrich)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,0%",
-    "sensitivity_cq>30": "60,0%",
-    "sensitivity_total": "90,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.0,
+    "sensitivity_cq>30": 60.0,
+    "sensitivity_total": 90.0
   },
   "AT573/21": {
     "at_nr": "AT573/21",
@@ -1974,10 +1974,10 @@
     "manufacturer": "Diasia Biomedical Technology Co., Ltd.",
     "test_name": "DIASIA SARS-CoV-2 Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "55,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "22,0%"
+    "sensitivity_cq<25": 55.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 22.0
   },
   "AT582/21": {
     "at_nr": "AT582/21",
@@ -1985,10 +1985,10 @@
     "manufacturer": "Guangzhou Tebsun Bio-Tech Development Co., Ltd.",
     "test_name": "Tebsun 2019-nCoV Antigen Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "65,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "64,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 65.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 64.0
   },
   "AT583/21": {
     "at_nr": "AT583/21",
@@ -1996,10 +1996,10 @@
     "manufacturer": "Zhuhai Encode Medical Engineering Co., Ltd.",
     "test_name": "ENCODE SARS-COV-2 Antigen Rapid Test Device",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "15,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "44,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 15.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 44.0
   },
   "AT586/21": {
     "at_nr": "AT586/21",
@@ -2007,10 +2007,10 @@
     "manufacturer": "Biopanda Reagents",
     "test_name": "COVID-19 Antigen-Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "60,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "24,0%"
+    "sensitivity_cq<25": 60.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 24.0
   },
   "AT587/21": {
     "at_nr": "AT587/21",
@@ -2018,10 +2018,10 @@
     "manufacturer": "FUJIFILM Corporation",
     "test_name": "FUJIFILM COVID-19 Ag Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "85,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "38,0%"
+    "sensitivity_cq<25": 85.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 38.0
   },
   "AT593/21": {
     "at_nr": "AT593/21",
@@ -2029,10 +2029,10 @@
     "manufacturer": "Nanjing Liming Bio-Products Co., Ltd.",
     "test_name": "StrongStep\u00ae SARS-COV2 Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "80,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "70,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 80.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 70.0
   },
   "AT595/21": {
     "at_nr": "AT595/21",
@@ -2040,10 +2040,10 @@
     "manufacturer": "Chongqing M&D Biotechnology Co. Ltd.",
     "test_name": "2019-nCoV Antigen Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "25,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 25.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT628/21": {
     "at_nr": "AT628/21",
@@ -2051,10 +2051,10 @@
     "manufacturer": "Hangzhou Sejoy Electronics & Instruments Co. Ltd.",
     "test_name": "SARS-CoV-2 Antigen Schnelltestkassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "50,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "60,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 50.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 60.0
   },
   "AT635/21": {
     "at_nr": "AT635/21",
@@ -2062,10 +2062,10 @@
     "manufacturer": "Chongqing ISIA BIO-Technology Co.,Ltd",
     "test_name": "ISIA SARS-CoV-2 Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "15,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 15.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 42.0
   },
   "AT637/21": {
     "at_nr": "AT637/21",
@@ -2073,10 +2073,10 @@
     "manufacturer": "Innova Medical Group,Inc.",
     "test_name": "INNOVA SARS-CoV-2 Selbsttest (Qualitativer-Antigen- Schnelltest)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "80,0%",
-    "sensitivity_total": "96,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 80.0,
+    "sensitivity_total": 96.0
   },
   "AT662/21": {
     "at_nr": "AT662/21",
@@ -2084,10 +2084,10 @@
     "manufacturer": "Hangzhou Fanttest Biotech Co.,Ltd.",
     "test_name": "Fanttest Novel Coronavirus(SARS-CoV-2) Antigen Rapid Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT678/21": {
     "at_nr": "AT678/21",
@@ -2095,10 +2095,10 @@
     "manufacturer": "Nanjing Synthgene Medical Technology Co., Ltd.",
     "test_name": "Synthgene Neues Coronavirus (SARS-CoV-2) Antigen- Schnellerkennungskit (Collate Gold-Methode)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "35,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 35.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT684/21": {
     "at_nr": "AT684/21",
@@ -2106,10 +2106,10 @@
     "manufacturer": "LiClear Biotech (Hangzhou) Co., Ltd.",
     "test_name": "SARS-COV-2 Nucleocapsid (N) Antigen Rapid Test (VIDA TEST Rapid Diagnostic Test)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT692/21": {
     "at_nr": "AT692/21",
@@ -2117,10 +2117,10 @@
     "manufacturer": "JOYSBIO (Tianjin) Biotechnology Co.,Ltd.",
     "test_name": "Joysbio SARS-CoV-2 Antigen rapid test kit -PRO (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "35,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 35.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT711/21": {
     "at_nr": "AT711/21",
@@ -2128,10 +2128,10 @@
     "manufacturer": "Weihai Kangzhou Biotechnology Engineering Co., Ltd.",
     "test_name": "Kanzone COVID-19 Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "5,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "38,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 5.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 38.0
   },
   "AT712/21": {
     "at_nr": "AT712/21",
@@ -2139,10 +2139,10 @@
     "manufacturer": "Essa Commerce Bilisim ve Ithalat Ihracat Tic.A.S.",
     "test_name": "Bioessa SARS-CoV-2 Antigen Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT715/21": {
     "at_nr": "AT715/21",
@@ -2150,10 +2150,10 @@
     "manufacturer": "Dejavu Medikal San. Ve Tic. Ltd. Sti.",
     "test_name": "COVID-19 Antigen Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "70,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "28,0%"
+    "sensitivity_cq<25": 70.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 28.0
   },
   "AT722/21": {
     "at_nr": "AT722/21",
@@ -2161,10 +2161,10 @@
     "manufacturer": "Neo-nostics (Suzhou) Bioengeneering Co., Ltd.",
     "test_name": "COVID 19 Antigen Test Kit (Colloidal Gold Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "75,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "72,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 75.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 72.0
   },
   "AT731/21": {
     "at_nr": "AT731/21",
@@ -2172,10 +2172,10 @@
     "manufacturer": "Guangdong Longsee Biomedical Co.,Inc.",
     "test_name": "Longsee 2019-nCoV Ag Rapid Detection Kit (Immuno- Chromatography)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "100,0%",
-    "sensitivity_total": "100,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 100.0,
+    "sensitivity_total": 100.0
   },
   "AT748/21": {
     "at_nr": "AT748/21",
@@ -2183,10 +2183,10 @@
     "manufacturer": "Shanghai Liangrun Biomedicine Technology Co., Ltd.",
     "test_name": "LionRun\u00b9 TM SARS-CoV-2 Antigen Rapid Test Kit (Lateral Flow Immunoassay)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "85,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "74,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 85.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 74.0
   },
   "AT755/21": {
     "at_nr": "AT755/21",
@@ -2194,10 +2194,10 @@
     "manufacturer": "Glallergen CO., LTD.",
     "test_name": "Novel Corona Virus (2019-nCoV) Ag Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "60,0%",
-    "sensitivity_total": "92,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 60.0,
+    "sensitivity_total": 92.0
   },
   "AT765/21": {
     "at_nr": "AT765/21",
@@ -2205,10 +2205,10 @@
     "manufacturer": "Surge Medical Inc.",
     "test_name": "COVID-19 Antigen Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "40,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "56,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 40.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 56.0
   },
   "AT766/21": {
     "at_nr": "AT766/21",
@@ -2216,10 +2216,10 @@
     "manufacturer": "Hangzhou AllTest Biotech Co.,Ltd.",
     "test_name": "AllTest SARS-CoV-2 Antigen Rapid Test (Nasal Swab)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "20,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "44,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 20.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 44.0
   },
   "AT767/21": {
     "at_nr": "AT767/21",
@@ -2227,10 +2227,10 @@
     "manufacturer": "Fosun Diagnostics (Shanghai) Co., Ltd (ehemals Shanghai Fosun Long March Medical Science Co., Ltd.)",
     "test_name": "Fosun Covid-19 Ag Card",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "20,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 20.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT770/21": {
     "at_nr": "AT770/21",
@@ -2238,10 +2238,10 @@
     "manufacturer": "Jiangxi Province JinHuan Medical Instrument Co.,LTD.",
     "test_name": "COVID-19 antigen Schnelltest (Kolloidales Gold) / Novel Coronavirus(SARS-CoV-2) Antigen Rapid Detection Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,0%",
-    "sensitivity_cq>30": "60,0%",
-    "sensitivity_total": "90,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.0,
+    "sensitivity_cq>30": 60.0,
+    "sensitivity_total": 90.0
   },
   "AT777/21": {
     "at_nr": "AT777/21",
@@ -2249,10 +2249,10 @@
     "manufacturer": "Shenzhen Landwind Biotechnology Co., Ltd.",
     "test_name": "Landwind SARS-CoV-2 Antigen Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "55,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "22,0%"
+    "sensitivity_cq<25": 55.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 22.0
   },
   "AT785/21": {
     "at_nr": "AT785/21",
@@ -2260,10 +2260,10 @@
     "manufacturer": "Anhui Formaster Biosci Co., Ltd",
     "test_name": "New Coronavirus (COVID-19) Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "50,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "62,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 50.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 62.0
   },
   "AT787/21": {
     "at_nr": "AT787/21",
@@ -2271,10 +2271,10 @@
     "manufacturer": "BioDetect (Xiamen) Biotechnology Co., Ltd",
     "test_name": "SARS-Cov-2-Antigen-Schnelltest-Karte",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "15,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "44,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 15.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 44.0
   },
   "AT789/21": {
     "at_nr": "AT789/21",
@@ -2282,10 +2282,10 @@
     "manufacturer": "SureScreen Diagnostics Ltd.",
     "test_name": "COVID-19 Antigen Rapid Test Cassette (Nasal Swab)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "20,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 20.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT790/21": {
     "at_nr": "AT790/21",
@@ -2293,10 +2293,10 @@
     "manufacturer": "Merlin Biomedical (Xiamen) Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Rapid Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "55,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "62,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 55.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 62.0
   },
   "AT791/21": {
     "at_nr": "AT791/21",
@@ -2304,10 +2304,10 @@
     "manufacturer": "Asterion Otel Insaat Bilisim Medikal Maden Tic.Ltd.Sti.",
     "test_name": "AS-check COVID-19 Antigen Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "85,0%",
-    "sensitivity_cq25-30": "5,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 85.0,
+    "sensitivity_cq25-30": 5.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 36.0
   },
   "AT805/21": {
     "at_nr": "AT805/21",
@@ -2315,10 +2315,10 @@
     "manufacturer": "Bioscience (Tianjin) Diagnostic Technology Co., Ltd",
     "test_name": "Novel Coronavirus(2019-nCoV) Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "60,0%",
-    "sensitivity_total": "92,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 60.0,
+    "sensitivity_total": 92.0
   },
   "AT816/21": {
     "at_nr": "AT816/21",
@@ -2326,10 +2326,10 @@
     "manufacturer": "Hangzhou DIAN Biotechnology Co., Ltd.",
     "test_name": "GENEDIAN COVID-19 Antigen Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "5,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "38,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 5.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 38.0
   },
   "AT818/21": {
     "at_nr": "AT818/21",
@@ -2337,10 +2337,10 @@
     "manufacturer": "Hangzhou Genesis Biodetection & Biocontrol Co., Ltd.",
     "test_name": "KaiBiLi COVID-19 Antigen Pro",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "90,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "76,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 90.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 76.0
   },
   "AT819/21": {
     "at_nr": "AT819/21",
@@ -2348,10 +2348,10 @@
     "manufacturer": "Foregene Co.,Ltd.",
     "test_name": "FOREGENE SARS-CoV-2 Antigen Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "30,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "12,0%"
+    "sensitivity_cq<25": 30.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 12.0
   },
   "AT820/21": {
     "at_nr": "AT820/21",
@@ -2359,10 +2359,10 @@
     "manufacturer": "Beijing O&D Biotech Co., Ltd.",
     "test_name": "Covid-19 Antigen Rapid Test (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "75,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "72,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 75.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 72.0
   },
   "AT821/21": {
     "at_nr": "AT821/21",
@@ -2370,10 +2370,10 @@
     "manufacturer": "Hangzhou Zheda Dixun Biological Gene Engineering Co., Ltd.",
     "test_name": "SARS-Cov-2 Nucleocapsid(N) Antigen Rapid Test Cassette",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "55,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "62,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 55.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 62.0
   },
   "AT823/21": {
     "at_nr": "AT823/21",
@@ -2381,10 +2381,10 @@
     "manufacturer": "MSP bodmann GmbH",
     "test_name": "MSP SARS-CoV-2 Antigen-Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "20,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 20.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT825/21": {
     "at_nr": "AT825/21",
@@ -2392,10 +2392,10 @@
     "manufacturer": "Hangzhou Careomedic Tech Co., Ltd.",
     "test_name": "SARS-CoV-2-Antigen-Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "75,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "30,0%"
+    "sensitivity_cq<25": 75.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 30.0
   },
   "AT829/21": {
     "at_nr": "AT829/21",
@@ -2403,10 +2403,10 @@
     "manufacturer": "Shenzhen Dymind Biotechnology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "30,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "52,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 30.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 52.0
   },
   "AT830/21": {
     "at_nr": "AT830/21",
@@ -2414,10 +2414,10 @@
     "manufacturer": "Suzhou Soochow University Saier Immuno Biotech Co., Ltd.",
     "test_name": "InstantSure Covid-19 Ag CARD",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "80,0%",
-    "sensitivity_total": "96,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 80.0,
+    "sensitivity_total": 96.0
   },
   "AT839/21": {
     "at_nr": "AT839/21",
@@ -2425,10 +2425,10 @@
     "manufacturer": "Zhongxiu Science and Technology Co., Ltd",
     "test_name": "Neuartiges Coronavirus (2019-nCoV) Antigendetektions- reagenz (immunochromatographischer Assay)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "70,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "70,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 70.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 70.0
   },
   "AT844/21": {
     "at_nr": "AT844/21",
@@ -2436,10 +2436,10 @@
     "manufacturer": "Shenzhen Reagent Technology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen IVD kit SWAB",
     "target_antigen": "N+S",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "50,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "60,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 50.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 60.0
   },
   "AT847/21": {
     "at_nr": "AT847/21",
@@ -2447,10 +2447,10 @@
     "manufacturer": "Wuxi Biohermes Bio & Medical Technology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Test Kit (Lateral Flow Assay)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "60,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "64,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 60.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 64.0
   },
   "AT848/21": {
     "at_nr": "AT848/21",
@@ -2458,10 +2458,10 @@
     "manufacturer": "TBG Biotechnology Xiamen Inc.",
     "test_name": "TBG SARS-CoV-2 Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "95,0%",
-    "sensitivity_cq25-30": "80,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "72,0%"
+    "sensitivity_cq<25": 95.0,
+    "sensitivity_cq25-30": 80.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 72.0
   },
   "AT849/21": {
     "at_nr": "AT849/21",
@@ -2469,10 +2469,10 @@
     "manufacturer": "Jiangsu Bioperfectus Technologies Co., Ltd.",
     "test_name": "Novel Coronavirus (SARS-CoV-2) Ag Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "75,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "70,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 75.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 70.0
   },
   "AT857/21": {
     "at_nr": "AT857/21",
@@ -2480,10 +2480,10 @@
     "manufacturer": "Shen Zhen Zi Jian Biotechnology Co., Ltd.",
     "test_name": "Zijian SARS-CoV-2 (COVID-19) Antigen Rapid Detection Kit (Lateral Flow Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "80,0%",
-    "sensitivity_cq25-30": "10,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 80.0,
+    "sensitivity_cq25-30": 10.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 36.0
   },
   "AT863/21": {
     "at_nr": "AT863/21",
@@ -2491,10 +2491,10 @@
     "manufacturer": "Pro-med (Beijing) Technology Co.,Ltd.",
     "test_name": "Pro-med COVID-19 Antigen Rapid Detection Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "80,0%",
-    "sensitivity_cq25-30": "5,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "34,0%"
+    "sensitivity_cq<25": 80.0,
+    "sensitivity_cq25-30": 5.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 34.0
   },
   "AT879/21": {
     "at_nr": "AT879/21",
@@ -2502,10 +2502,10 @@
     "manufacturer": "Biohit Healthcare (Hefei) Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Rapid Test (Colloidal Gold Method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,0%",
-    "sensitivity_cq>30": "20,0%",
-    "sensitivity_total": "82,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.0,
+    "sensitivity_cq>30": 20.0,
+    "sensitivity_total": 82.0
   },
   "AT882/21": {
     "at_nr": "AT882/21",
@@ -2513,10 +2513,10 @@
     "manufacturer": "Jiaxing Wisetest Bio-Tech Co., Ltd.",
     "test_name": "Saliva SARS-CoV-2 (2019-nCoV) Antigen Test Kit (Nanocarbon Assay)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "85,0%",
-    "sensitivity_cq25-30": "15,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "42,0%"
+    "sensitivity_cq<25": 85.0,
+    "sensitivity_cq25-30": 15.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 42.0
   },
   "AT883/21": {
     "at_nr": "AT883/21",
@@ -2524,10 +2524,10 @@
     "manufacturer": "Jiangsu Well Biotech Co., Ltd.",
     "test_name": "COVID-19 Schnelltestger\u00e4t",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,0%",
-    "sensitivity_cq>30": "40,0%",
-    "sensitivity_total": "86,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.0,
+    "sensitivity_cq>30": 40.0,
+    "sensitivity_total": 86.0
   },
   "AT889/21": {
     "at_nr": "AT889/21",
@@ -2535,10 +2535,10 @@
     "manufacturer": "CITEST Diagnostics Inc.",
     "test_name": "COVID-19 Antigen Rapid Test (Oral Fluid)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "90,0%",
-    "sensitivity_total": "98,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 90.0,
+    "sensitivity_total": 98.0
   },
   "AT899/21": {
     "at_nr": "AT899/21",
@@ -2546,10 +2546,10 @@
     "manufacturer": "FAGO MEDIKAL San. Tic. Ltd",
     "test_name": "FAMEX\u00ae SARS-CoV-2 Ag Rapid Nasopharyngeal Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "20,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "8,0%"
+    "sensitivity_cq<25": 20.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 8.0
   },
   "AT918/21": {
     "at_nr": "AT918/21",
@@ -2557,10 +2557,10 @@
     "manufacturer": "SGA M\u00fchendislik DAN. EG. Icve DIS.Ltd.STI",
     "test_name": "V-Chek SARS-CoV-2 Rapid Ag Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "94,1%",
-    "sensitivity_cq25-30": "26,1%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "44,0%"
+    "sensitivity_cq<25": 94.1,
+    "sensitivity_cq25-30": 26.1,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 44.0
   },
   "AT924/21": {
     "at_nr": "AT924/21",
@@ -2568,10 +2568,10 @@
     "manufacturer": "Cesna Biyoteknoloji Arastirma Gelistirme Laboratuvar Sist.",
     "test_name": "Check Up SARS-CoV-2 Nasal Antigen Rapid Test",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "45,0%",
-    "sensitivity_cq>30": "10,0%",
-    "sensitivity_total": "60,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 45.0,
+    "sensitivity_cq>30": 10.0,
+    "sensitivity_total": 60.0
   },
   "AT928/21": {
     "at_nr": "AT928/21",
@@ -2579,10 +2579,10 @@
     "manufacturer": "Shenzhen CAS-Envision Medical Technology Co., Ltd.",
     "test_name": "SARS-Cov-2 Antigen Rapid Detection Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "70,0%",
-    "sensitivity_total": "94,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 70.0,
+    "sensitivity_total": 94.0
   },
   "AT932/21": {
     "at_nr": "AT932/21",
@@ -2590,10 +2590,10 @@
     "manufacturer": "ShanDong ThinkLabor Biotechnology Co.,Ltd.",
     "test_name": "Coronavirus Ag Schnelltest Kassette (Tupfer)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "0,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "0,0%"
+    "sensitivity_cq<25": 0.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 0.0
   },
   "AT934/21": {
     "at_nr": "AT934/21",
@@ -2601,10 +2601,10 @@
     "manufacturer": "Hangzhou Zheda Dixun Biological Gene Engineering Co., Ltd.",
     "test_name": "Bisdeal SARS-CoV-2 Antigen-Schnelltest",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "25,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "50,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 25.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 50.0
   },
   "AT935/21": {
     "at_nr": "AT935/21",
@@ -2612,10 +2612,10 @@
     "manufacturer": "Qingdao AIBO Diagnostic CO., Ltd.",
     "test_name": "Novel Coronavirus (COVID-19) Antigen Rapid Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "20,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "48,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 20.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 48.0
   },
   "AT941/21": {
     "at_nr": "AT941/21",
@@ -2623,10 +2623,10 @@
     "manufacturer": "Sichuan Xincheng Biological Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Assay Kit by Latex Immunochromatography method",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,0%",
-    "sensitivity_cq>30": "40,0%",
-    "sensitivity_total": "86,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.0,
+    "sensitivity_cq>30": 40.0,
+    "sensitivity_total": 86.0
   },
   "AT961/21": {
     "at_nr": "AT961/21",
@@ -2634,10 +2634,10 @@
     "manufacturer": "Hangzhou Jucheng Medical Products Co., Ltd",
     "test_name": "SARS-CoV-2 Ag Schnelltestkit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "100,0%",
-    "sensitivity_cq>30": "80,0%",
-    "sensitivity_total": "96,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 100.0,
+    "sensitivity_cq>30": 80.0,
+    "sensitivity_total": 96.0
   },
   "AT967/21": {
     "at_nr": "AT967/21",
@@ -2645,10 +2645,10 @@
     "manufacturer": "Beijing Homa Biological Engineering Co., Ltd.",
     "test_name": "COVID-19 Antigen Test Kit",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "35,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 35.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT972/21": {
     "at_nr": "AT972/21",
@@ -2656,10 +2656,10 @@
     "manufacturer": "Hangzhou Bioer Technology Co., Ltd.",
     "test_name": "BIOflux SARS-CoV-2 Antigen Test Kit (colloidal gold method)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "60,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "24,0%"
+    "sensitivity_cq<25": 60.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 24.0
   },
   "AT981/21 (AT574/21)": {
     "at_nr": "AT981/21 (AT574/21)",
@@ -2667,10 +2667,10 @@
     "manufacturer": "InTec Products, Inc.",
     "test_name": "Rapid SARS-CoV-2 Antigen Test Colloidal Gold (Nasopharyngeal/Nasal specimen)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "95,0%",
-    "sensitivity_cq>30": "30,0%",
-    "sensitivity_total": "84,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 95.0,
+    "sensitivity_cq>30": 30.0,
+    "sensitivity_total": 84.0
   },
   "AT989/21": {
     "at_nr": "AT989/21",
@@ -2678,10 +2678,10 @@
     "manufacturer": "Ningbo Beautiful Life Medical Biotechnology",
     "test_name": "Saliva SARS-CoV-2(2019-nCoV) Antigen Test Kit (Nanocarbon Assay)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "100,0%",
-    "sensitivity_cq25-30": "35,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "54,0%"
+    "sensitivity_cq<25": 100.0,
+    "sensitivity_cq25-30": 35.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 54.0
   },
   "AT997/21": {
     "at_nr": "AT997/21",
@@ -2689,9 +2689,9 @@
     "manufacturer": "Wuhan HealthCare Biotechnology Co., Ltd.",
     "test_name": "SARS-CoV-2 Antigen Test Kit (Colloidal Gold)",
     "target_antigen": "N",
-    "sensitivity_cq<25": "90,0%",
-    "sensitivity_cq25-30": "0,0%",
-    "sensitivity_cq>30": "0,0%",
-    "sensitivity_total": "36,0%"
+    "sensitivity_cq<25": 90.0,
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq>30": 0.0,
+    "sensitivity_total": 36.0
   }
 }
