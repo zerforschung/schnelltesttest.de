@@ -22,7 +22,7 @@ export default function LogoHeadingPage({ children }: { children: React.ReactNod
           alignItems: 'center',
           padding: '0 2em 2em 2em',
           maxWidth: '800px',
-          height: '80%'
+          height: '80%',
         }}
       >
         {children}

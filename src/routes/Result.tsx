@@ -16,5 +16,9 @@ export default function Result(): JSX.Element {
   }
 
   const test_data = get_test(test_id);
-  return test_data == null ? <NoTestFound test_id={test_id} /> : <TestFound testdata={test_data} />;
+  return (
+    <>
+      {test_data == null ? <NoTestFound test_id={test_id} /> : <TestFound testdata={test_data} />}
+    </>
+  );
 }

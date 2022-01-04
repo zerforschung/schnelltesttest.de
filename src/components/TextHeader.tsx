@@ -24,10 +24,9 @@ export function TextHeader({ text }: { text: string }): JSX.Element {
       {/* TODO: There has to be a nicer way */}
       <div
         style={{
-            paddingTop: '10vh'
+          paddingTop: '10vh',
         }}
-      >
-      </div>
+      ></div>
     </>
   );
 }

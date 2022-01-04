@@ -1,14 +1,12 @@
 import React from 'react';
+import failedIcon from './failed.png';
+import passedIcon from './passed.png';
 
 export function ResultIcon({ passed }: { passed: boolean }): JSX.Element {
-  // TODO: Nicer icon
+  // TODO: Icons as SVG
   return (
     <>
-      <div style={{  height: '25vw',
-        width: '25vw',
-        backgroundColor: passed ? 'green' : 'red',
-        borderRadius: '50%',
-        display: 'inline-block'}}></div>
+      <img src={passed ? passedIcon : failedIcon} />
     </>
   );
 }

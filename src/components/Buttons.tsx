@@ -16,27 +16,35 @@ const buttonStyleBase: CSSProperties = {
   padding: '.75em',
   marginTop: '1em',
   textAlign: 'center',
-  fontSize: '1em'
+  fontSize: '1em',
 };
 
 const primaryButtonStyle: CSSProperties = {
   ...buttonStyleBase,
-  "backgroundColor": "black",
-  color: 'white'
-}
+  backgroundColor: 'black',
+  color: 'white',
+};
 
 const secondaryButtonStyle: CSSProperties = {
   ...buttonStyleBase,
   backgroundColor: 'white',
-  color: 'black'
-}
+  color: 'black',
+};
 
 type Appearance = 'primary' | 'secondary';
 
 function getButtonStyle(appearance?: Appearance): CSSProperties {
-  return appearance === 'primary'? primaryButtonStyle : secondaryButtonStyle;
+  return appearance === 'primary' ? primaryButtonStyle : secondaryButtonStyle;
 }
-export function BigLinkButton({ to, content, appearance }: { to: string; content: JSX.Element | string, appearance?: Appearance }): JSX.Element {
+export function BigLinkButton({
+  to,
+  content,
+  appearance,
+}: {
+  to: string;
+  content: JSX.Element | string;
+  appearance?: Appearance;
+}): JSX.Element {
   return (
     <Link to={to} style={getButtonStyle(appearance)}>
       {content}
@@ -44,11 +52,19 @@ export function BigLinkButton({ to, content, appearance }: { to: string; content
   );
 }
 
-export function BigBackButton({ content, style, appearance }: { content: JSX.Element | string; style?: CSSProperties, appearance?: Appearance }): JSX.Element {
+export function BigBackButton({
+  content,
+  style,
+  appearance,
+}: {
+  content: JSX.Element | string;
+  style?: CSSProperties;
+  appearance?: Appearance;
+}): JSX.Element {
   const navigate = useNavigate();
 
   return (
-    <button onClick={()=>navigate(-1)} style={{...getButtonStyle(appearance), ...style}}>
+    <button onClick={() => navigate(-1)} style={{ ...getButtonStyle(appearance), ...style }}>
       {content}
     </button>
   );

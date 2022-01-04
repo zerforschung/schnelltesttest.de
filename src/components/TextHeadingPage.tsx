@@ -2,7 +2,13 @@ import React from 'react';
 import { TextHeader } from './TextHeader';
 import { BigBackButton } from './Buttons';
 
-export default function TextHeadingPage({ heading, children }: { heading: string, children: React.ReactNode }): JSX.Element {
+export default function TextHeadingPage({
+  heading,
+  children,
+}: {
+  heading: string;
+  children: React.ReactNode;
+}): JSX.Element {
   return (
     <div
       style={{
@@ -23,11 +29,11 @@ export default function TextHeadingPage({ heading, children }: { heading: string
           alignItems: 'center',
           padding: '0 2em 2em 2em',
           maxWidth: '800px',
-          height: '100%'
+          height: '100%',
         }}
       >
         {children}
-        <BigBackButton content={"Zurück"}/>
+        <BigBackButton content={'Zurück'} />
       </div>
     </div>
   );
