@@ -34,20 +34,20 @@ export default function Scanner(): JSX.Element {
       <LogoHeadingPage>
         <HowToOverlay />
         <BarcodeScanner />
-      <div
-        style={{
-          position: 'fixed',
-          height: '10%',
-          width: '100%',
-          textAlign: 'center',
-          display: 'flex',
-          alignItems: 'center',
-          top: '90%'
-        }}
-      >
-        <NavButton to="/enter_code" content="Code eingeben" />
-        <NavButton to="/about" content="Über" />
-      </div>
+        <div
+          style={{
+            position: 'fixed',
+            height: '10%',
+            width: '100%',
+            textAlign: 'center',
+            display: 'flex',
+            alignItems: 'center',
+            top: '90%',
+          }}
+        >
+          <NavButton to="/enter_code" content="Code eingeben" />
+          <NavButton to="/about" content="Über" />
+        </div>
       </LogoHeadingPage>
     </>
   );
