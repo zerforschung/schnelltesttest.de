@@ -15,7 +15,7 @@ ReactDOM.render(
         <Routes>
             <Route path="/" element={<App />} />
             <Route path="scan" element={<Scanner />} />
-            <Route path="result/:testId" element={<Result />} />
+            <Route path="result" element={<Result />} />
         </Routes>
     </BrowserRouter>,
   document.getElementById('root')
