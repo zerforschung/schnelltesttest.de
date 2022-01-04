@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Scanner from './routes/Scanner';
 import Result from './routes/Result';
 import About from './routes/About';
+import MoreInformation from './routes/MoreInformation';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
@@ -13,6 +14,7 @@ ReactDOM.render(
       <Route path="scan" element={<Scanner />} />
       <Route path="result" element={<Result />} />
       <Route path="about" element={<About />} />
+      <Route path="more_information" element={<MoreInformation />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
