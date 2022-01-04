@@ -6,6 +6,7 @@ const buttonStyleBase: CSSProperties = {
   textDecoration: 'none',
   fontWeight: 'bold',
   width: '100%',
+  cursor: 'pointer',
   borderRight: '2.5px solid white',
   borderTop: '5px solid white',
   boxSizing: 'border-box',

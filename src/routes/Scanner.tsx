@@ -5,7 +5,7 @@ import BarcodeScanner from '../components/Scanner/BarcodeScanner';
 import { Link } from 'react-router-dom';
 import LogoHeadingPage from '../components/LogoHeadingPage';
 
-function NavButton({ to, content }: { to: string; content: JSX.Element | string }): JSX.Element {
+function NavButton({ to, border, content }: { to: string; border:boolean; content: JSX.Element | string }): JSX.Element {
   return (
     <Link
       to={to}
@@ -16,7 +16,7 @@ function NavButton({ to, content }: { to: string; content: JSX.Element | string 
         backgroundColor: 'black',
         height: '100%',
         width: '50%',
-        borderRight: '2.5px solid white',
+        borderRight: (border ? '2.5px solid white' : "") ,
         borderTop: '5px solid white',
         boxSizing: 'border-box',
         display: 'flex',
@@ -45,8 +45,8 @@ export default function Scanner(): JSX.Element {
             top: '90%',
           }}
         >
-          <NavButton to="/enter_code" content="Code eingeben" />
-          <NavButton to="/about" content="Über" />
+          <NavButton to="/enter_code" border={true} content="Code eingeben" />
+          <NavButton to="/about" border={false} content="Über" />
         </div>
       </LogoHeadingPage>
     </>
