@@ -7,6 +7,7 @@ import Scanner from './routes/Scanner';
 import Result from './routes/Result';
 import About from './routes/About';
 import MoreInformation from './routes/MoreInformation';
+import { EnterCode } from './routes/EnterCode';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Route path="result" element={<Result />} />
       <Route path="about" element={<About />} />
       <Route path="more_information" element={<MoreInformation />} />
+      <Route path="enter_code" element={<EnterCode/>} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
