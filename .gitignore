@@ -1,0 +1,5 @@
+.DS_*
+node_modules
+.idea/
+out/
+build/
