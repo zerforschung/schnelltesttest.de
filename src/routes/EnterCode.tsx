@@ -22,8 +22,8 @@ const inputStyle: CSSProperties = {
 export function TestIdUnknown({ testId }: { testId: string }): JSX.Element {
   return (
     <>
-      <p style={{ color: 'red' }}>Leider konnten wir diesen Test nicht finden.</p>
-      <p>
+      <p style={{ color: 'red', textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans' }}>Leider konnten wir diesen Test nicht finden.</p>
+      <p style={{textAlign: 'center', fontWeight: 500, fontFamily: 'Open Sans' }}>
         Du kennst uns helfen, besser zu werden, indem zu uns weiter Informationen über den Test
         übermittelst.
       </p>
@@ -54,7 +54,9 @@ export function EnterCode(): JSX.Element {
 
   return (
     <LogoHeadingPage>
+        <div style={{textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans Condensed',}}>
       Bitte gib die Nummer unter dem Strichcode oder die AT-Nummer ein:
+        </div>
       <input style={inputStyle} onChange={(target) => setTestId(target.target.value)} />
       {testId != '' && test_data === null ? (
         <TestIdUnknown testId={testId} />

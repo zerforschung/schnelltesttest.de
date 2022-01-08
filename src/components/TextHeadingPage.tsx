@@ -18,6 +18,7 @@ export default function TextHeadingPage({
         alignContent: 'center',
         flexDirection: 'column',
         alignItems: 'center',
+          fontFamily: 'Open Sans'
       }}
     >
       <TextHeader text={heading} />
@@ -27,7 +28,7 @@ export default function TextHeadingPage({
           alignContent: 'center',
           flexDirection: 'column',
           alignItems: 'center',
-          padding: '0 2em 2em 2em',
+          padding: '0 1em 2em 1em',
           maxWidth: '800px',
           height: '100%',
         }}
