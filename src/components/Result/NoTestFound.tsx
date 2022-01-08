@@ -13,20 +13,22 @@ export default function NoTestFound({ test_id }: { test_id: string }): JSX.Eleme
           alignItems: 'center',
           padding: '0 0.5em 0.5em 0.5em',
           maxWidth: '800px',
-            fontFamily: 'Open Sans',
+          fontFamily: 'Open Sans',
         }}
       >
         <h1
           style={{
-            textAlign: 'center', fontSize: '2rem'
+            textAlign: 'center',
+            fontSize: '2rem',
           }}
         >
           Huch, diesen Test kennen wir garnicht!{' '}
         </h1>
-        <p style={{justifyContent: 'center', textAlign: 'center', }}>
+        <p style={{ justifyContent: 'center', textAlign: 'center' }}>
           Leider kennen wir den Test mit der Nummer <b>"{test_id}"</b> noch nicht. Es wäre cool,
-          wenn du uns ein Foto des Tests, des Barcodes und die Marke schicken könntest.<br/><br/> Wir tragen
-          den Test dann in den nächsten Tagen ein.
+          wenn du uns ein Foto des Tests, des Barcodes und die Marke schicken könntest.
+          <br />
+          <br /> Wir tragen den Test dann in den nächsten Tagen ein.
         </p>
         <p>Du erreichst uns per:</p>
         <ContactInfo />

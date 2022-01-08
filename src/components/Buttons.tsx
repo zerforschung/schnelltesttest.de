@@ -24,8 +24,8 @@ const buttonStyleBase: CSSProperties = {
 const primaryButtonStyle: CSSProperties = {
   ...buttonStyleBase,
   backgroundColor: 'black',
-    fontWeight: '700',
-    fontFamily: 'Open Sans Condensed',
+  fontWeight: '700',
+  fontFamily: 'Open Sans Condensed',
   color: 'white',
 };
 

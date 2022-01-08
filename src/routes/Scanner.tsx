@@ -30,7 +30,7 @@ function NavButton({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-          fontFamily: 'Open Sans Condensed',
+        fontFamily: 'Open Sans Condensed',
       }}
     >
       {content}
