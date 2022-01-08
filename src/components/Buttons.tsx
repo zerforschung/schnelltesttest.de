@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router';
 
 const buttonStyleBase: CSSProperties = {
   textDecoration: 'none',
-  fontWeight: 'bold',
+  fontWeight: '700',
+  font: 'Open Sans',
   width: '100%',
   cursor: 'pointer',
   borderRight: '2.5px solid white',
@@ -23,12 +24,15 @@ const buttonStyleBase: CSSProperties = {
 const primaryButtonStyle: CSSProperties = {
   ...buttonStyleBase,
   backgroundColor: 'black',
+    fontWeight: '700',
+    fontFamily: 'Open Sans Condensed',
   color: 'white',
 };
 
 const secondaryButtonStyle: CSSProperties = {
   ...buttonStyleBase,
   backgroundColor: 'white',
+  fontWeight: '400',
   color: 'black',
 };
 

@@ -10,6 +10,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
+    "@types/webfontloader": "^1.6.34",
     "csv": "^6.0.5",
     "eslint": "^8.6.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -22,7 +23,8 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.0",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "web-vitals": "^2.1.0",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "prepare": "husky install",
