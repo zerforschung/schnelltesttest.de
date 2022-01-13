@@ -1,5 +1,5 @@
 import React, { CSSProperties, useState } from 'react';
-import LogoHeadingPage from '../components/LogoHeadingPage';
+import { LogoHeadingPage } from '../components/HeadingPageLayouts';
 import { BigBackButton, BigLinkButton } from '../components/Buttons';
 import { get_test } from '../utils/testdata';
 
