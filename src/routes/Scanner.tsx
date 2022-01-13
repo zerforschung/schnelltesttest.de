@@ -41,12 +41,23 @@ export default function Scanner(): JSX.Element {
   return (
     <>
       <LogoHeadingPage>
-        <HowToOverlay />
-        <BarcodeScanner />
         <div
           style={{
             position: 'fixed',
-            height: '10%',
+            height: '100%',
+            width: '100%',
+            textAlign: 'center',
+            display: 'flex',
+            alignItems: 'center',
+          }}
+        >
+          <HowToOverlay />
+          <BarcodeScanner />
+        </div>
+        <div
+          style={{
+            position: 'fixed',
+            height: '10vh',
             width: '100%',
             textAlign: 'center',
             display: 'flex',

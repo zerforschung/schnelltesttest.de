@@ -35,7 +35,7 @@ function App(): JSX.Element {
         <BigLinkButton to={'/about'} content={'Über'} />
         <div style={{ flexGrow: 1 }} />
         <div>
-          <a href={'https://zerforschung.org/impressum/'}>Unterstützen</a> |{' '}
+          <a href={'https://zerforschung.org/unterstuetzen/'}>Unterstützen</a> |{' '}
           <a href={'https://zerforschung.org/impressum/'}>Impressum</a>
         </div>
       </div>

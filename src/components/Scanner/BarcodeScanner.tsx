@@ -1,15 +1,32 @@
 import React from 'react';
-import BarcodeScannerComponent from 'react-qr-barcode-scanner';
+import BarcodeScannerComponent from './BarcodeScannerComponent';
 import { useNavigate } from 'react-router';
+import { QuaggaJSResultObject } from '@ericblade/quagga2';
+import { checkCode } from '../../utils/testdata';
+
 export default function BarcodeScanner(): JSX.Element {
   const navigate = useNavigate();
+  let eanCount: Record<string, number> = {};
+  let active = true;
+
+  const handleData = function (data: QuaggaJSResultObject) {
+    if (!active) {
+      return;
+    }
+    const code = data.codeResult.code || '';
+    const count = eanCount[code] || 0;
+
+    if (checkCode(code) || count >= 10) {
+      console.log('nav', code, active);
+      active = false;
+      eanCount = {};
+      navigate(`/result?test_id=${encodeURIComponent(code)}`);
+    }
+    eanCount[code] = count + 1;
+  };
   return (
-    <div style={{ position: 'absolute', height: '100%', width: '100%', top: 0, left: 0 }}>
-      <BarcodeScannerComponent
-        onUpdate={(err, result) => {
-          if (result) navigate(`/result?test_id=${encodeURIComponent(result.getText())}`);
-        }}
-      />
+    <div style={{ height: '100%', width: '100%' }}>
+      <BarcodeScannerComponent onUpdate={handleData} />
     </div>
   );
 }
