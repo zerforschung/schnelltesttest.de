@@ -3,7 +3,7 @@ function ContactButton({ href, text }: { href: string; text: string }): JSX.Elem
   return (
     <a
       style={{
-        width: '60%',
+        width: '100%',
         padding: '1rem',
         marginBottom: '.5em',
         backgroundColor: 'black',

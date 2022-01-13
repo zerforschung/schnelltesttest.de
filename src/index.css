@@ -11,5 +11,5 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: calc(1.5rem + 0.25vw);
+  font-size: calc(1rem + 0.25vw);
 }
