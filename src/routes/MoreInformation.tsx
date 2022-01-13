@@ -58,7 +58,7 @@ export default function MoreInformation(): JSX.Element {
               <td>{test_data['sensitivity_cq25-30']} %</td>
             </tr>
             <tr>
-              <td>Sensitivität bei Cq&gt;25:</td>
+              <td>Sensitivität bei Cq&gt;30:</td>
               <td>{test_data['sensitivity_cq>30']} %</td>
             </tr>
             <tr>
