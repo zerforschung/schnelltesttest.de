@@ -1,0 +1,18 @@
+#scanner video {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: -1;
+}
+#scanner canvas {
+  position: absolute;
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 100%;
+}

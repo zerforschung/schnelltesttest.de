@@ -43,3 +43,7 @@ function checkPrefixInObject(prefix: string, obj: Record<string, any>): boolean 
 export function checkPrefix(prefix: string): boolean {
   return checkPrefixInObject(prefix, all) || checkPrefixInObject(prefix, id_map);
 }
+
+export function checkCode(code: string): boolean {
+  return code in all || code in id_map;
+}

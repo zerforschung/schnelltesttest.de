@@ -31,7 +31,7 @@ export default function About(): JSX.Element {
         </a>
       </p>
       <div>
-        <a href={'https://zerforschung.org/impressum/'}>Unterstützen</a> |{' '}
+        <a href={'https://zerforschung.org/unterstuetzen/'}>Unterstützen</a> |{' '}
         <a href={'https://zerforschung.org/impressum/'}>Impressum</a>
       </div>
     </TextHeadingPage>
