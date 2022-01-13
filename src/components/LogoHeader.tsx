@@ -8,7 +8,7 @@ export default function LogoHeader(): JSX.Element {
       <Link
         to="/"
         style={{
-          width: '100%',
+          width: '100vw',
           maxHeight: '10vh',
           zIndex: 10,
           backgroundColor: 'white',
