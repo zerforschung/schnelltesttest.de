@@ -2,6 +2,7 @@ import React, { CSSProperties, useState } from 'react';
 import { LogoHeadingPage } from '../components/HeadingPageLayouts';
 import { BigBackButton, BigLinkButton } from '../components/Buttons';
 import { checkPrefix } from '../utils/testdata';
+import { useNavigate } from 'react-router';
 
 const inputStyle: CSSProperties = {
   textDecoration: 'none',
@@ -54,12 +55,20 @@ export function EnterCode(): JSX.Element {
   const [testId, setTestId] = useState('');
   const isTestKnown = checkPrefix(testId);
 
+  const navigate = useNavigate();
+
+  const handleKeyDown = function (e: React.KeyboardEvent) {
+    if (e.key == 'Enter') {
+      navigate(`/result?test_id=${encodeURIComponent(testId)}`)
+    }
+  }
+
   return (
     <LogoHeadingPage>
       <div style={{ textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans Condensed' }}>
         Bitte gib die Nummer unter dem Strichcode oder die AT-Nummer ein:
       </div>
-      <input style={inputStyle} onChange={(target) => setTestId(target.target.value)} />
+      <input style={inputStyle} onChange={(target) => setTestId(target.target.value.toUpperCase())} onKeyDown={handleKeyDown} />
       {isTestKnown ? <TestIdKnown testId={testId} /> : <TestIdUnknown testId={testId} />}
       <BigBackButton content={'Zurück'} />
     </LogoHeadingPage>
