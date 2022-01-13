@@ -219,28 +219,6 @@
     "sensitivity_cq>30": 0.0,
     "sensitivity_total": 72.0
   },
-  "AT023/20": {
-    "at_nr": "AT023/20 (AT004/20)",
-    "ref_nr": "Q-NCOV-01G (9901-NCOV-01G)",
-    "manufacturer": "SD Biosensor, Inc. (Roche Diagnostics GmbH)",
-    "test_name": "STANDARD Q COVID-19 Ag Test (SARS-CoV-2 Rapid Antigen Test)",
-    "target_antigen": "N",
-    "sensitivity_cq<25": 88.9,
-    "sensitivity_cq25-30": 30.4,
-    "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 46.0
-  },
-  "AT004/20": {
-    "at_nr": "AT023/20 (AT004/20)",
-    "ref_nr": "Q-NCOV-01G (9901-NCOV-01G)",
-    "manufacturer": "SD Biosensor, Inc. (Roche Diagnostics GmbH)",
-    "test_name": "STANDARD Q COVID-19 Ag Test (SARS-CoV-2 Rapid Antigen Test)",
-    "target_antigen": "N",
-    "sensitivity_cq<25": 88.9,
-    "sensitivity_cq25-30": 30.4,
-    "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 46.0
-  },
   "AT023/20 (AT004/20)": {
     "at_nr": "AT023/20 (AT004/20)",
     "ref_nr": "Q-NCOV-01G (9901-NCOV-01G)",
@@ -1142,28 +1120,6 @@
     "sensitivity_cq25-30": 82.6,
     "sensitivity_cq>30": 0.0,
     "sensitivity_total": 72.0
-  },
-  "AT216/20": {
-    "at_nr": "AT216/20 (AT052/20)",
-    "ref_nr": "n.a.",
-    "manufacturer": "Beijing Lepu Medical Technology Co., Ltd",
-    "test_name": "SARS-CoV-2 Antigen Rapid Test Kit",
-    "target_antigen": "N",
-    "sensitivity_cq<25": 100.0,
-    "sensitivity_cq25-30": 26.1,
-    "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 46.0
-  },
-  "AT052/20": {
-    "at_nr": "AT216/20 (AT052/20)",
-    "ref_nr": "n.a.",
-    "manufacturer": "Beijing Lepu Medical Technology Co., Ltd",
-    "test_name": "SARS-CoV-2 Antigen Rapid Test Kit",
-    "target_antigen": "N",
-    "sensitivity_cq<25": 100.0,
-    "sensitivity_cq25-30": 26.1,
-    "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 46.0
   },
   "AT216/20 (AT052/20)": {
     "at_nr": "AT216/20 (AT052/20)",
@@ -2704,28 +2660,6 @@
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
     "sensitivity_total": 24.0
-  },
-  "AT981/21": {
-    "at_nr": "AT981/21 (AT574/21)",
-    "ref_nr": "ITP16010-TC25",
-    "manufacturer": "InTec Products, Inc.",
-    "test_name": "Rapid SARS-CoV-2 Antigen Test Colloidal Gold (Nasopharyngeal/Nasal specimen)",
-    "target_antigen": "N",
-    "sensitivity_cq<25": 100.0,
-    "sensitivity_cq25-30": 95.0,
-    "sensitivity_cq>30": 30.0,
-    "sensitivity_total": 84.0
-  },
-  "AT574/21": {
-    "at_nr": "AT981/21 (AT574/21)",
-    "ref_nr": "ITP16010-TC25",
-    "manufacturer": "InTec Products, Inc.",
-    "test_name": "Rapid SARS-CoV-2 Antigen Test Colloidal Gold (Nasopharyngeal/Nasal specimen)",
-    "target_antigen": "N",
-    "sensitivity_cq<25": 100.0,
-    "sensitivity_cq25-30": 95.0,
-    "sensitivity_cq>30": 30.0,
-    "sensitivity_total": 84.0
   },
   "AT981/21 (AT574/21)": {
     "at_nr": "AT981/21 (AT574/21)",
