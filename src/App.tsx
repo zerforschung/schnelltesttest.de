@@ -34,7 +34,10 @@ function App(): JSX.Element {
         <BigLinkButton to={'/enter_code'} content={'Code eingeben'} appearance={'primary'} />
         <BigLinkButton to={'/about'} content={'Über'} />
         <div style={{ flexGrow: 1 }} />
-        <a href={'https://zerforschung.org/impressum/'}>Impressum</a>
+        <div>
+          <a href={'https://zerforschung.org/impressum/'}>Unterstützen</a> |{' '}
+          <a href={'https://zerforschung.org/impressum/'}>Impressum</a>
+        </div>
       </div>
     </div>
   );
