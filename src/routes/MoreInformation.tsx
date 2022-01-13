@@ -1,5 +1,5 @@
 import React from 'react';
-import TextHeadingPage from '../components/TextHeadingPage';
+import { TextHeadingPage } from '../components/HeadingPageLayouts';
 import { useSearchParams } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 import { get_test } from '../utils/testdata';

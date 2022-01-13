@@ -3,7 +3,7 @@ import { HowToOverlay } from '../components/Scanner/HowToOverlay';
 import './Scanner.css';
 import BarcodeScanner from '../components/Scanner/BarcodeScanner';
 import { Link } from 'react-router-dom';
-import LogoHeadingPage from '../components/LogoHeadingPage';
+import { LogoHeadingPage } from '../components/HeadingPageLayouts';
 
 function NavButton({
   to,

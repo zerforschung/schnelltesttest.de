@@ -5,3 +5,7 @@
 }
 
 @import url('font.css');
+
+* {
+  box-sizing: border-box;
+}

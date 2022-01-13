@@ -2,7 +2,7 @@ import React from 'react';
 import { TestData } from '../../utils/testdata';
 import { BigBackButton, BigLinkButton } from '../Buttons';
 import { ResultIcon } from './ResultIcon';
-import LogoHeadingPage from '../LogoHeadingPage';
+import { LogoHeadingPage } from '../HeadingPageLayouts';
 export default function TestFound({ testdata }: { testdata: TestData }): JSX.Element {
   return (
     <LogoHeadingPage>

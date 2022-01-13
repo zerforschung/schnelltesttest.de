@@ -1,5 +1,5 @@
 import React from 'react';
-import TextHeadingPage from '../TextHeadingPage';
+import { TextHeadingPage } from '../HeadingPageLayouts';
 import { ContactInfo } from '../ContactInfo';
 
 export default function NoTestFound({ test_id }: { test_id: string }): JSX.Element {

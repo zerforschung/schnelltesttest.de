@@ -1,7 +1,7 @@
 import React from 'react';
 import './Scanner.css';
 import zerlogo from '../components/About/ZER_Logo_header.svg';
-import TextHeadingPage from '../components/TextHeadingPage';
+import { TextHeadingPage } from '../components/HeadingPageLayouts';
 import { ContactInfo } from '../components/ContactInfo';
 
 export default function About(): JSX.Element {
