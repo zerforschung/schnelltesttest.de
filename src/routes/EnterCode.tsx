@@ -59,16 +59,20 @@ export function EnterCode(): JSX.Element {
 
   const handleKeyDown = function (e: React.KeyboardEvent) {
     if (e.key == 'Enter') {
-      navigate(`/result?test_id=${encodeURIComponent(testId)}`)
+      navigate(`/result?test_id=${encodeURIComponent(testId)}`);
     }
-  }
+  };
 
   return (
     <LogoHeadingPage>
       <div style={{ textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans Condensed' }}>
         Bitte gib die Nummer unter dem Strichcode oder die AT-Nummer ein:
       </div>
-      <input style={inputStyle} onChange={(target) => setTestId(target.target.value.toUpperCase())} onKeyDown={handleKeyDown} />
+      <input
+        style={inputStyle}
+        onChange={(target) => setTestId(target.target.value.toUpperCase())}
+        onKeyDown={handleKeyDown}
+      />
       {isTestKnown ? <TestIdKnown testId={testId} /> : <TestIdUnknown testId={testId} />}
       <BigBackButton content={'Zurück'} />
     </LogoHeadingPage>
