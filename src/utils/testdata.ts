@@ -1,8 +1,12 @@
 import _ean_map from '../data/ean_map.json';
+import _manual_map from '../data/manual_map.json';
 import _all from '../data/all.json';
 
 const all: Record<string, TestData> = _all;
 const ean_map: Record<string, string> = _ean_map;
+const manual_map: Record<string, string> = _manual_map;
+const id_map: Record<string, string> = { ...ean_map, ...manual_map };
+
 export type TestData = {
   at_nr: string;
   ref_nr: string;
@@ -19,8 +23,8 @@ export function get_test(identifier: string): TestData | null {
   if (all.hasOwnProperty(identifier)) {
     return all[identifier];
   }
-  if (ean_map.hasOwnProperty(identifier)) {
-    const at_nr = ean_map[identifier];
+  if (id_map.hasOwnProperty(identifier)) {
+    const at_nr = id_map[identifier];
     if (all.hasOwnProperty(at_nr)) {
       return all[at_nr];
     }
