@@ -28,6 +28,7 @@ export default function About(): JSX.Element {
       <a href="https://zerforschung.org">
         <img style={{ width: '100%' }} src={zerlogo} />
       </a>
+      <a href={'https://zerforschung.org/impressum/'}>Impressum</a>
     </TextHeadingPage>
   );
 }
