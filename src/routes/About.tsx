@@ -25,9 +25,11 @@ export default function About(): JSX.Element {
       <ContactInfo />
       <div style={{ flexGrow: 1 }}></div>
       <p style={{ fontWeight: 300 }}>schnelltesttest.de ist ein Projekt von</p>
-      <a href="https://zerforschung.org">
-        <img style={{ width: '100%' }} src={zerlogo} />
-      </a>
+      <div style={{ width: '100%' }}>
+        <a href="https://zerforschung.org">
+          <img style={{ width: '100%' }} src={zerlogo} />
+        </a>
+      </div>
       <a href={'https://zerforschung.org/impressum/'}>Impressum</a>
     </TextHeadingPage>
   );
