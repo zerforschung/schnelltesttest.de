@@ -1,0 +1,41 @@
+name: deploy
+
+# alle schon laufenden "deploy"s canceln
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches: [main]
+  # deploy auslösen mittels:
+  # `curl -X POST -H 'Accept: application/vnd.github.v3+json' -H 'Authorization: Token $personalaccesstoken' -d '{"event_type": "redeploy"}' https://api.github.com/repos/zerforschung/schnelltesttest.de/dispatches`
+  repository_dispatch:
+    types:
+      - redeploy
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'yarn'
+
+      - run: yarn install
+      - run: yarn build
+
+      - name: ssh deploy
+        uses: easingthemes/ssh-deploy@v2
+        env:
+          ARGS: '-rltgoDzvO --delete'
+          SOURCE: build/
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}
