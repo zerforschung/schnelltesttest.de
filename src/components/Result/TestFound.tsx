@@ -7,7 +7,7 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
   return (
     <LogoHeadingPage>
       <ResultIcon passed={testdata['sensitivity_cq<25'] >= 75} />
-      <p style={{ textAlign: 'justify' }}>
+      <p>
         <b>"{testdata.test_name}"</b> von <b>"{testdata.manufacturer}"</b> erkennt Infizierte mit{' '}
         <i>hoher</i> Viruslast zu <b>{testdata['sensitivity_cq<25']} %</b>
       </p>
