@@ -31,3 +31,15 @@ export function get_test(identifier: string): TestData | null {
   }
   return null;
 }
+
+function checkPrefixInObject(prefix: string, obj: Record<string, any>): boolean {
+  for (const key of Object.keys(obj)) {
+    if (key.startsWith(prefix)) {
+      return true;
+    }
+  }
+  return false;
+}
+export function checkPrefix(prefix: string): boolean {
+  return checkPrefixInObject(prefix, all) || checkPrefixInObject(prefix, id_map);
+}
