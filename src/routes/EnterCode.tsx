@@ -1,7 +1,7 @@
 import React, { CSSProperties, useState } from 'react';
 import { LogoHeadingPage } from '../components/HeadingPageLayouts';
 import { BigBackButton, BigLinkButton } from '../components/Buttons';
-import { get_test } from '../utils/testdata';
+import { checkPrefix } from '../utils/testdata';
 
 const inputStyle: CSSProperties = {
   textDecoration: 'none',
@@ -52,7 +52,7 @@ export function TestIdKnown({ testId }: { testId: string }): JSX.Element {
 }
 export function EnterCode(): JSX.Element {
   const [testId, setTestId] = useState('');
-  const test_data = get_test(testId);
+  const isTestKnown = checkPrefix(testId);
 
   return (
     <LogoHeadingPage>
@@ -60,11 +60,7 @@ export function EnterCode(): JSX.Element {
         Bitte gib die Nummer unter dem Strichcode oder die AT-Nummer ein:
       </div>
       <input style={inputStyle} onChange={(target) => setTestId(target.target.value)} />
-      {testId != '' && test_data === null ? (
-        <TestIdUnknown testId={testId} />
-      ) : (
-        <TestIdKnown testId={testId} />
-      )}
+      {isTestKnown ? <TestIdKnown testId={testId} /> : <TestIdUnknown testId={testId} />}
       <BigBackButton content={'Zurück'} />
     </LogoHeadingPage>
   );
