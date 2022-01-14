@@ -25,8 +25,8 @@ export default function NoTestFound({ test_id }: { test_id: string }): JSX.Eleme
           Huch, diesen Test kennen wir garnicht!{' '}
         </h1>
         <p style={{ justifyContent: 'center', textAlign: 'center' }}>
-          Leider kennen wir den Test mit der Nummer <b>"{test_id}"</b> noch nicht. Es wäre cool,
-          wenn du uns ein Foto des Tests, des Barcodes und die Marke schicken könntest.
+          Leider könnten wir unter <b>"{test_id}"</b> keinen Test finden. Es wäre cool, wenn du uns
+          ein Foto des Tests, des Barcodes und die Marke schicken könntest.
           <br />
           <br /> Wir tragen den Test dann in den nächsten Tagen ein.
         </p>
