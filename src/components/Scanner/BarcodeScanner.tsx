@@ -8,6 +8,7 @@ export default function BarcodeScanner(): JSX.Element {
   const navigate = useNavigate();
   let eanCount: Record<string, number> = {};
   let active = true;
+  const unknownLimit = 4;
 
   const handleData = function (data: QuaggaJSResultObject) {
     if (!active) {
@@ -16,7 +17,7 @@ export default function BarcodeScanner(): JSX.Element {
     const code = data.codeResult.code || '';
     const count = eanCount[code] || 0;
 
-    if (checkCode(code) || count >= 10) {
+    if (checkCode(code) || count >= unknownLimit) {
       console.log('nav', code, active);
       active = false;
       eanCount = {};
