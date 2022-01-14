@@ -2,11 +2,21 @@ import _ean_map from '../data/ean_map.json';
 import _manual_map from '../data/manual_map.json';
 import _all from '../data/all.json';
 
-const all: Record<string, TestData> = _all;
+export const all: Record<string, TestData> = _all;
 const ean_map: Record<string, string> = _ean_map;
 const manual_map: Record<string, string> = _manual_map;
-const id_map: Record<string, string> = { ...ean_map, ...manual_map };
+export const id_map: Record<string, string> = { ...ean_map, ...manual_map };
 
+const inverted_id_map = Object.entries(id_map).reduce((ret, entry) => {
+  const [key, value] = entry;
+  const known_ids = ret[value] || [];
+  ret[value] = [...known_ids, key];
+  return ret;
+}, {} as Record<string, string[]>);
+console.log('inverted', inverted_id_map);
+Object.keys(all).map((x) => {
+  all[x].ids = inverted_id_map[all[x].at_nr] || [];
+});
 export type TestData = {
   at_nr: string;
   ref_nr: string;
@@ -17,6 +27,7 @@ export type TestData = {
   'sensitivity_cq25-30': number;
   'sensitivity_cq>30': number;
   sensitivity_total: number;
+  ids?: string[];
 };
 
 export function get_test(identifier: string): TestData | null {

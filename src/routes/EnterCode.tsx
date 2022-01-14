@@ -1,28 +1,17 @@
-import React, { CSSProperties, useState } from 'react';
+import React, { useState } from 'react';
 import { LogoHeadingPage } from '../components/HeadingPageLayouts';
 import { BigBackButton, BigLinkButton } from '../components/Buttons';
-import { checkPrefix } from '../utils/testdata';
-import { useNavigate } from 'react-router';
+import { all, checkPrefix, TestData } from '../utils/testdata';
+import SelectSearch, { SelectSearchOption } from 'react-select-search';
 
-const inputStyle: CSSProperties = {
-  textDecoration: 'none',
-  fontWeight: 'bold',
-  boxSizing: 'border-box',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  border: '2px solid black',
-  padding: '.75em',
-  marginTop: '1em',
-  textAlign: 'center',
-  fontSize: '1em',
-  borderRadius: '2em',
-  width: '80%',
-};
+import './EnterCode.css';
 
-export function TestIdUnknown({ testId }: { testId: string }): JSX.Element {
+import Fuse from 'fuse.js';
+
+function UnknownText(): JSX.Element {
   return (
     <>
+      {' '}
       <p style={{ color: 'red', textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans' }}>
         Leider konnten wir diesen Test nicht finden.
       </p>
@@ -30,50 +19,79 @@ export function TestIdUnknown({ testId }: { testId: string }): JSX.Element {
         Du kennst uns helfen, besser zu werden, indem zu uns weiter Informationen über den Test
         übermittelst.
       </p>
-      <div style={{ flexGrow: 1 }} />
-      <BigLinkButton
-        to={`/result?test_id=${encodeURIComponent(testId)}`}
-        content={'Hilf uns!'}
-        appearance={'primary'}
-      />
     </>
   );
 }
-export function TestIdKnown({ testId }: { testId: string }): JSX.Element {
-  return (
-    <>
-      <div style={{ flexGrow: 1 }} />
-      <BigLinkButton
-        to={`/result?test_id=${encodeURIComponent(testId)}`}
-        content={'Überprüfen'}
-        appearance={'primary'}
-      />
-    </>
-  );
-}
+type TestOption = { name: string; value: string; raw: TestData };
+type SearchOption =
+  | TestOption
+  | { value: string; name: string; type: 'group'; items: TestOption[] };
 export function EnterCode(): JSX.Element {
   const [testId, setTestId] = useState('');
   const isTestKnown = checkPrefix(testId);
 
-  const navigate = useNavigate();
+  const [userInput, setUserInput] = useState('');
+  function fuzzySearch(options: SelectSearchOption[]) {
+    const fuse = new Fuse(options, {
+      keys: ['name', 'groupName', 'raw.at_nr', 'raw.ids'],
+      threshold: 0.3,
+    });
 
-  const handleKeyDown = function (e: React.KeyboardEvent) {
-    if (e.key == 'Enter') {
-      navigate(`/result?test_id=${encodeURIComponent(testId)}`);
-    }
-  };
-
+    return (value: string) => {
+      if (!value.length) {
+        return options;
+      }
+      setUserInput(value);
+      const res = fuse.search(value);
+      console.log('search', res);
+      return res;
+    };
+  }
+  const options: SearchOption[] = Object.values(all).map((x) => {
+    return { name: `${x.manufacturer} ${x.test_name}`, value: x.at_nr, raw: x };
+  });
+  if (userInput) {
+    // We add the user input as the last element so it can be selected
+    options.push({
+      name: `Unbekannter Test: ${userInput}`,
+      value: userInput,
+      raw: {
+        at_nr: '',
+        ref_nr: '',
+        manufacturer: '',
+        test_name: '',
+        'sensitivity_cq<25': 0,
+        'sensitivity_cq25-30': 0,
+        'sensitivity_cq>30': 0,
+        target_antigen: '',
+        sensitivity_total: 0,
+      },
+    });
+  }
   return (
     <LogoHeadingPage>
       <div style={{ textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans Condensed' }}>
-        Bitte gib die Nummer unter dem Strichcode oder die AT-Nummer ein:
+        Such nach der Nummer unter dem Strichcode, dem Hersteller oder dem Namen deines Tests:
       </div>
-      <input
-        style={inputStyle}
-        onChange={(target) => setTestId(target.target.value.toUpperCase())}
-        onKeyDown={handleKeyDown}
+      <SelectSearch
+        search
+        filterOptions={fuzzySearch}
+        value={testId}
+        onChange={(x) => {
+          const value = x as unknown as string; // our selection library has wrong types
+          setTestId(value);
+        }}
+        options={options}
+        placeholder="Test suchen"
       />
-      {isTestKnown ? <TestIdKnown testId={testId} /> : <TestIdUnknown testId={testId} />}
+      {!isTestKnown ? <UnknownText /> : <></>}
+      <div style={{ flexGrow: 1 }} />
+      <BigLinkButton
+        to={`/result?test_id=${encodeURIComponent(testId)}`}
+        content={isTestKnown ? 'Überprüfen' : 'Hilf uns!'}
+        appearance={'primary'}
+      />
+
       <BigBackButton content={'Zurück'} />
     </LogoHeadingPage>
   );
