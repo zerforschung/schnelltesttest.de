@@ -17,7 +17,7 @@ export function HowToOverlay(): JSX.Element {
         pointerEvents: 'none',
       }}
     >
-      <img width="50%" src={barcodeImage} style={{ marginBottom: '2em', opacity: '50%' }} />
+      <img width="50%" src={barcodeImage} style={{ marginBottom: '2em', opacity: '20%' }} />
       <div
         style={{
           backgroundColor: 'rgba(0, 0, 0, 42%)',
