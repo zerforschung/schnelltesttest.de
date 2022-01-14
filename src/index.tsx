@@ -8,6 +8,7 @@ import Result from './routes/Result';
 import About from './routes/About';
 import MoreInformation from './routes/MoreInformation';
 import { EnterCode } from './routes/EnterCode';
+import { register as registerServiceWorker } from './serviceWorkerRegistration';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
@@ -21,3 +22,5 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
+
+registerServiceWorker();
