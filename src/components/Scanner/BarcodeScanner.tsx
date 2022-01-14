@@ -8,7 +8,7 @@ export default function BarcodeScanner(): JSX.Element {
   const navigate = useNavigate();
   let eanCount: Record<string, number> = {};
   let active = true;
-  const unknownLimit = 4;
+  const unknownLimit = 10;
 
   const handleData = function (data: QuaggaJSResultObject) {
     if (!active) {
