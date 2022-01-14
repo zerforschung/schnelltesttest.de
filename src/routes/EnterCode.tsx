@@ -69,7 +69,9 @@ export function EnterCode(): JSX.Element {
     });
   }
   const [show, setShow] = useState(false);
-
+  const [onBlur, setOnBlur] = useState(() => {
+    return (_event: Event) => {};
+  });
   return (
     <LogoHeadingPage>
       <div style={{ textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans Condensed' }}>
@@ -83,6 +85,9 @@ export function EnterCode(): JSX.Element {
           const value = x as unknown as string; // our selection library has wrong types
           setTestId(value);
           setShow(false);
+          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+          // @ts-ignore
+          onBlur(null);
         }}
         options={options}
         placeholder="Test suchen"
@@ -90,6 +95,26 @@ export function EnterCode(): JSX.Element {
         // @ts-ignore
         onFocus={() => {
           setShow(true);
+        }}
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        renderValue={(props, snapshot, className) => {
+          console.log(props, snapshot, className);
+          setOnBlur(() => {
+            // eslint-disable-next-line react/prop-types
+            return props.onBlur;
+          });
+          return (
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
+            <input
+              {...props}
+              onBlur={() => {}}
+              // eslint-disable-next-line react/prop-types
+              value={props['value'] || (show ? userInput : '')}
+              className={className}
+            />
+          );
         }}
         printOptions={show ? 'always' : 'never'}
       />
