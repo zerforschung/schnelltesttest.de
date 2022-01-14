@@ -68,6 +68,8 @@ export function EnterCode(): JSX.Element {
       },
     });
   }
+  const [show, setShow] = useState(false);
+
   return (
     <LogoHeadingPage>
       <div style={{ textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans Condensed' }}>
@@ -80,9 +82,16 @@ export function EnterCode(): JSX.Element {
         onChange={(x) => {
           const value = x as unknown as string; // our selection library has wrong types
           setTestId(value);
+          setShow(false);
         }}
         options={options}
         placeholder="Test suchen"
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        onFocus={() => {
+          setShow(true);
+        }}
+        printOptions={show ? 'always' : 'never'}
       />
       {!isTestKnown ? <UnknownText /> : <></>}
       <div style={{ flexGrow: 1 }} />
