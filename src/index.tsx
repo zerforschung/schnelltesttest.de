@@ -17,7 +17,7 @@ ReactDOM.render(
       <Route path="result" element={<Result />} />
       <Route path="about" element={<About />} />
       <Route path="more_information" element={<MoreInformation />} />
-      <Route path="enter_code" element={<EnterCode />} />
+      <Route path="search" element={<EnterCode />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

@@ -32,7 +32,7 @@ function App(): JSX.Element {
         <div style={{ flexGrow: 1 }} />
         <Logo />
         <BigLinkButton to={'/scan'} content={'Code scannen'} appearance={'primary'} />
-        <BigLinkButton to={'/enter_code'} content={'Code eingeben'} appearance={'primary'} />
+        <BigLinkButton to={'/search'} content={'Code eingeben'} appearance={'primary'} />
         <BigLinkButton to={'/about'} content={'Über'} />
         <div style={{ flexGrow: 1 }} />
         <LinkFooter />
