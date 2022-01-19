@@ -20,7 +20,7 @@ function App(): JSX.Element {
       <div
         style={{
           width: '100%',
-          maxWidth: '800px',
+          maxWidth: '400px',
           padding: '2em',
           display: 'flex',
           justifyContent: 'center',
