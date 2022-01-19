@@ -3,7 +3,7 @@ import './Scanner.css';
 import zerlogo from '../components/About/ZER_Logo_header.svg';
 import { TextHeadingPage } from '../components/HeadingPageLayouts';
 import { ContactInfo } from '../components/ContactInfo';
-import generatedGitInfo from '../generatedGitInfo.json';
+import { LinkFooter } from '../components/LinkFooter';
 
 export default function About(): JSX.Element {
   return (
@@ -31,11 +31,7 @@ export default function About(): JSX.Element {
           <img style={{ width: '100%', height: '5em' }} src={zerlogo} />
         </a>
       </p>
-      <div>
-        <a href={'https://zerforschung.org/unterstuetzen/'}>Unterstützen</a> |{' '}
-        <a href={'https://zerforschung.org/impressum/'}>Impressum</a> | Version:{' '}
-        {generatedGitInfo.gitCommitHash}
-      </div>
+      <LinkFooter />
     </TextHeadingPage>
   );
 }

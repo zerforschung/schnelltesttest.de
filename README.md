@@ -13,7 +13,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 **Note**: Website can only access the camera if they are server over https or on localhost. If you want to test this code on a seperate device, use `HTTPS=true yarn start`
 
-
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
