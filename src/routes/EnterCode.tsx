@@ -50,7 +50,7 @@ export function EnterCode(): JSX.Element {
   const options: SearchOption[] = Object.values(all).map((x) => {
     return { name: `${x.manufacturer} ${x.test_name}`, value: x.at_nr, raw: x };
   });
-  if (userInput) {
+  if (userInput.trim()) {
     // We add the user input as the last element so it can be selected
     options.push({
       name: `Unbekannter Test: ${userInput}`,
@@ -111,12 +111,13 @@ export function EnterCode(): JSX.Element {
         }}
         printOptions={'on-focus'}
       />
-      {!isTestKnown ? <UnknownText /> : <></>}
+      {!isTestKnown && testId.trim() ? <UnknownText /> : <></>}
       <div style={{ flexGrow: 1 }} />
       <BigLinkButton
         to={`/result?test_id=${encodeURIComponent(testId)}`}
         content={isTestKnown ? 'Überprüfen' : 'Hilf uns!'}
         appearance={'primary'}
+        disabled={testId.trim() == ''}
       />
 
       <BigBackButton content={'Zurück'} />

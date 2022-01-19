@@ -36,22 +36,33 @@ const secondaryButtonStyle: CSSProperties = {
   color: 'black',
 };
 
+const disabledStyle: CSSProperties = {
+  pointerEvents: 'none',
+  backgroundColor:'#888',
+  border: '2px solid #888',
+}
+
 type Appearance = 'primary' | 'secondary';
 
-function getButtonStyle(appearance?: Appearance): CSSProperties {
-  return appearance === 'primary' ? primaryButtonStyle : secondaryButtonStyle;
-}
+function getButtonStyle(appearance: Appearance, disabled: boolean): CSSProperties {
+  const baseStyle = appearance === 'primary' ? primaryButtonStyle : secondaryButtonStyle;
+  const stateStyle = disabled?disabledStyle:{};
+  return {...baseStyle, ...stateStyle};
+
+  }
 export function BigLinkButton({
   to,
   content,
-  appearance,
+  appearance = "secondary",
+  disabled = false
 }: {
   to: string;
   content: JSX.Element | string;
   appearance?: Appearance;
+  disabled?: boolean
 }): JSX.Element {
   return (
-    <Link to={to} style={getButtonStyle(appearance)}>
+    <Link to={to} style={getButtonStyle(appearance, disabled)}>
       {content}
     </Link>
   );
@@ -60,7 +71,7 @@ export function BigLinkButton({
 export function BigBackButton({
   content,
   style,
-  appearance,
+  appearance = "secondary",
 }: {
   content: JSX.Element | string;
   style?: CSSProperties;
@@ -69,7 +80,7 @@ export function BigBackButton({
   const navigate = useNavigate();
 
   return (
-    <button onClick={() => navigate(-1)} style={{ ...getButtonStyle(appearance), ...style }}>
+    <button onClick={() => navigate(-1)} style={{ ...getButtonStyle(appearance, false), ...style }}>
       {content}
     </button>
   );
