@@ -3,6 +3,7 @@ import './Scanner.css';
 import zerlogo from '../components/About/ZER_Logo_header.svg';
 import { TextHeadingPage } from '../components/HeadingPageLayouts';
 import { ContactInfo } from '../components/ContactInfo';
+import generatedGitInfo from '../generatedGitInfo.json';
 
 export default function About(): JSX.Element {
   return (
@@ -32,7 +33,8 @@ export default function About(): JSX.Element {
       </p>
       <div>
         <a href={'https://zerforschung.org/unterstuetzen/'}>Unterstützen</a> |{' '}
-        <a href={'https://zerforschung.org/impressum/'}>Impressum</a>
+        <a href={'https://zerforschung.org/impressum/'}>Impressum</a> | Version:{' '}
+        {generatedGitInfo.gitCommitHash}
       </div>
     </TextHeadingPage>
   );

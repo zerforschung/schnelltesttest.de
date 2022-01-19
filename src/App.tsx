@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Logo from './components/Logo';
 import { BigLinkButton } from './components/Buttons';
+import generatedGitInfo from './generatedGitInfo.json';
 
 function App(): JSX.Element {
   return (
@@ -36,7 +37,8 @@ function App(): JSX.Element {
         <div style={{ flexGrow: 1 }} />
         <div>
           <a href={'https://zerforschung.org/unterstuetzen/'}>Unterstützen</a> |{' '}
-          <a href={'https://zerforschung.org/impressum/'}>Impressum</a>
+          <a href={'https://zerforschung.org/impressum/'}>Impressum</a> | Version:{' '}
+          {generatedGitInfo.gitCommitHash}
         </div>
       </div>
     </div>
