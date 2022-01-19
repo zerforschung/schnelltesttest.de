@@ -1,23 +1,13 @@
 import React from 'react';
-import { useNavigate, useNavigationType } from 'react-router';
-
-import { get_test } from '../utils/testdata';
 import NoTestFound from '../components/Result/NoTestFound';
 import TestFound from '../components/Result/TestFound';
-import { useSearchParams } from 'react-router-dom';
+import { useTestData } from '../utils/hooks';
 
 export default function Result(): JSX.Element {
-  const [searchParams, _setSearchParams] = useSearchParams();
-  const navigate = useNavigate();
-  console.log('nav', 'a');
-  const navType = useNavigationType();
-  console.log('nav', navType);
-  const test_id = searchParams.get('test_id');
-  if (test_id === null) {
-    navigate('/scan');
+  const [test_id, test_data] = useTestData();
+  if (test_id == null) {
     return <></>;
   }
-  const test_data = get_test(test_id);
 
   return (
     <>

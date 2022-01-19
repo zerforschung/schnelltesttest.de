@@ -1,9 +1,7 @@
 import React from 'react';
 import { TextHeadingPage } from '../components/HeadingPageLayouts';
-import { useSearchParams } from 'react-router-dom';
-import { useNavigate } from 'react-router';
-import { get_test } from '../utils/testdata';
 import NoTestFound from '../components/Result/NoTestFound';
+import { useTestData } from '../utils/hooks';
 function getReadableAntigen(antigen: string): string {
   if (antigen == 'N') {
     return 'Nucleoprotein';
@@ -15,14 +13,11 @@ function getReadableAntigen(antigen: string): string {
   return antigen;
 }
 export default function MoreInformation(): JSX.Element {
-  const [searchParams, _setSearchParams] = useSearchParams();
-  const navigate = useNavigate();
-  const test_id = searchParams.get('test_id');
-  if (test_id === null) {
-    navigate('/scan');
+  const [test_id, test_data] = useTestData();
+  if (test_id == null) {
+    console.log('no test id');
     return <></>;
   }
-  const test_data = get_test(test_id);
   if (test_data === null) {
     return <NoTestFound test_id={test_id} />;
   } else {

@@ -28,7 +28,7 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
       </p>
       <div style={{ flexGrow: 1 }} />
       <BigLinkButton
-        to={`/more_information?test_id=${encodeURIComponent(testdata.at_nr)}`}
+        to={`/result/${encodeURIComponent(testdata.at_nr)}/details`}
         content={'Mehr Informationen'}
         appearance="primary"
       />

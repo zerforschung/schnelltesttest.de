@@ -114,7 +114,7 @@ export function EnterCode(): JSX.Element {
       {!isTestKnown && testId.trim() ? <UnknownText /> : <></>}
       <div style={{ flexGrow: 1 }} />
       <BigLinkButton
-        to={`/result?test_id=${encodeURIComponent(testId)}`}
+        to={`/result/${encodeURIComponent(testId)}`}
         content={isTestKnown ? 'Überprüfen' : 'Hilf uns!'}
         appearance={'primary'}
         disabled={testId.trim() == ''}

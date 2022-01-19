@@ -21,7 +21,7 @@ export default function BarcodeScanner(): JSX.Element {
       console.log('nav', code, active);
       active = false;
       eanCount = {};
-      navigate(`/result?test_id=${encodeURIComponent(code)}`);
+      navigate(`/result/${encodeURIComponent(code)}`);
     }
     eanCount[code] = count + 1;
   };
