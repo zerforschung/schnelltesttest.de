@@ -1,1 +1,6 @@
-Contact: hallo@zerforschung.org
+Contact: mailto:hallo@zerforschung.org
+
+# our S/MIME key
+Encryption: https://zerforschung.org/c/2021-hallo-at-zerforschung-org.pem
+
+Preferred-Languages: de,en
