@@ -68,7 +68,6 @@ export function EnterCode(): JSX.Element {
       },
     });
   }
-  const [show, setShow] = useState(false);
   const [onBlur, setOnBlur] = useState(() => {
     return (_event: Event) => {};
   });
@@ -84,18 +83,12 @@ export function EnterCode(): JSX.Element {
         onChange={(x) => {
           const value = x as unknown as string; // our selection library has wrong types
           setTestId(value);
-          setShow(false);
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore
           onBlur(null);
         }}
         options={options}
         placeholder="Test suchen"
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
-        onFocus={() => {
-          setShow(true);
-        }}
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         renderValue={(props, snapshot, className) => {
@@ -111,12 +104,12 @@ export function EnterCode(): JSX.Element {
               {...props}
               onBlur={() => {}}
               // eslint-disable-next-line react/prop-types
-              value={props['value'] || (show ? userInput : '')}
+              value={props['value'] || ''}
               className={className}
             />
           );
         }}
-        printOptions={show ? 'always' : 'never'}
+        printOptions={'on-focus'}
       />
       {!isTestKnown ? <UnknownText /> : <></>}
       <div style={{ flexGrow: 1 }} />
