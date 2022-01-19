@@ -9,10 +9,10 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
       <ResultIcon passed={testdata['sensitivity_cq<25'] >= 75} />
       <p>
         <b>"{testdata.test_name}"</b> von <b>"{testdata.manufacturer}"</b> erkennt Infizierte mit{' '}
-        <i>hoher</i> Viruslast zu <b>{testdata['sensitivity_cq<25']} %</b>
+        <i>hoher</i> Viruslast zu <b>{testdata['sensitivity_cq<25']}&nbsp;%</b>
       </p>
       <p>
-        Über <i>alle</i> Viruslasten erkennt der Test <b>{testdata.sensitivity_total} %</b> der
+        Über <i>alle</i> Viruslasten erkennt der Test <b>{testdata.sensitivity_total}&nbsp;%</b> der
         Infizierten
       </p>
       <p style={{ fontStyle: 'italic' }}>Vorsicht: Diese Zahlen wurden vor Omikron erhoben.</p>
