@@ -23,4 +23,20 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-registerServiceWorker();
+registerServiceWorker({
+  onUpdate: (registration) => {
+    const waitingServiceWorker = registration.waiting;
+
+    if (waitingServiceWorker) {
+      waitingServiceWorker.addEventListener('statechange', (event) => {
+        // See https://github.com/microsoft/TypeScript/issues/37842
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        if (event?.target?.state === 'activated') {
+          window.location.reload();
+        }
+      });
+      waitingServiceWorker.postMessage({ type: 'SKIP_WAITING' });
+    }
+  },
+});
