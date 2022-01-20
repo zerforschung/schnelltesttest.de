@@ -25,11 +25,9 @@ export default function About(): JSX.Element {
       </p>
       <ContactInfo />
       <div style={{ flexGrow: 1 }}></div>
-      <p style={{ textAlign: 'center' }}>
-        Den Code für diese Project findet ihr unter{' '}
-        <a href={'https://github.com/zerforschung/schnelltesttest.de'}>
-          https://github.com/zerforschung/schnelltesttest.de
-        </a>
+      <p style={{ width: '100%', textAlign: 'center' }}>
+        Den Code für diese Project findet ihr auf{' '}
+        <a href={'https://github.com/zerforschung/schnelltesttest.de'}>unserem GitHub.</a>
       </p>
       <p style={{ fontWeight: 300, textAlign: 'center' }}>
         schnelltesttest.de ist ein Projekt von
