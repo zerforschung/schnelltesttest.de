@@ -35,15 +35,19 @@ export function EnterCode(): JSX.Element {
     const fuse = new Fuse(options, {
       keys: ['name', 'groupName', 'raw.at_nr', 'raw.ids'],
       threshold: 0.3,
+      ignoreLocation: true,
     });
 
     return (value: string) => {
       if (!value.length) {
+        console.log('no value', value);
         return options;
       }
       setUserInput(value);
       const res = fuse.search(value);
       console.log('search', res);
+      // res = res.filter((v,i,a)=>a.findIndex(t=>(t.value===v.value))===i)
+      // console.log("dedup", res);
       return res;
     };
   }
@@ -77,7 +81,7 @@ export function EnterCode(): JSX.Element {
         Such nach der Nummer unter dem Strichcode, dem Hersteller oder dem Namen deines Tests:
       </div>
       <SelectSearch
-        search
+        search={true}
         filterOptions={fuzzySearch}
         value={testId}
         onChange={(x) => {

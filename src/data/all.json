@@ -239,30 +239,6 @@
     "test_name": "Wantai SARS-CoV-2 Ag Rapid Test (FIA)",
     "target_antigen": "N"
   },
-  "AT023/20": {
-    "at_nr": "AT023/20 (AT004/20)",
-    "at_nr_self": "AT1154/21",
-    "sensitivity_cq25-30": 30.4,
-    "sensitivity_cq<25": 88.9,
-    "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 46.0,
-    "manufacturer": "SD Biosensor, Inc. (Roche Diagnostics GmbH)",
-    "ref_nr": "Q-NCOV-01G (9901-NCOV-01G)",
-    "test_name": "STANDARD Q COVID-19 Ag Test (SARS-CoV-2 Rapid Antigen Test)",
-    "target_antigen": "N"
-  },
-  "AT004/20": {
-    "at_nr": "AT023/20 (AT004/20)",
-    "at_nr_self": "AT1154/21",
-    "sensitivity_cq25-30": 30.4,
-    "sensitivity_cq<25": 88.9,
-    "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 46.0,
-    "manufacturer": "SD Biosensor, Inc. (Roche Diagnostics GmbH)",
-    "ref_nr": "Q-NCOV-01G (9901-NCOV-01G)",
-    "test_name": "STANDARD Q COVID-19 Ag Test (SARS-CoV-2 Rapid Antigen Test)",
-    "target_antigen": "N"
-  },
   "AT023/20 (AT004/20)": {
     "at_nr": "AT023/20 (AT004/20)",
     "at_nr_self": "AT1154/21",
@@ -1245,30 +1221,6 @@
     "manufacturer": "Merlin Biomedical (Xiamen) Co., Ltd.",
     "ref_nr": "CP01810011",
     "test_name": "SARS-CoV-2 Antigen Rapid Test Cassette",
-    "target_antigen": "N"
-  },
-  "AT216/20": {
-    "at_nr": "AT216/20 (AT052/20)",
-    "at_nr_self": "",
-    "sensitivity_cq25-30": 26.1,
-    "sensitivity_cq<25": 100.0,
-    "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 46.0,
-    "manufacturer": "Beijing Lepu Medical Technology Co., Ltd",
-    "ref_nr": "n.a.",
-    "test_name": "SARS-CoV-2 Antigen Rapid Test Kit",
-    "target_antigen": "N"
-  },
-  "AT052/20": {
-    "at_nr": "AT216/20 (AT052/20)",
-    "at_nr_self": "",
-    "sensitivity_cq25-30": 26.1,
-    "sensitivity_cq<25": 100.0,
-    "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 46.0,
-    "manufacturer": "Beijing Lepu Medical Technology Co., Ltd",
-    "ref_nr": "n.a.",
-    "test_name": "SARS-CoV-2 Antigen Rapid Test Kit",
     "target_antigen": "N"
   },
   "AT216/20 (AT052/20)": {
@@ -2949,30 +2901,6 @@
     "manufacturer": "Hangzhou Bioer Technology Co., Ltd.",
     "ref_nr": "BSK01S1S",
     "test_name": "BIOflux SARS-CoV-2 Antigen Test Kit (colloidal gold method)",
-    "target_antigen": "N"
-  },
-  "AT981/21": {
-    "at_nr": "AT981/21 (AT574/21)",
-    "at_nr_self": "",
-    "sensitivity_cq25-30": 95.0,
-    "sensitivity_cq<25": 100.0,
-    "sensitivity_cq>30": 30.0,
-    "sensitivity_total": 84.0,
-    "manufacturer": "InTec Products, Inc.",
-    "ref_nr": "ITP16010-TC25",
-    "test_name": "Rapid SARS-CoV-2 Antigen Test Colloidal Gold (Nasopharyngeal/Nasal specimen)",
-    "target_antigen": "N"
-  },
-  "AT574/21": {
-    "at_nr": "AT981/21 (AT574/21)",
-    "at_nr_self": "",
-    "sensitivity_cq25-30": 95.0,
-    "sensitivity_cq<25": 100.0,
-    "sensitivity_cq>30": 30.0,
-    "sensitivity_total": 84.0,
-    "manufacturer": "InTec Products, Inc.",
-    "ref_nr": "ITP16010-TC25",
-    "test_name": "Rapid SARS-CoV-2 Antigen Test Colloidal Gold (Nasopharyngeal/Nasal specimen)",
     "target_antigen": "N"
   },
   "AT981/21 (AT574/21)": {
