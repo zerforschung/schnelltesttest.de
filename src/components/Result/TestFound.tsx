@@ -15,7 +15,17 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
         Über <i>alle</i> Viruslasten erkennt der Test <b>{testdata.sensitivity_total}&nbsp;%</b> der
         Infizierten
       </p>
-      <p style={{ fontStyle: 'italic' }}>Vorsicht: Diese Zahlen wurden vor Omikron erhoben.</p>
+      <p style={{ fontStyle: 'italic' }}>
+        Vorsicht: Diese Zahlen wurden vor Omikron erhoben, allerdings{' '}
+        <a
+          href={
+            'https://www.pei.de/DE/newsroom/hp-meldungen/2021/211230-antigentests-omikron-variante.html'
+          }
+        >
+          schätzt das PEI Antigentests auch für den Nachweis von Omikron-Infektion als geeignet ein
+        </a>
+        .
+      </p>
       <p>
         Quelle:{' '}
         <a
