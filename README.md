@@ -2,6 +2,7 @@
 
 | ⚠️ WARNING: Please don't add tests via github PR! |
 | ------------------------------------------------- |
+| Instead, submit them as indicated [here](https://zerforschung.org/posts/schnelltesttest/#barcode-sammelalbum). |
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
