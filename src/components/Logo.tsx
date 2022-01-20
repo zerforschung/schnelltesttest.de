@@ -6,7 +6,7 @@ export default function Logo(): JSX.Element {
   return (
     <>
       <Link to="/">
-        <img src={logo} style={{ width: '100%', height: '15vh' }} />
+        <img src={logo} style={{ width: '100%', height: '15vh' }} alt="Logo mit der Aufschrift &quot;schnelltest test&quot; und weißem Haken auf grünem Grund" />
       </Link>
     </>
   );
