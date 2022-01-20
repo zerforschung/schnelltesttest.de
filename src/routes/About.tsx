@@ -17,7 +17,7 @@ export default function About(): JSX.Element {
         <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
           "Vergleichende Evaluierung der Sensitivität von SARS-CoV-2 Antigenschnelltests"
         </a>{' '}
-        mit dem Stand vom 12.01.2021.
+        mit dem Stand vom 12.01.2022.
       </p>
       <p>
         Solltest du dazu Fragen oder Anmerkungen haben oder einen Fehler entdeckt haben, melde dich
