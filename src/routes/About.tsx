@@ -20,7 +20,11 @@ export default function About(): JSX.Element {
         mit dem Stand vom 12.01.2022.
       </p>
       <p>
-        Ein Test wird mit einem grünen Haken angezeigt, wenn er Infizierte mit sehr hoher Viruslast zu über 75% erkennt.
+        Ein Test wird mit einem grünen Haken angezeigt, wenn die Sensitivität bei sehr hoher
+        Viruslast (Cq ≤ 25) mehr als 75% beträgt. Dies entspricht dem vom{' '}
+        <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
+          Paul-Ehrlich-Institut angenommenen "Stand der Technik".
+        </a>
       </p>
       <p>
         Solltest du dazu Fragen oder Anmerkungen haben oder einen Fehler entdeckt haben, melde dich
