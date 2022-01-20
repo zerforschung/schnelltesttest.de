@@ -26,8 +26,10 @@ export function ContactInfo(): JSX.Element {
   return (
     <>
       <ContactButton href={'mailto:schnelltest@zerforschung.org'} text={'E-Mail'} />
+{/*
       <ContactButton href={'https://twitter.com/zerforschung'} text={'Twitter'} />
       <ContactButton href={'https://chaos.social/@zerforschung'} text={'Mastodon'} />
+*/}
     </>
   );
 }
