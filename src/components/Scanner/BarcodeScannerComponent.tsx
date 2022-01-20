@@ -1,6 +1,8 @@
-import React, { ReactElement, useEffect, useRef } from 'react';
+import React, { ReactElement, useEffect, useRef, useState } from 'react';
 import Quagga, { QuaggaJSResultCallbackFunction } from '@ericblade/quagga2';
 import './BarcodeScannerComponent.css';
+import { NoPermissionsModal } from './NoPermissionsModal';
+import { HowToOverlay } from './HowToOverlay';
 
 const BarcodeScannerComponent = ({
   onUpdate,
@@ -8,6 +10,7 @@ const BarcodeScannerComponent = ({
   onUpdate: QuaggaJSResultCallbackFunction;
 }): ReactElement => {
   const ref = useRef(null);
+  const [showModal, setShowModal] = useState(false);
   const quaggaConfig = {
     inputStream: {
       constraints: {
@@ -33,9 +36,13 @@ const BarcodeScannerComponent = ({
   useEffect(() => {
     Quagga.init(quaggaConfig, (err) => {
       if (err) {
-        console.log(err, 'error msg');
+        setShowModal(true);
       }
-      Quagga.start();
+      try {
+        Quagga.start();
+      } catch (e) {
+        console.log('err', e);
+      }
     });
 
     Quagga.onProcessed((result) => {
@@ -77,7 +84,20 @@ const BarcodeScannerComponent = ({
     };
   }, [quaggaConfig]);
 
-  return <div id={'scanner'} ref={ref} />;
+  return (
+    <>
+      {showModal ? (
+        <>
+          <NoPermissionsModal />
+        </>
+      ) : (
+        <>
+          <HowToOverlay />
+          <div id={'scanner'} ref={ref} />
+        </>
+      )}
+    </>
+  );
 };
 
 export default BarcodeScannerComponent;

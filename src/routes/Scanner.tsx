@@ -1,5 +1,4 @@
 import React from 'react';
-import { HowToOverlay } from '../components/Scanner/HowToOverlay';
 import './Scanner.css';
 import BarcodeScanner from '../components/Scanner/BarcodeScanner';
 import { Link } from 'react-router-dom';
@@ -51,7 +50,6 @@ export default function Scanner(): JSX.Element {
             alignItems: 'center',
           }}
         >
-          <HowToOverlay />
           <BarcodeScanner />
         </div>
         <div
