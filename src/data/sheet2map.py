@@ -14,4 +14,4 @@ with open(sys.argv[1], encoding='utf-8-sig') as f:
             data[id] = at_nr
 
 with open("ean_map.json", "w") as f:
-    json.dump(data, f, indent='  ')
+    json.dump(data, f, indent='  ', sort_keys=True)
