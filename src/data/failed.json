@@ -8,7 +8,8 @@
     "sensitivity_cq<25": 25.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 10.0
+    "sensitivity_total": 10.0,
+    "at_nr_self": ""
   },
   "AT002/20": {
     "at_nr": "AT002/20",
@@ -19,7 +20,8 @@
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT007/20": {
     "at_nr": "AT007/20",
@@ -30,7 +32,8 @@
     "sensitivity_cq<25": 52.9,
     "sensitivity_cq25-30": 4.3,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 20.0
+    "sensitivity_total": 20.0,
+    "at_nr_self": ""
   },
   "AT012/21": {
     "at_nr": "AT012/21",
@@ -41,18 +44,20 @@
     "sensitivity_cq<25": 11.8,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 4.0
+    "sensitivity_total": 4.0,
+    "at_nr_self": ""
   },
   "AT013/20": {
     "at_nr": "AT013/20",
-    "ref_nr": "n.a.",
+    "ref_nr": "G61RHA20",
     "manufacturer": "RapiGEN, Inc.",
     "test_name": "Biocredit COVID-19 Ag",
     "target_antigen": "n.a.",
     "sensitivity_cq<25": 16.7,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 6.0
+    "sensitivity_total": 6.0,
+    "at_nr_self": ""
   },
   "AT015/20": {
     "at_nr": "AT015/20",
@@ -63,7 +68,8 @@
     "sensitivity_cq<25": 58.8,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 20.0
+    "sensitivity_total": 20.0,
+    "at_nr_self": ""
   },
   "AT036/20": {
     "at_nr": "AT036/20",
@@ -74,7 +80,8 @@
     "sensitivity_cq<25": 66.7,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 24.0
+    "sensitivity_total": 24.0,
+    "at_nr_self": ""
   },
   "AT041/20": {
     "at_nr": "AT041/20",
@@ -85,7 +92,8 @@
     "sensitivity_cq<25": 29.4,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 10.0
+    "sensitivity_total": 10.0,
+    "at_nr_self": ""
   },
   "AT046/20": {
     "at_nr": "AT046/20",
@@ -96,7 +104,8 @@
     "sensitivity_cq<25": 47.1,
     "sensitivity_cq25-30": 4.3,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 18.0
+    "sensitivity_total": 18.0,
+    "at_nr_self": ""
   },
   "AT048/20": {
     "at_nr": "AT048/20",
@@ -107,7 +116,8 @@
     "sensitivity_cq<25": 33.3,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 12.0
+    "sensitivity_total": 12.0,
+    "at_nr_self": ""
   },
   "AT051/20": {
     "at_nr": "AT051/20",
@@ -118,7 +128,8 @@
     "sensitivity_cq<25": 29.4,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 10.0
+    "sensitivity_total": 10.0,
+    "at_nr_self": ""
   },
   "AT054/20": {
     "at_nr": "AT054/20",
@@ -129,7 +140,8 @@
     "sensitivity_cq<25": 16.7,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 6.0
+    "sensitivity_total": 6.0,
+    "at_nr_self": ""
   },
   "AT062/20": {
     "at_nr": "AT062/20",
@@ -140,7 +152,8 @@
     "sensitivity_cq<25": 50.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 18.0
+    "sensitivity_total": 18.0,
+    "at_nr_self": ""
   },
   "AT088/21": {
     "at_nr": "AT088/21",
@@ -151,7 +164,8 @@
     "sensitivity_cq<25": 65.0,
     "sensitivity_cq25-30": 5.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 28.0
+    "sensitivity_total": 28.0,
+    "at_nr_self": ""
   },
   "AT128/20": {
     "at_nr": "AT128/20",
@@ -162,7 +176,8 @@
     "sensitivity_cq<25": 27.8,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 10.0
+    "sensitivity_total": 10.0,
+    "at_nr_self": ""
   },
   "AT139/20": {
     "at_nr": "AT139/20",
@@ -173,7 +188,8 @@
     "sensitivity_cq<25": 52.9,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 18.0
+    "sensitivity_total": 18.0,
+    "at_nr_self": ""
   },
   "AT160/20": {
     "at_nr": "AT160/20",
@@ -184,18 +200,20 @@
     "sensitivity_cq<25": 52.9,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 18.0
+    "sensitivity_total": 18.0,
+    "at_nr_self": ""
   },
   "AT163/20": {
     "at_nr": "AT163/20",
-    "ref_nr": "MPV: M30020-01 /-02",
+    "ref_nr": "MPV: M30020-01 02",
     "manufacturer": "Beijing Savant Biotechnology Co., Ltd.",
     "test_name": "New Coronavirus (SARS-CoV-2) N Protein Detection Kit (Fluorescence Immunchromatography)",
     "target_antigen": "N",
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT171/20": {
     "at_nr": "AT171/20",
@@ -206,7 +224,8 @@
     "sensitivity_cq<25": 58.8,
     "sensitivity_cq25-30": 4.3,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 22.0
+    "sensitivity_total": 22.0,
+    "at_nr_self": ""
   },
   "AT178/20": {
     "at_nr": "AT178/20",
@@ -217,7 +236,8 @@
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT186/20": {
     "at_nr": "AT186/20",
@@ -228,7 +248,8 @@
     "sensitivity_cq<25": 52.9,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 18.0
+    "sensitivity_total": 18.0,
+    "at_nr_self": ""
   },
   "AT201/20": {
     "at_nr": "AT201/20",
@@ -239,7 +260,8 @@
     "sensitivity_cq<25": 16.7,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 6.0
+    "sensitivity_total": 6.0,
+    "at_nr_self": ""
   },
   "AT218/20": {
     "at_nr": "AT218/20",
@@ -250,7 +272,8 @@
     "sensitivity_cq<25": 47.1,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 16.0
+    "sensitivity_total": 16.0,
+    "at_nr_self": ""
   },
   "AT225/20": {
     "at_nr": "AT225/20",
@@ -261,7 +284,8 @@
     "sensitivity_cq<25": 29.4,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 10.0
+    "sensitivity_total": 10.0,
+    "at_nr_self": ""
   },
   "AT242/21": {
     "at_nr": "AT242/21",
@@ -272,7 +296,8 @@
     "sensitivity_cq<25": 50.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 20.0
+    "sensitivity_total": 20.0,
+    "at_nr_self": ""
   },
   "AT294/20": {
     "at_nr": "AT294/20",
@@ -283,7 +308,8 @@
     "sensitivity_cq<25": 64.7,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 22.0
+    "sensitivity_total": 22.0,
+    "at_nr_self": ""
   },
   "AT302/21": {
     "at_nr": "AT302/21",
@@ -294,7 +320,8 @@
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT315/21": {
     "at_nr": "AT315/21",
@@ -305,7 +332,8 @@
     "sensitivity_cq<25": 45.0,
     "sensitivity_cq25-30": 10.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 22.0
+    "sensitivity_total": 22.0,
+    "at_nr_self": ""
   },
   "AT400/20": {
     "at_nr": "AT400/20",
@@ -316,7 +344,8 @@
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT437/21": {
     "at_nr": "AT437/21",
@@ -327,7 +356,8 @@
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT469/20": {
     "at_nr": "AT469/20",
@@ -338,7 +368,8 @@
     "sensitivity_cq<25": 11.8,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 4.0
+    "sensitivity_total": 4.0,
+    "at_nr_self": ""
   },
   "AT470/20": {
     "at_nr": "AT470/20",
@@ -349,7 +380,8 @@
     "sensitivity_cq<25": 35.3,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 12.0
+    "sensitivity_total": 12.0,
+    "at_nr_self": ""
   },
   "AT487/21": {
     "at_nr": "AT487/21",
@@ -360,7 +392,8 @@
     "sensitivity_cq<25": 60.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 24.0
+    "sensitivity_total": 24.0,
+    "at_nr_self": ""
   },
   "AT506/20": {
     "at_nr": "AT506/20",
@@ -371,7 +404,8 @@
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT543/21": {
     "at_nr": "AT543/21",
@@ -382,7 +416,8 @@
     "sensitivity_cq<25": 20.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 8.0
+    "sensitivity_total": 8.0,
+    "at_nr_self": ""
   },
   "AT573/21": {
     "at_nr": "AT573/21",
@@ -393,7 +428,8 @@
     "sensitivity_cq<25": 55.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 22.0
+    "sensitivity_total": 22.0,
+    "at_nr_self": ""
   },
   "AT586/21": {
     "at_nr": "AT586/21",
@@ -404,7 +440,8 @@
     "sensitivity_cq<25": 60.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 24.0
+    "sensitivity_total": 24.0,
+    "at_nr_self": ""
   },
   "AT662/21": {
     "at_nr": "AT662/21",
@@ -415,7 +452,8 @@
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT684/21": {
     "at_nr": "AT684/21",
@@ -426,7 +464,8 @@
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT712/21": {
     "at_nr": "AT712/21",
@@ -437,7 +476,8 @@
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT715/21": {
     "at_nr": "AT715/21",
@@ -448,7 +488,8 @@
     "sensitivity_cq<25": 70.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 28.0
+    "sensitivity_total": 28.0,
+    "at_nr_self": ""
   },
   "AT777/21": {
     "at_nr": "AT777/21",
@@ -459,7 +500,8 @@
     "sensitivity_cq<25": 55.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 22.0
+    "sensitivity_total": 22.0,
+    "at_nr_self": ""
   },
   "AT819/21": {
     "at_nr": "AT819/21",
@@ -470,7 +512,8 @@
     "sensitivity_cq<25": 30.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 12.0
+    "sensitivity_total": 12.0,
+    "at_nr_self": ""
   },
   "AT899/21": {
     "at_nr": "AT899/21",
@@ -481,18 +524,20 @@
     "sensitivity_cq<25": 20.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 8.0
+    "sensitivity_total": 8.0,
+    "at_nr_self": ""
   },
   "AT932/21": {
     "at_nr": "AT932/21",
     "ref_nr": "n.a.",
-    "manufacturer": "ShanDong ThinkLabor Biotechnology Co.,Ltd.",
+    "manufacturer": "ShanDong ThinkLabor Biotechnology Co. ,Ltd.",
     "test_name": "Coronavirus Ag Schnelltest Kassette (Tupfer)",
     "target_antigen": "N",
     "sensitivity_cq<25": 0.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 0.0
+    "sensitivity_total": 0.0,
+    "at_nr_self": ""
   },
   "AT972/21": {
     "at_nr": "AT972/21",
@@ -503,6 +548,7 @@
     "sensitivity_cq<25": 60.0,
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq>30": 0.0,
-    "sensitivity_total": 24.0
+    "sensitivity_total": 24.0,
+    "at_nr_self": ""
   }
 }
