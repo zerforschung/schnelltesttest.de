@@ -3,6 +3,7 @@ import { TextHeadingPage } from '../components/HeadingPageLayouts';
 import NoTestFound from '../components/Result/NoTestFound';
 import { useTestData } from '../utils/hooks';
 import TestFoundButNoData from '../components/Result/TestFoundButNoData';
+import { BigLinkButton } from '../components/Buttons';
 function getReadableAntigen(antigen: string): string {
   if (antigen == 'N') {
     return 'Nucleoprotein';
@@ -80,6 +81,7 @@ export default function MoreInformation(): JSX.Element {
         {/*</pre>*/}
 
         <div style={{ flexGrow: 1 }} />
+        <BigLinkButton to={`/`} content={'Zurück zum Start'} appearance={'primary'} />
       </TextHeadingPage>
     );
   }
