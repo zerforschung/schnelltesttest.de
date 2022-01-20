@@ -21,7 +21,7 @@ export default function TestFoundButNoData({ test_id }: { test_id: string }): JS
             fontSize: '2rem',
           }}
         >
-          Du diesem Test gibt es leider keine Daten
+          Zu diesem Test gibt es leider keine Daten
         </h1>
         <p style={{ justifyContent: 'center', textAlign: 'center' }}>
           Den Test <b>"{test_id}"</b> kennen wir zwar, allerdings wurde er noch nicht{' '}
