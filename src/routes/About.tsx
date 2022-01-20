@@ -20,7 +20,7 @@ export default function About(): JSX.Element {
         mit dem Stand vom 12.01.2022.
       </p>
       <p>
-        Ein Test wird mit einem grünen Harken angezeigt, wenn er Infizierte mit sehr hoher Viruslast zu über 75% erkennt.
+        Ein Test wird mit einem grünen Haken angezeigt, wenn er Infizierte mit sehr hoher Viruslast zu über 75% erkennt.
       </p>
       <p>
         Solltest du dazu Fragen oder Anmerkungen haben oder einen Fehler entdeckt haben, melde dich
