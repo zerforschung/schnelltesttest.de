@@ -1,6 +1,7 @@
 # schnelltesttest.de
-|⚠️ WARNING: Please don't add tests via github PR!|
-| --- |
+
+| ⚠️ WARNING: Please don't add tests via github PR! |
+| ------------------------------------------------- |
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
