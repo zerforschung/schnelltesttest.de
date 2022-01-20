@@ -2,6 +2,7 @@ import React from 'react';
 import { TextHeadingPage } from '../components/HeadingPageLayouts';
 import NoTestFound from '../components/Result/NoTestFound';
 import { useTestData } from '../utils/hooks';
+import TestFoundButNoData from '../components/Result/TestFoundButNoData';
 function getReadableAntigen(antigen: string): string {
   if (antigen == 'N') {
     return 'Nucleoprotein';
@@ -20,6 +21,8 @@ export default function MoreInformation(): JSX.Element {
   }
   if (test_data === null) {
     return <NoTestFound test_id={test_id} />;
+  } else if (test_data == 'NO_DATA') {
+    return <TestFoundButNoData test_id={test_id} />;
   } else {
     return (
       <TextHeadingPage heading={`Mehr Informationen`}>

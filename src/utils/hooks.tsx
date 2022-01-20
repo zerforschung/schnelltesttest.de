@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router';
 import { get_test, TestData } from './testdata';
 
-export function useTestData(): [string | null, TestData | null] {
+export function useTestData(): [string | null, TestData | 'NO_DATA' | null] {
   const params = useParams();
   const test_id = params.testId || null;
   console.log('test_id', test_id);

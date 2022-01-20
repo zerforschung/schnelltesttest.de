@@ -30,7 +30,7 @@ export type TestData = {
   ids?: string[];
 };
 
-export function get_test(identifier: string): TestData | null {
+export function get_test(identifier: string): TestData | 'NO_DATA' | null {
   if (all.hasOwnProperty(identifier)) {
     return all[identifier];
   }
@@ -38,6 +38,8 @@ export function get_test(identifier: string): TestData | null {
     const at_nr = id_map[identifier];
     if (all.hasOwnProperty(at_nr)) {
       return all[at_nr];
+    } else {
+      return 'NO_DATA';
     }
   }
   return null;
