@@ -14,7 +14,7 @@ export default function About(): JSX.Element {
       </p>
       <p>
         Hierzu verwenden wir die Daten aus{' '}
-        <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile&v=69">
+        <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
           "Vergleichende Evaluierung der Sensitivität von SARS-CoV-2 Antigenschnelltests"
         </a>{' '}
         mit dem Stand vom 12.01.2021.
@@ -25,6 +25,12 @@ export default function About(): JSX.Element {
       </p>
       <ContactInfo />
       <div style={{ flexGrow: 1 }}></div>
+      <p style={{ textAlign: 'center' }}>
+        Den Code für diese Project findet ihr unter{' '}
+        <a href={'https://github.com/zerforschung/schnelltesttest.de'}>
+          https://github.com/zerforschung/schnelltesttest.de
+        </a>
+      </p>
       <p style={{ fontWeight: 300, textAlign: 'center' }}>
         schnelltesttest.de ist ein Projekt von
         <a href="https://zerforschung.org">
