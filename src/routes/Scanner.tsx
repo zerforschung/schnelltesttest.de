@@ -63,7 +63,7 @@ export default function Scanner(): JSX.Element {
             top: '90%',
           }}
         >
-          <NavButton to="/search" border={true} content="Code eingeben" />
+          <NavButton to="/search" border={true} content="Tests durchsuchen" />
           <NavButton to="/about" border={false} content="Über" />
         </div>
       </LogoHeadingPage>
