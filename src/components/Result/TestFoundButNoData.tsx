@@ -21,9 +21,9 @@ export default function TestFoundButNoData(): JSX.Element {
             fontSize: '2rem',
           }}
         >
-          Zu diesem Test gibt es leider keine Daten
+          Zu diesem Test gibt es noch keine Daten
         </h1>
-        <p style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <p style={{ justifyContent: 'center', textAlign: 'center', fontWeight: 700 }}>
           Leider wurde dieser Test noch nicht vom{' '}
           <a
             href={
