@@ -15,7 +15,7 @@ export default function BarcodeScanner(): JSX.Element {
       return;
     }
     let code = data.codeResult.code || '';
-    code = code.replace(/^[-]+/, '');
+    code = code.replace(/^[-PZN]+/, '');
     const count = eanCount[code] || 0;
 
     if (checkCode(code) || count >= unknownLimit) {
