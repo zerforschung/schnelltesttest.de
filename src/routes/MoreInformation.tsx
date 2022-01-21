@@ -23,7 +23,7 @@ export default function MoreInformation(): JSX.Element {
   if (test_data === null) {
     return <NoTestFound test_id={test_id} />;
   } else if (test_data == 'NO_DATA') {
-    return <TestFoundButNoData test_id={test_id} />;
+    return <TestFoundButNoData />;
   } else {
     return (
       <TextHeadingPage heading={`Mehr Informationen`}>

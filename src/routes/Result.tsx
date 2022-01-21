@@ -12,7 +12,7 @@ export default function Result(): JSX.Element {
   if (test_data == null) {
     return <NoTestFound test_id={test_id} />;
   } else if (test_data == 'NO_DATA') {
-    return <TestFoundButNoData test_id={test_id} />;
+    return <TestFoundButNoData />;
   } else {
     return <TestFound testdata={test_data} />;
   }
