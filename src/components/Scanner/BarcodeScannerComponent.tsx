@@ -28,7 +28,7 @@ const BarcodeScannerComponent = ({
     },
     frequency: 30,
     decoder: {
-      readers: ['ean_reader', 'code_39_reader', 'code_128_reader'],
+      readers: ['ean_reader', 'code_39_reader', 'code_128_reader', 'i2of5_reader'],
     },
     locate: true,
   };
