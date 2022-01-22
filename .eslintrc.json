@@ -1,10 +1,11 @@
 {
+  "root": true,
   "env": {
     "browser": true,
     "es6": true,
     "node": true
   },
-  "plugins": ["prettier", "react", "unused-imports"],
+  "plugins": ["prettier", "react", "unused-imports", "@calm/react-intl"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -41,7 +42,11 @@
       {
         "checkLoops": false
       }
-    ]
+    ],
+
+    "@calm/react-intl/missing-attribute": "off",
+    "@calm/react-intl/missing-formatted-message": "warn",
+    "@calm/react-intl/missing-values": "warn"
   },
   "settings": {
     "react": {

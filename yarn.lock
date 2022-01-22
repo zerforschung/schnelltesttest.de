@@ -1068,6 +1068,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@calm/eslint-plugin-react-intl@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@calm/eslint-plugin-react-intl/-/eslint-plugin-react-intl-1.4.1.tgz#c58037ff153459e0e526cbbf87d42f317beb4e1c"
+  integrity sha512-J3Tj03JwlV6CPENBqEt64M+Z+k49cNcHUBRYY67Wx9l960NOKhqlRCPUrE85zRqOXqO0cYUrcgrvb0wHAWMpKA==
+  dependencies:
+    requireindex "~1.1.0"
+
 "@csstools/normalize.css@*":
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-12.0.0.tgz#a9583a75c3f150667771f30b60d9f059473e62c4"
