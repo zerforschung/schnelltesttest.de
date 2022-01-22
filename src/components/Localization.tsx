@@ -31,7 +31,7 @@ export function LocaleWrapper({ children }: { children: React.ReactNode }): JSX.
 }
 
 export interface MessageDescriptor extends BaseMessageDescriptor {
-  values?: Record<string, string | number | boolean | null | undefined | Date | JSX.Element>;
+  values?: Record<string, string | number | boolean | null | undefined | Date | React.ReactNode>;
 }
 
 const htmlValues = {

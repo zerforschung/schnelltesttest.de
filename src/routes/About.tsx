@@ -17,11 +17,11 @@ export default function About(): JSX.Element {
               Paul-Ehrlich-Institut evaluierten SARS-COV-2-Antigen-Schnelltests abzurufen.
             </p>
             <p>
-              Hierzu verwenden wir die Daten aus {peiLink} mit dem Stand vom 12.01.2022.
+              Hierzu verwenden wir die Daten aus <peiStudyLink>"Vergleichende Evaluierung der Sensitivität von SARS-CoV-2 Antigenschnelltests"</peiStudyLink> mit dem Stand vom 12.01.2022.
             </p>
             <p>
               Ein Test wird mit einem grünen Haken angezeigt, wenn die Sensitivität bei sehr hoher
-              Viruslast (Cq ≤ 25) mehr als 75% beträgt. Dies entspricht dem vom {peiLink2}.
+              Viruslast (Cq ≤ 25) mehr als 75% beträgt. Dies entspricht dem vom <peiStudyLink>Paul-Ehrlich-Institut angenommenen "Stand der Technik"</peiStudyLink>.
             </p>
             <p>
               Solltest du dazu Fragen oder Anmerkungen haben oder einen Fehler entdeckt haben, melde dich
@@ -29,20 +29,9 @@ export default function About(): JSX.Element {
             </p>
         `}
         values={{
-          peiLink: (
+          peiStudyLink: (title: string) => (
             <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
-              <Translate
-                id="names.PEI.long"
-                defaultMessage={`"Vergleichende Evaluierung der Sensitivität von SARS-CoV-2 Antigenschnelltests"`}
-              />
-            </a>
-          ),
-          peiLink2: (
-            <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
-              <Translate
-                id="names.PEI.long"
-                defaultMessage={`Paul-Ehrlich-Institut angenommenen "Stand der Technik"`}
-              />
+              {title}
             </a>
           ),
         }}
@@ -55,12 +44,10 @@ export default function About(): JSX.Element {
       <p style={{ width: '100%', textAlign: 'center' }}>
         <Translate
           id="app.linkToRepo"
-          defaultMessage="Den Code für dieses Projekt findet ihr in {repoLink}."
+          defaultMessage="Den Code für dieses Projekt findet ihr in <repoLink>unserem GitHub-Repository</repoLink>."
           values={{
-            repoLink: (
-              <a href="https://github.com/zerforschung/schnelltesttest.de">
-                <Translate id="app.ourRepo" defaultMessage="unserem GitHub-Repository" />
-              </a>
+            repoLink: (title: string) => (
+              <a href="https://github.com/zerforschung/schnelltesttest.de">{title}</a>
             ),
           }}
         />

@@ -27,11 +27,11 @@ export default function TestFoundButNoData(): JSX.Element {
         <p style={{ justifyContent: 'center', textAlign: 'center', fontWeight: 700 }}>
           <Translate
             id="test.unvalidated"
-            defaultMessage="Leider wurde dieser Test noch nicht vom {peiLink} überprüft. Deswegen können wir hier keine Informationen zur Genauigkeit anzeigen."
+            defaultMessage="Leider wurde dieser Test noch nicht vom <peiStudyLink>Paul-Ehrlich-Institut</peiStudyLink> überprüft. Deswegen können wir hier keine Informationen zur Genauigkeit anzeigen."
             values={{
-              peiLink: (
+              peiStudyLink: (title: string) => (
                 <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
-                  <Translate id="names.PEI.long" defaultMessage="Paul-Ehrlich-Institut" />
+                  {title}
                 </a>
               ),
             }}

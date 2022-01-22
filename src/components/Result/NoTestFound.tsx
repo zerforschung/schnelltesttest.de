@@ -27,7 +27,7 @@ export default function NoTestFound({ test_id }: { test_id: string }): JSX.Eleme
         <p style={{ justifyContent: 'center', textAlign: 'center' }}>
           <Translate
             id="test.unknown.body"
-            defaultMessage={`Leider könnten wir unter <b>"{test_id}"</b> keinen Test finden.
+            defaultMessage={`Leider konnten wir unter "<b>{test_id}</b>" keinen Test finden.
             Es wäre cool, wenn du uns ein Foto des Tests, des Barcodes und die Marke schicken könntest.
             <br />
             <br />
