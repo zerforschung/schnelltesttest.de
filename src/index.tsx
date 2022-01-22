@@ -8,22 +8,26 @@ import Result from './routes/Result';
 import About from './routes/About';
 import MoreInformation from './routes/MoreInformation';
 import { EnterCode } from './routes/EnterCode';
+import { LocaleWrapper } from './components/Localization';
 import { register as registerServiceWorker } from './serviceWorkerRegistration';
+
 ReactDOM.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="scan" element={<Scanner />} />
-      <Route path="result">
-        <Route path=":testId" element={<Result />} />
-        <Route path=":testId/details" element={<MoreInformation />} />
-        <Route index element={<Result />} />
-      </Route>
-      <Route path="about" element={<About />} />
-      <Route path="search" element={<EnterCode />} />
-      <Route path="*" element={<Navigate to={'/'} />} />
-    </Routes>
-  </BrowserRouter>,
+  <LocaleWrapper>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="scan" element={<Scanner />} />
+        <Route path="result">
+          <Route path=":testId" element={<Result />} />
+          <Route path=":testId/details" element={<MoreInformation />} />
+          <Route index element={<Result />} />
+        </Route>
+        <Route path="about" element={<About />} />
+        <Route path="search" element={<EnterCode />} />
+        <Route path="*" element={<Navigate to={'/'} />} />
+      </Routes>
+    </BrowserRouter>
+  </LocaleWrapper>,
   document.getElementById('root')
 );
 
