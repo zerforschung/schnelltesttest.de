@@ -906,9 +906,9 @@
     "sensitivity_cq<25": 94.1,
     "sensitivity_cq>30": 0.0,
     "sensitivity_total": 40.0,
-    "manufacturer": "Labnovation Technologies, Inc.",
+    "manufacturer": "Labnovation Technologies, Inc. (NanoRepro)",
     "ref_nr": "B63000",
-    "test_name": "Labnovation SARS-CoV-2 Antigen Rapid Test Kit (Immunochromatography)",
+    "test_name": "Labnovation SARS-CoV-2 Antigen Rapid Test Kit (Immunochromatography) (VIROMED)",
     "target_antigen": "N"
   },
   "AT128/20": {

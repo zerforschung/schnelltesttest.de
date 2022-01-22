@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextHeadingPage } from '../HeadingPageLayouts';
 
-export default function TestFoundButNoData({ test_id }: { test_id: string }): JSX.Element {
+export default function TestFoundButNoData(): JSX.Element {
   return (
     <TextHeadingPage heading={'Keine Daten vorhanden'}>
       <div
@@ -21,18 +21,21 @@ export default function TestFoundButNoData({ test_id }: { test_id: string }): JS
             fontSize: '2rem',
           }}
         >
-          Zu diesem Test gibt es leider keine Daten
+          Zu diesem Test gibt es noch keine Daten
         </h1>
-        <p style={{ justifyContent: 'center', textAlign: 'center' }}>
-          Den Test <b>"{test_id}"</b> kennen wir zwar, allerdings wurde er noch nicht{' '}
+        <p style={{ justifyContent: 'center', textAlign: 'center', fontWeight: 700 }}>
+          Leider wurde dieser Test noch nicht vom{' '}
           <a
             href={
               'https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile'
             }
           >
-            vom PEI evaluiert
-          </a>
-          . Wenn es dort neue Daten gibt, tragen wir diese hier nach.
+            Paul-Ehrlich-Institut
+          </a>{' '}
+          überprüft. Deswegen können wir hier keine Informationen zur Genauigkeit anzeigen.
+        </p>
+        <p style={{ fontWeight: 300, textAlign: 'center' }}>
+          Bitte wende Dich an das Paul-Ehrlich-Institut für weitere Fragen zu diesem Test.
         </p>
       </div>
       <div style={{ flexGrow: 1 }} />
