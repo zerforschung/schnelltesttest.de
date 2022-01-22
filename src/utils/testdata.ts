@@ -62,7 +62,7 @@ export function checkCode(code: string): string | null {
 
   // Match first zero and remove it.
   const withoutZeroPrefix = cleanedCode.replace(/^0/, '');
-  const withZeroPrefix = '0' + cleanedCode;
+  const withZeroPrefix = '0' + withoutZeroPrefix;
 
   if (withoutZeroPrefix in all || withoutZeroPrefix in id_map) {
     return withoutZeroPrefix;
