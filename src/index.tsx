@@ -24,7 +24,7 @@ ReactDOM.render(
         </Route>
         <Route path="about" element={<About />} />
         <Route path="search" element={<EnterCode />} />
-        <Route path="*" element={<Navigate to={'/'} />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
   </LocaleWrapper>,

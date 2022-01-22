@@ -84,18 +84,14 @@ const BarcodeScannerComponent = ({
     };
   }, [quaggaConfig]);
 
+  if (showModal) {
+    return <NoPermissionsModal />;
+  }
+
   return (
     <>
-      {showModal ? (
-        <>
-          <NoPermissionsModal />
-        </>
-      ) : (
-        <>
-          <HowToOverlay />
-          <div id={'scanner'} ref={ref} />
-        </>
-      )}
+      <HowToOverlay />
+      <div id="scanner" ref={ref} />
     </>
   );
 };

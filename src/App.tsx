@@ -35,12 +35,12 @@ function App(): JSX.Element {
         <BigLinkButton
           to="/scan"
           content={<Translate id="app.scanCode" defaultMessage="Code scannen" />}
-          appearance={'primary'}
+          appearance="primary"
         />
         <BigLinkButton
           to="/search"
           content={<Translate id="app.searchTests" defaultMessage="Tests durchsuchen" />}
-          appearance={'primary'}
+          appearance="primary"
         />
         <BigLinkButton to="/about" content={<Translate id="app.about" defaultMessage="Über" />} />
         <div style={{ flexGrow: 1 }} />
