@@ -57,6 +57,20 @@ export function checkPrefix(prefix: string): boolean {
   return checkPrefixInObject(prefix, all) || checkPrefixInObject(prefix, id_map);
 }
 
-export function checkCode(code: string): boolean {
-  return code in all || code in id_map;
+export function checkCode(code: string): string | null {
+  const cleanedCode = code.replace(/^[-PZN]+/, '');
+
+  // Match first zero and remove it.
+  const withoutZeroPrefix = cleanedCode.replace(/^0/, '');
+  const withZeroPrefix = '0' + cleanedCode;
+
+  if (withoutZeroPrefix in all || withoutZeroPrefix in id_map) {
+    return withoutZeroPrefix;
+  }
+
+  if (withZeroPrefix in all || withZeroPrefix in id_map) {
+    return withZeroPrefix;
+  }
+
+  return null;
 }
