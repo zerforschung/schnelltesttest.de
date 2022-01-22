@@ -1,9 +1,12 @@
 import React from 'react';
+import { Translate } from '../Localization';
 import { TextHeadingPage } from '../HeadingPageLayouts';
 
 export default function TestFoundButNoData(): JSX.Element {
   return (
-    <TextHeadingPage heading={'Keine Daten vorhanden'}>
+    <TextHeadingPage
+      heading={<Translate id="test.noData" defaultMessage="Keine Daten vorhanden" />}
+    >
       <div
         style={{
           display: 'flex',
@@ -15,27 +18,30 @@ export default function TestFoundButNoData(): JSX.Element {
           fontFamily: 'Open Sans',
         }}
       >
-        <h1
-          style={{
-            textAlign: 'center',
-            fontSize: '2rem',
-          }}
-        >
-          Zu diesem Test gibt es noch keine Daten
+        <h1 style={{ textAlign: 'center', fontSize: '2rem' }}>
+          <Translate
+            id="test.noDataForTest"
+            defaultMessage="Zu diesem Test gibt es noch keine Daten"
+          />
         </h1>
         <p style={{ justifyContent: 'center', textAlign: 'center', fontWeight: 700 }}>
-          Leider wurde dieser Test noch nicht vom{' '}
-          <a
-            href={
-              'https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile'
-            }
-          >
-            Paul-Ehrlich-Institut
-          </a>{' '}
-          überprüft. Deswegen können wir hier keine Informationen zur Genauigkeit anzeigen.
+          <Translate
+            id="test.unvalidated"
+            defaultMessage="Leider wurde dieser Test noch nicht vom {peiLink} überprüft. Deswegen können wir hier keine Informationen zur Genauigkeit anzeigen."
+            values={{
+              peiLink: (
+                <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
+                  <Translate id="names.PEI.long" defaultMessage="Paul-Ehrlich-Institut" />
+                </a>
+              ),
+            }}
+          />
         </p>
         <p style={{ fontWeight: 300, textAlign: 'center' }}>
-          Bitte wende Dich an das Paul-Ehrlich-Institut für weitere Fragen zu diesem Test.
+          <Translate
+            id="test.pleaseContactPei"
+            defaultMessage="Bitte wende Dich an das Paul-Ehrlich-Institut für weitere Fragen zu diesem Test."
+          />
         </p>
       </div>
       <div style={{ flexGrow: 1 }} />

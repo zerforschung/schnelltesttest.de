@@ -5,6 +5,8 @@ import {
   MessageDescriptor as BaseMessageDescriptor,
 } from 'react-intl';
 
+export { useIntl } from 'react-intl';
+
 import locale_en from '../locale/en.json';
 import locale_de from '../locale/de.json';
 

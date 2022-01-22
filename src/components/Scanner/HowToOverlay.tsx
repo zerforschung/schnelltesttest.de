@@ -1,5 +1,7 @@
-import barcodeImage from './barcode.svg';
 import React from 'react';
+import { Translate } from '../Localization';
+import barcodeImage from './barcode.svg';
+
 export function HowToOverlay(): JSX.Element {
   return (
     <div
@@ -27,7 +29,10 @@ export function HowToOverlay(): JSX.Element {
           textAlign: 'center',
         }}
       >
-        Bitte scanne den Strichcode auf der Verpackung des Schnelltests
+        <Translate
+          id="app.scanInstruction"
+          defaultMessage="Bitte scanne den Strichcode auf der Verpackung des Schnelltests"
+        />
       </div>
     </div>
   );

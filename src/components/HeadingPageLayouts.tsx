@@ -1,4 +1,5 @@
 import React from 'react';
+import { Translate } from './Localization';
 import LogoHeader from './LogoHeader';
 import { TextHeader } from './TextHeader';
 import { BigBackButton } from './Buttons';
@@ -49,13 +50,13 @@ export function TextHeadingPage({
   heading,
   children,
 }: {
-  heading: string;
+  heading: React.ReactNode;
   children: React.ReactNode;
 }): JSX.Element {
   return (
     <HeadingPage header={<TextHeader text={heading} />}>
       {children}
-      <BigBackButton content={'Zurück'} />
+      <BigBackButton content={<Translate id="app.back" defaultMessage="Zurück" />} />
     </HeadingPage>
   );
 }

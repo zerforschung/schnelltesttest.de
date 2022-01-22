@@ -1,8 +1,9 @@
 import React from 'react';
-import './Scanner.css';
-import BarcodeScanner from '../components/Scanner/BarcodeScanner';
 import { Link } from 'react-router-dom';
+import { Translate } from '../components/Localization';
+import BarcodeScanner from '../components/Scanner/BarcodeScanner';
 import { LogoHeadingPage } from '../components/HeadingPageLayouts';
+import './Scanner.css';
 
 function NavButton({
   to,
@@ -63,8 +64,16 @@ export default function Scanner(): JSX.Element {
             top: '90%',
           }}
         >
-          <NavButton to="/search" border={true} content="Tests durchsuchen" />
-          <NavButton to="/about" border={false} content="Über" />
+          <NavButton
+            to="/search"
+            border={true}
+            content={<Translate id="app.searchTests" defaultMessage="Tests durchsuchen" />}
+          />
+          <NavButton
+            to="/about"
+            border={false}
+            content={<Translate id="app.about" defaultMessage="Über" />}
+          />
         </div>
       </LogoHeadingPage>
     </>
