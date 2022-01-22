@@ -4,6 +4,8 @@ import {
   FormattedMessage,
   MessageDescriptor as BaseMessageDescriptor,
 } from 'react-intl';
+import { LanguageSwitch } from './LanguageSwitch';
+import { useLocalStorageState } from '../utils/hooks';
 
 export { useIntl } from 'react-intl';
 
@@ -19,13 +21,17 @@ const languagePreferredByUser =
   navigator.languages?.find((entry: string) => locales[entry]) ?? // `languages` is experimental but with good support and lists all user languages
   navigator.language.split(/[-_]/)[0]; // fallback, only one language
 
-export function LocaleWrapper({ children }: { children: React.ReactNode }): JSX.Element {
+export function LocaleProvider({ children }: { children: React.ReactNode }): JSX.Element {
+  const [locale, setLocale] = useLocalStorageState('locale', languagePreferredByUser);
   return (
-    <IntlProvider
-      locale={languagePreferredByUser}
-      messages={locales[languagePreferredByUser] ?? locales.en}
-    >
+    <IntlProvider locale={locale} messages={locales[locale] ?? locales.en}>
       {children}
+
+      <LanguageSwitch
+        activeLanguage={locale}
+        languages={Object.keys(locales)}
+        onChange={setLocale}
+      />
     </IntlProvider>
   );
 }

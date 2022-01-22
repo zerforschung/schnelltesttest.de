@@ -8,11 +8,11 @@ import Result from './routes/Result';
 import About from './routes/About';
 import MoreInformation from './routes/MoreInformation';
 import { EnterCode } from './routes/EnterCode';
-import { LocaleWrapper } from './components/Localization';
+import { LocaleProvider } from './components/Localization';
 import { register as registerServiceWorker } from './serviceWorkerRegistration';
 
 ReactDOM.render(
-  <LocaleWrapper>
+  <LocaleProvider>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
@@ -27,7 +27,7 @@ ReactDOM.render(
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
-  </LocaleWrapper>,
+  </LocaleProvider>,
   document.getElementById('root')
 );
 
