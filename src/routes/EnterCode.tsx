@@ -33,7 +33,7 @@ export function EnterCode(): JSX.Element {
   const [userInput, setUserInput] = useState('');
   function fuzzySearch(options: SelectSearchOption[]) {
     const fuse = new Fuse(options, {
-      keys: ['name', 'groupName', 'raw.at_nr', 'raw.ids'],
+      keys: ['name', 'groupName', 'raw.at_nr', 'raw.ids', 'raw.test_name', 'raw.manufacturer'],
       threshold: 0.3,
       ignoreLocation: true,
     });
