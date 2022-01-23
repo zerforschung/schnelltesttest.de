@@ -11,12 +11,14 @@ const BarcodeScannerComponent = ({
 }): ReactElement => {
   const ref = useRef(null);
   const [showModal, setShowModal] = useState(false);
+  const [frontCamera, setFrontCamera] = useState(false);
+
   const quaggaConfig = {
     inputStream: {
       constraints: {
         height: window.innerHeight * 0.8 * window.devicePixelRatio,
         width: window.innerWidth * window.devicePixelRatio,
-        facingMode: 'environment',
+        facingMode: frontCamera ? 'environment' : 'user',
         focusMode: 'continuous',
         aspectRatio: { ideal: (window.innerHeight * 0.8) / window.innerWidth },
       },
@@ -92,7 +94,7 @@ const BarcodeScannerComponent = ({
         </>
       ) : (
         <>
-          <HowToOverlay />
+          <HowToOverlay toggleFrontCamera={() => setFrontCamera(!frontCamera)} />
           <div id={'scanner'} ref={ref} />
         </>
       )}
