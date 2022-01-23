@@ -24,7 +24,9 @@ export default function About(): JSX.Element {
         Viruslast (Cq ≤ 25) mehr als 75% beträgt. Dies entspricht dem vom{' '}
         <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
           Paul-Ehrlich-Institut angenommenen "Stand der Technik".
-        </a>
+        </a>{' '}
+        Falls wir aus rechtlichen Gründen keine Daten zu einem Test anzeigen können, erscheint
+        ebenfalls ein rotes Kreuz.
       </p>
       <p>
         Solltest du dazu Fragen oder Anmerkungen haben oder einen Fehler entdeckt haben, melde dich

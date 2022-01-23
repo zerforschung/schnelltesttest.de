@@ -28,6 +28,7 @@ export type TestData = {
   'sensitivity_cq>30': number;
   sensitivity_total: number;
   ids?: string[];
+  legal_threat?: boolean;
 };
 
 export function get_test(identifier: string): TestData | 'NO_DATA' | null {
