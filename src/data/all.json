@@ -1269,7 +1269,8 @@
     "manufacturer": "Spring Healthcare Services Sp zoo",
     "ref_nr": "SP-SW 106",
     "test_name": "SARS-Cov-2 Antigen Rapid Test Cassette (swab)",
-    "target_antigen": "N+S"
+    "target_antigen": "N+S",
+    "legal_threat": true
   },
   "AT228/20": {
     "at_nr": "AT228/20",

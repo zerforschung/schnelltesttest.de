@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { engineName } from 'react-device-detect';
 
 export function NoPermissionsModal(): JSX.Element {
   return (
@@ -15,9 +16,12 @@ export function NoPermissionsModal(): JSX.Element {
       }}
     >
       <div style={{ fontWeight: 'bold' }}>
-        Leider konnten wir keinen Zugriff auf deine Kamera bekommen. Bitte erlaube diesen Zugriff,
-        damit du deinen Code scannen kannst oder{' '}
-        <Link to={'/search'}>gib den Code selbst ein.</Link>
+        Leider konnte der Barcodescanner nicht auf Deine Kamera zugreifen.
+        {engineName === 'Blink'
+          ? ' Bitte klicke auf das Kamera- oder Schloss-Icon in der Adressleiste, erlaube den Kamerazugriff und lade die Seite neu'
+          : ' Bitte lade die Seite neu und erlaube den Kamerazugriff'}
+        , damit du Deinen Code scannen kannst. Oder{' '}
+        <Link to={'/search'}>gib den Code manuell ein.</Link>
       </div>
     </div>
   );

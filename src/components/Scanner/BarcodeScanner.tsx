@@ -14,16 +14,17 @@ export default function BarcodeScanner(): JSX.Element {
     if (!active) {
       return;
     }
-    let code = data.codeResult.code || '';
-    code = code.replace(/^[-PZN]+/, '');
+    const code = data.codeResult.code || '';
     const count = eanCount[code] || 0;
 
-    if (checkCode(code) || count >= unknownLimit) {
-      console.log('nav', code, active);
+    const checkedCode = checkCode(code);
+
+    if (checkedCode || count >= unknownLimit) {
       active = false;
       eanCount = {};
-      navigate(`/result/${encodeURIComponent(code)}`);
+      navigate(`/result/${encodeURIComponent(checkedCode || code)}`);
     }
+
     eanCount[code] = count + 1;
   };
   return (
