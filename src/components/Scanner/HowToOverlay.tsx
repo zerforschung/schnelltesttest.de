@@ -1,9 +1,13 @@
 import barcodeImage from './barcode.svg';
 import React, { CSSProperties } from 'react';
 export function HowToOverlay({
-  toggleFrontCamera
+  toggleFrontCamera,
+  torchEnabled,
+  toggleTorchEnabled,
 }: {
   toggleFrontCamera: () => void;
+  torchEnabled: boolean;
+  toggleTorchEnabled: () => void;
 }): JSX.Element {
   const buttonStyle: CSSProperties = {
     textDecoration: 'none',
@@ -17,7 +21,7 @@ export function HowToOverlay({
     justifyContent: 'center',
     border: '2px solid black',
     padding: '.75em',
-    marginTop: '1em',
+    margin: '1em',
     textAlign: 'center',
     fontSize: '1em',
     backgroundColor: 'black',
@@ -52,7 +56,19 @@ export function HowToOverlay({
       >
         Bitte scanne den Strichcode auf der Verpackung des Schnelltests
       </div>
-      <button onClick={toggleFrontCamera} style={buttonStyle}>Kamera wechseln</button>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+        }}
+      >
+        <button onClick={toggleFrontCamera} style={buttonStyle}>
+          Kamera wechseln
+        </button>
+        <button onClick={toggleTorchEnabled} style={buttonStyle}>
+          Taschenlampe {!!torchEnabled.toString()}
+        </button>
+      </div>
     </div>
   );
 }

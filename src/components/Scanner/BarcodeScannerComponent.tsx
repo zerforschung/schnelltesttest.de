@@ -12,6 +12,7 @@ const BarcodeScannerComponent = ({
   const ref = useRef(null);
   const [showModal, setShowModal] = useState(false);
   const [frontCamera, setFrontCamera] = useState(false);
+  const [torchEnabled, setTorchEnabled] = useState(false);
 
   const quaggaConfig = {
     inputStream: {
@@ -94,7 +95,19 @@ const BarcodeScannerComponent = ({
         </>
       ) : (
         <>
-          <HowToOverlay toggleFrontCamera={() => setFrontCamera(!frontCamera)} />
+          <HowToOverlay
+            toggleFrontCamera={() => setFrontCamera(!frontCamera)}
+            torchEnabled={torchEnabled}
+            toggleTorchEnabled={() => {
+              const track = Quagga.CameraAccess.getActiveTrack();
+              if (track && typeof track.getCapabilities === 'function') {
+                track.applyConstraints({
+                  advanced: [{ torch: !torchEnabled } as MediaTrackConstraintSet],
+                });
+                setTorchEnabled(!torchEnabled);
+              }
+            }}
+          />
           <div id={'scanner'} ref={ref} />
         </>
       )}
