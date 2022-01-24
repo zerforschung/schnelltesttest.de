@@ -27,7 +27,15 @@ export function HowToOverlay(): JSX.Element {
           textAlign: 'center',
         }}
       >
-        Bitte scanne den Strichcode auf der Verpackung des Schnelltests
+        <div>Bitte scanne den Strichcode auf der Verpackung des Schnelltests</div>
+        <div
+          style={{
+            fontWeight: 'normal',
+            fontSize: '0.75em',
+          }}
+        >
+          Wenn das Bild zu dunkel ist, benutze die Taschenlampe Deines Smartphones.
+        </div>
       </div>
     </div>
   );
