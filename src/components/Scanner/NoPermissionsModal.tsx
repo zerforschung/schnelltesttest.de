@@ -16,7 +16,7 @@ export function NoPermissionsModal(): JSX.Element {
       }}
     >
       <div style={{ fontWeight: 'bold' }}>
-        Leider konnten der Barcodescanner nicht auf Deine Kamera zugreifen.
+        Leider konnte der Barcodescanner nicht auf Deine Kamera zugreifen.
         {engineName === 'Blink'
           ? ' Bitte klicke auf das Kamera- oder Schloss-Icon in der Adressleiste, erlaube den Kamerazugriff und lade die Seite neu'
           : ' Bitte lade die Seite neu und erlaube den Kamerazugriff'}
