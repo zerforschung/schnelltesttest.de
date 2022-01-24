@@ -19,7 +19,7 @@ const BarcodeScannerComponent = ({
       constraints: {
         height: window.innerHeight * 0.8 * window.devicePixelRatio,
         width: window.innerWidth * window.devicePixelRatio,
-        facingMode: frontCamera ? 'environment' : 'user',
+        facingMode: frontCamera ? 'user' : 'environment',
         focusMode: 'continuous',
         aspectRatio: { ideal: (window.innerHeight * 0.8) / window.innerWidth },
       },
