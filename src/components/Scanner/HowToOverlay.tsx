@@ -66,7 +66,7 @@ export function HowToOverlay({
           Kamera wechseln
         </button>
         <button onClick={toggleTorchEnabled} style={buttonStyle}>
-          Taschenlampe {!!torchEnabled.toString()}
+          Taschenlampe
         </button>
       </div>
     </div>
