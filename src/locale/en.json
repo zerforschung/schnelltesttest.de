@@ -22,7 +22,6 @@
   "app.version": "Version",
   "test.warning": "Caution: These figures were collected before Omikron, however <a>the PEI estimates that antigen tests are also suitable for the detection of omicron infection</a>.",
   "test.couldNotBeFound": "Unfortunately, we could not find this test.",
-  "test.enterCodeManually": "enter the code yourself",
   "test.moreInfo": "Further information on <b>{manufacturer} {test_name}</b>",
   "test.noData": "No data available",
   "test.noDataForTest": "There is no data on this test yet",
