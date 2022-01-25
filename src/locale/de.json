@@ -13,6 +13,7 @@
   "app.noAccessReload": "Bitte lade die Seite neu und erlaube den Kamerazugriff, damit du Deinen Code scannen kannst.",
   "app.enterCodeManually": "Oder <link>gib den Code manuell ein</link>.",
   "app.presentedBy": "schnelltesttest.de ist ein Projekt von",
+  "app.scanCode": "Code scannen",
   "app.scanInstruction": "Bitte scanne den Strichcode auf der Verpackung des Schnelltests",
   "app.searchInstruction": "Such nach der Nummer unter dem Strichcode, dem Hersteller oder dem Namen deines Tests:",
   "app.searchTests": "Tests durchsuchen",

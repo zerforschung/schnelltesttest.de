@@ -15,9 +15,9 @@ export function LanguageSwitch(): JSX.Element {
     setLocale(event.target.value);
 
   return (
-    <select onChange={handleChange} style={selectStyles}>
+    <select defaultValue={locale} onChange={handleChange} style={selectStyles}>
       {locales.map((key) => (
-        <option key={key} value={key} selected={key === locale}>
+        <option key={key} value={key}>
           {languageNameMap[key]}
         </option>
       ))}

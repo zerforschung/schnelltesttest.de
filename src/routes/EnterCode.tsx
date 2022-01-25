@@ -12,16 +12,10 @@ function UnknownText(): JSX.Element {
   return (
     <>
       <p style={{ color: 'red', textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans' }}>
-        <Translate
-          id="test.couldNotBeFound"
-          defaultMessage="Leider konnten wir diesen Test nicht finden."
-        />
+        <Translate id="test.couldNotBeFound" />
       </p>
       <p style={{ textAlign: 'center', fontWeight: 500, fontFamily: 'Open Sans' }}>
-        <Translate
-          id="app.helpUs"
-          defaultMessage="Du kennst uns helfen, besser zu werden, indem du uns weitere Informationen über den Test übermittelst."
-        />
+        <Translate id="app.helpUs" />
       </p>
     </>
   );
@@ -87,10 +81,7 @@ export function EnterCode(): JSX.Element {
   return (
     <LogoHeadingPage>
       <div style={{ textAlign: 'center', fontWeight: 700, fontFamily: 'Open Sans Condensed' }}>
-        <Translate
-          id="app.searchInstruction"
-          defaultMessage="Such nach der Nummer unter dem Strichcode, dem Hersteller oder dem Namen deines Tests:"
-        />
+        <Translate id="app.searchInstruction" />
       </div>
 
       <SelectSearch
@@ -105,7 +96,7 @@ export function EnterCode(): JSX.Element {
           onBlur(null);
         }}
         options={options}
-        placeholder={formatMessage({ id: 'test.searchTest', defaultMessage: 'Test suchen' })}
+        placeholder={formatMessage({ id: 'test.searchTest' })}
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         renderValue={(props, snapshot, className) => {
@@ -135,18 +126,12 @@ export function EnterCode(): JSX.Element {
 
       <BigLinkButton
         to={`/result/${encodeURIComponent(testId)}`}
-        content={
-          isTestKnown ? (
-            <Translate id="test.validate" defaultMessage="Überprüfen" />
-          ) : (
-            <Translate id="app.helpUs" defaultMessage="Hilf Uns!" />
-          )
-        }
+        content={isTestKnown ? <Translate id="test.validate" /> : <Translate id="app.helpUs" />}
         appearance="primary"
         disabled={testId.trim() == ''}
       />
 
-      <BigBackButton content={<Translate id="app.back" defaultMessage="Zurück" />} />
+      <BigBackButton content={<Translate id="app.back" />} />
     </LogoHeadingPage>
   );
 }

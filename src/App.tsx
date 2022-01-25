@@ -35,10 +35,10 @@ function App(): JSX.Element {
         <BigLinkButton to="/scan" content={<Translate id="app.scanCode" />} appearance="primary" />
         <BigLinkButton
           to="/search"
-          content={<Translate id="app.searchTests" defaultMessage="Tests durchsuchen" />}
+          content={<Translate id="app.searchTests" />}
           appearance="primary"
         />
-        <BigLinkButton to="/about" content={<Translate id="app.about" defaultMessage="Über" />} />
+        <BigLinkButton to="/about" content={<Translate id="app.about" />} />
       </div>
       <LinkFooter />
     </div>

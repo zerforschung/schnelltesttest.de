@@ -4,9 +4,7 @@ import { TextHeadingPage } from '../HeadingPageLayouts';
 
 export default function TestFoundButNoData(): JSX.Element {
   return (
-    <TextHeadingPage
-      heading={<Translate id="test.noData" defaultMessage="Keine Daten vorhanden" />}
-    >
+    <TextHeadingPage heading={<Translate id="test.noData" />}>
       <div
         style={{
           display: 'flex',
@@ -19,15 +17,11 @@ export default function TestFoundButNoData(): JSX.Element {
         }}
       >
         <h1 style={{ textAlign: 'center', fontSize: '2rem' }}>
-          <Translate
-            id="test.noDataForTest"
-            defaultMessage="Zu diesem Test gibt es noch keine Daten"
-          />
+          <Translate id="test.noDataForTest" />
         </h1>
         <p style={{ justifyContent: 'center', textAlign: 'center', fontWeight: 700 }}>
           <Translate
             id="test.unvalidated"
-            defaultMessage="Leider wurde dieser Test noch nicht vom <peiStudyLink>Paul-Ehrlich-Institut</peiStudyLink> überprüft. Deswegen können wir hier keine Informationen zur Genauigkeit anzeigen."
             values={{
               peiStudyLink: (title: string) => (
                 <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
@@ -38,10 +32,7 @@ export default function TestFoundButNoData(): JSX.Element {
           />
         </p>
         <p style={{ fontWeight: 300, textAlign: 'center' }}>
-          <Translate
-            id="test.pleaseContactPei"
-            defaultMessage="Bitte wende Dich an das Paul-Ehrlich-Institut für weitere Fragen zu diesem Test."
-          />
+          <Translate id="test.pleaseContactPei" />
         </p>
       </div>
       <div style={{ flexGrow: 1 }} />

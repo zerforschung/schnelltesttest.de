@@ -56,7 +56,7 @@ export function TextHeadingPage({
   return (
     <HeadingPage header={<TextHeader text={heading} />}>
       {children}
-      <BigBackButton content={<Translate id="app.back" defaultMessage="Zurück" />} />
+      <BigBackButton content={<Translate id="app.back" />} />
     </HeadingPage>
   );
 }

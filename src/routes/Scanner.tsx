@@ -64,16 +64,8 @@ export default function Scanner(): JSX.Element {
             top: '90%',
           }}
         >
-          <NavButton
-            to="/search"
-            border={true}
-            content={<Translate id="app.searchTests" defaultMessage="Tests durchsuchen" />}
-          />
-          <NavButton
-            to="/about"
-            border={false}
-            content={<Translate id="app.about" defaultMessage="Über" />}
-          />
+          <NavButton to="/search" border={true} content={<Translate id="app.searchTests" />} />
+          <NavButton to="/about" border={false} content={<Translate id="app.about" />} />
         </div>
       </LogoHeadingPage>
     </>

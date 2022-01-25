@@ -5,7 +5,7 @@ import { ContactInfo } from '../ContactInfo';
 
 export default function NoTestFound({ test_id }: { test_id: string }): JSX.Element {
   return (
-    <TextHeadingPage heading={<Translate id="app.helpUs" defaultMessage="Hilf Uns!" />}>
+    <TextHeadingPage heading={<Translate id="app.helpUs" />}>
       <div
         style={{
           display: 'flex',
@@ -18,26 +18,15 @@ export default function NoTestFound({ test_id }: { test_id: string }): JSX.Eleme
         }}
       >
         <h1 style={{ textAlign: 'center', fontSize: '2rem' }}>
-          <Translate
-            id="test.unknown.header"
-            defaultMessage="Huch, diesen Test kennen wir garnicht!"
-          />
+          <Translate id="test.unknown.header" />
         </h1>
 
         <p style={{ justifyContent: 'center', textAlign: 'center' }}>
-          <Translate
-            id="test.unknown.body"
-            defaultMessage={`Leider konnten wir unter "<b>{test_id}</b>" keinen Test finden.
-            Es wäre cool, wenn du uns ein Foto des Tests, des Barcodes und die Marke schicken könntest.
-            <br />
-            <br />
-            Wir tragen den Test dann in den nächsten Tagen ein.`}
-            values={{ test_id }}
-          />
+          <Translate id="test.unknown.body" values={{ test_id }} />
         </p>
 
         <p>
-          <Translate id="app.contactUs" defaultMessage="Du erreichst uns per" />:
+          <Translate id="app.contactUs" />:
         </p>
         <ContactInfo />
       </div>

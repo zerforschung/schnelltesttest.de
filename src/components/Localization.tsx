@@ -29,7 +29,7 @@ const languagePreferredByUser =
 
 const LocaleContext = createContext<LocaleContextValue>({} as LocaleContextValue);
 
-export const useLocale = () => useContext(LocaleContext);
+export const useLocale = (): LocaleContextValue => useContext(LocaleContext);
 
 export function LocaleProvider({ children }: { children: React.ReactNode }): JSX.Element {
   const [locale, setLocale] = useLocalStorageState('locale', languagePreferredByUser);
@@ -61,18 +61,8 @@ const htmlValues = {
   br: <br />,
 };
 
-export function Translate({
-  id,
-  defaultMessage,
-  description,
-  values,
-}: MessageDescriptor): JSX.Element {
+export function Translate({ id, description, values }: MessageDescriptor): JSX.Element {
   return (
-    <FormattedMessage
-      id={id}
-      defaultMessage={defaultMessage}
-      description={description}
-      values={{ ...htmlValues, ...values }}
-    />
+    <FormattedMessage id={id} description={description} values={{ ...htmlValues, ...values }} />
   );
 }

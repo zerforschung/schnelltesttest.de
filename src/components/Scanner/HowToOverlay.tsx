@@ -29,10 +29,7 @@ export function HowToOverlay(): JSX.Element {
           textAlign: 'center',
         }}
       >
-        <Translate
-          id="app.scanInstruction"
-          defaultMessage="Bitte scanne den Strichcode auf der Verpackung des Schnelltests"
-        />
+        <Translate id="app.scanInstruction" />
       </div>
     </div>
   );
