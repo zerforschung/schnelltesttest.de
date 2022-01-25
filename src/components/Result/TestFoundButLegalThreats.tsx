@@ -1,8 +1,10 @@
 import React from 'react';
-import { TestData } from '../../utils/testdata';
-import { BigBackButton } from '../Buttons';
 import { ResultIcon } from './ResultIcon';
+import { Translate } from '../Localization';
+import { BigBackButton } from '../Buttons';
 import { LogoHeadingPage } from '../HeadingPageLayouts';
+import { TestData } from '../../utils/testdata';
+
 export default function TestFoundButLegalThreats({
   testdata,
 }: {
@@ -12,30 +14,40 @@ export default function TestFoundButLegalThreats({
     <LogoHeadingPage>
       <ResultIcon passed={false} />
       <p>
-        Der Hersteller dieses Tests – <b>"{testdata.manufacturer}"</b> – hat uns mit rechtlichen
-        Schritten gedroht, falls wir weiterhin Informationen zum Test "{testdata.test_name}"
-        veröffentlichen.
+        <Translate
+          id="test.legalThreat.body"
+          values={{
+            test_name: testdata.test_name,
+            manufacturer: testdata.manufacturer,
+          }}
+        />
       </p>
       <p>
-        Die Daten zu allen Tests findet ihr beim{' '}
-        <a
-          href={
-            'https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile&v=69'
-          }
-        >
-          Paul-Ehrlich-Institut.
-        </a>
+        <Translate
+          id="test.allDataReference"
+          values={{
+            peiStudyLink: (title: string) => (
+              <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
+                {title}
+              </a>
+            ),
+          }}
+        />
       </p>
       <p style={{ color: 'red', fontWeight: 'bold' }}>
-        Vom Verhalten dieses Herstellers rät schnelltesttest.de ab.
+        <Translate id="test.legalThreat.advise" />
       </p>
       <p style={{ textAlign: 'center' }}>
-        Falls ihr uns bei eventuellen Rechtsstreitigkeiten unterstützen wollt, findet ihr{' '}
-        <a href={'https://zerforschung.org/unterstuetzen/'}>hier Möglichkeiten.</a>
+        <Translate
+          id="test.legalThreat.advise"
+          values={{
+            link: (title: string) => <a href="https://zerforschung.org/unterstuetzen/">{title}.</a>,
+          }}
+        />
       </p>
 
       <div style={{ flexGrow: 1 }} />
-      <BigBackButton content={'Zurück'} />
+      <BigBackButton content="Zurück" />
     </LogoHeadingPage>
   );
 }
