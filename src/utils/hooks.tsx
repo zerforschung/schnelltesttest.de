@@ -28,7 +28,7 @@ export function useTestData(): [string | null, TestData | 'NO_DATA' | null] {
   return [test_id, test_data];
 }
 
-export function safeJsonParse(string: string | null, defaultValue?: any) {
+export function safeJsonParse(string: string | null, defaultValue?: any): JSONValue {
   if (!string) return defaultValue;
   try {
     return JSON.parse(string);
