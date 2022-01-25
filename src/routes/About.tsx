@@ -21,7 +21,7 @@ export default function About(): JSX.Element {
             </p>
             <p>
               Ein Test wird mit einem grünen Haken angezeigt, wenn die Sensitivität bei sehr hoher
-              Viruslast (Cq ≤ 25) mehr als 75% beträgt. Dies entspricht dem vom <peiStudyLink>Paul-Ehrlich-Institut angenommenen "Stand der Technik"</peiStudyLink>.
+              Viruslast (Cq ≤ 25) mehr als 75% beträgt. Dies entspricht dem vom <peiStudyLink>Paul-Ehrlich-Institut angenommenen "Stand der Technik"</peiStudyLink>. Falls wir aus rechtlichen Gründen keine Daten zu einem Test anzeigen können, erscheint ebenfalls ein rotes Kreuz.
             </p>
             <p>
               Solltest du dazu Fragen oder Anmerkungen haben oder einen Fehler entdeckt haben, melde dich

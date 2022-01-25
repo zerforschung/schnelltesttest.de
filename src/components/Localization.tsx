@@ -14,6 +14,7 @@ export { useIntl } from 'react-intl';
 export interface LocaleContextValue {
   locale: string;
   locales: string[];
+  messages: Record<string, string>;
   setLocale: (locale: string) => void;
 }
 
@@ -32,16 +33,16 @@ export const useLocale = () => useContext(LocaleContext);
 
 export function LocaleProvider({ children }: { children: React.ReactNode }): JSX.Element {
   const [locale, setLocale] = useLocalStorageState('locale', languagePreferredByUser);
-  const messages = localeMap[locale] ?? localeMap.en;
 
   const contextValue = useMemo(() => {
     const locales = Object.keys(localeMap);
-    return { locale, setLocale, locales };
+    const messages = { ...localeMap.en, ...localeMap[locale] }; // merge in defaults in case some keys are untranslated
+    return { locale, setLocale, locales, messages };
   }, [locale]);
 
   return (
     <LocaleContext.Provider value={contextValue}>
-      <IntlProvider locale={locale} messages={messages}>
+      <IntlProvider locale={locale} messages={contextValue.messages}>
         {children}
       </IntlProvider>
     </LocaleContext.Provider>

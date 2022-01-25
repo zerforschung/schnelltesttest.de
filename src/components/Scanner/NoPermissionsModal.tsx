@@ -1,6 +1,7 @@
 import React from 'react';
-import { Translate } from '../Localization';
 import { Link } from 'react-router-dom';
+import { engineName } from 'react-device-detect';
+import { Translate } from '../Localization';
 
 export function NoPermissionsModal(): JSX.Element {
   return (
@@ -16,16 +17,17 @@ export function NoPermissionsModal(): JSX.Element {
       }}
     >
       <div style={{ fontWeight: 'bold' }}>
+        <Translate id="app.noCameraPermission" />
+
+        {engineName === 'Blink' ? (
+          <Translate id="app.noAccessReloadBlink" />
+        ) : (
+          <Translate id="app.noAccessReload" />
+        )}
+
         <Translate
-          id="app.noCameraPermission"
-          defaultMessage="Leider konnten wir keinen Zugriff auf deine Kamera bekommen. Bitte erlaube diesen Zugriff, damit du deinen Code scannen kannst oder {link}."
-          values={{
-            link: (
-              <Link to="/search">
-                <Translate id="test.enterCodeManually" defaultMessage="gib den Code selbst ein" />
-              </Link>
-            ),
-          }}
+          id="app.enterCodeManually"
+          values={{ link: (title: string) => <Link to="/search">{title}</Link> }}
         />
       </div>
     </div>

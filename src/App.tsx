@@ -32,11 +32,7 @@ function App(): JSX.Element {
         }}
       >
         <Logo />
-        <BigLinkButton
-          to="/scan"
-          content={<Translate id="app.scanCode" defaultMessage="Code scannen" />}
-          appearance="primary"
-        />
+        <BigLinkButton to="/scan" content={<Translate id="app.scanCode" />} appearance="primary" />
         <BigLinkButton
           to="/search"
           content={<Translate id="app.searchTests" defaultMessage="Tests durchsuchen" />}
