@@ -22,7 +22,8 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
             'https://www.pei.de/DE/newsroom/hp-meldungen/2021/211230-antigentests-omikron-variante.html'
           }
         >
-          schätzt das PEI Antigentests auch für den Nachweis von Omikron-Infektion als geeignet ein
+          schätzt das PEI Antigentests auch für den Nachweis von Omikron-Infektionen als geeignet
+          ein
         </a>
         .
       </p>
