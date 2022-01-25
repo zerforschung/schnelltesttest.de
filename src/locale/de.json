@@ -20,7 +20,7 @@
   "app.source": "Quelle",
   "app.support": "Unterstützen",
   "app.version": "Version",
-  "test.warning": "Vorsicht: Diese Zahlen wurden vor Omikron erhoben, allerdings <a>schätzt das PEI Antigentests auch für den Nachweis von Omikron-Infektion als geeignet ein</a>.",
+  "test.warning": "Vorsicht: Diese Zahlen wurden vor Omikron erhoben, allerdings <a>schätzt das PEI Antigentests auch für den Nachweis von Omikron-Infektionen als geeignet ein</a>.",
   "test.couldNotBeFound": "Leider konnten wir diesen Test nicht finden.",
   "test.moreInfo": "Weitere Informationen zu <b>{manufacturer} {test_name}</b>",
   "test.noData": "Keine Daten vorhanden",
