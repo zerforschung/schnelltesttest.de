@@ -12,25 +12,25 @@ function App(): JSX.Element {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%',
-        height: '100%',
         alignContent: 'center',
         flexDirection: 'column',
+        width: '100%',
+        height: '100%',
+        padding: '2em',
       }}
     >
       <div
         style={{
-          width: '100%',
-          maxWidth: '400px',
-          padding: '2em',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          height: '100%',
           flexDirection: 'column',
+          flex: 1,
+          width: '100%',
+          maxWidth: '400px',
+          paddingBottom: '2em',
         }}
       >
-        <div style={{ flexGrow: 1 }} />
         <Logo />
         <BigLinkButton
           to="/scan"
@@ -43,9 +43,8 @@ function App(): JSX.Element {
           appearance="primary"
         />
         <BigLinkButton to="/about" content={<Translate id="app.about" defaultMessage="Über" />} />
-        <div style={{ flexGrow: 1 }} />
-        <LinkFooter />
       </div>
+      <LinkFooter />
     </div>
   );
 }

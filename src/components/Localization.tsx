@@ -1,38 +1,50 @@
-import React, { ReactNode } from 'react';
+import React, { createContext, useContext, useMemo, ReactNode } from 'react';
 import {
   IntlProvider,
   FormattedMessage,
   MessageDescriptor as BaseMessageDescriptor,
 } from 'react-intl';
-import { LanguageSwitch } from './LanguageSwitch';
 import { useLocalStorageState } from '../utils/hooks';
-
-export { useIntl } from 'react-intl';
 
 import locale_en from '../locale/en.json';
 import locale_de from '../locale/de.json';
 
-const locales: Record<string, any> = {
+export { useIntl } from 'react-intl';
+
+export interface LocaleContextValue {
+  locale: string;
+  locales: string[];
+  setLocale: (locale: string) => void;
+}
+
+const localeMap: Record<string, any> = {
   en: locale_en,
   de: locale_de,
 };
 
 const languagePreferredByUser =
-  navigator.languages?.find((entry: string) => locales[entry]) ?? // `languages` is experimental but with good support and lists all user languages
+  navigator.languages?.find((entry: string) => localeMap[entry]) ?? // `languages` is experimental but with good support and lists all user languages
   navigator.language.split(/[-_]/)[0]; // fallback, only one language
+
+const LocaleContext = createContext<LocaleContextValue>({} as LocaleContextValue);
+
+export const useLocale = () => useContext(LocaleContext);
 
 export function LocaleProvider({ children }: { children: React.ReactNode }): JSX.Element {
   const [locale, setLocale] = useLocalStorageState('locale', languagePreferredByUser);
-  return (
-    <IntlProvider locale={locale} messages={locales[locale] ?? locales.en}>
-      {children}
+  const messages = localeMap[locale] ?? localeMap.en;
 
-      <LanguageSwitch
-        activeLanguage={locale}
-        languages={Object.keys(locales)}
-        onChange={setLocale}
-      />
-    </IntlProvider>
+  const contextValue = useMemo(() => {
+    const locales = Object.keys(localeMap);
+    return { locale, setLocale, locales };
+  }, [locale]);
+
+  return (
+    <LocaleContext.Provider value={contextValue}>
+      <IntlProvider locale={locale} messages={messages}>
+        {children}
+      </IntlProvider>
+    </LocaleContext.Provider>
   );
 }
 

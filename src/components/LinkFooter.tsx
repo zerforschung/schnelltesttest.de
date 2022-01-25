@@ -1,5 +1,6 @@
 import React from 'react';
 import { Translate } from './Localization';
+import { LanguageSwitch } from './LanguageSwitch';
 import generatedGitInfo from '../generatedGitInfo.json';
 
 export function LinkFooter(): JSX.Element {
@@ -12,6 +13,8 @@ export function LinkFooter(): JSX.Element {
       <a href="https://zerforschung.org/impressum/">
         <Translate id="app.imprint" defaultMessage="Impressum" />
       </a>
+      {' | '}
+      <LanguageSwitch />
       <br />
       <span style={{ fontSize: '0.75em', color: '#666' }}>
         <Translate id="app.version" defaultMessage="Version" />: {generatedGitInfo.gitCommitHash}

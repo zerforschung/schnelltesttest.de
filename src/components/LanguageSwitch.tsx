@@ -1,24 +1,24 @@
 import React from 'react';
+import { useLocale } from './Localization';
+import { languageNameMap } from './languageNameMap';
 
-type LanguageSwitchProps = {
-  activeLanguage: string;
-  languages: string[];
-  onChange: (value: string) => void;
+const selectStyles = {
+  padding: 4,
+  borderRadius: 0,
+  border: '2px solid black',
+  fontSize: '1rem',
 };
 
-export function LanguageSwitch({
-  activeLanguage,
-  languages,
-  onChange,
-}: LanguageSwitchProps): JSX.Element {
+export function LanguageSwitch(): JSX.Element {
+  const { locale, locales, setLocale } = useLocale();
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) =>
-    onChange(event.target.value);
+    setLocale(event.target.value);
 
   return (
-    <select onChange={handleChange} style={{ position: 'absolute', top: '1em', right: '1em' }}>
-      {languages.map((key) => (
-        <option key={key} selected={key === activeLanguage}>
-          {key}
+    <select onChange={handleChange} style={selectStyles}>
+      {locales.map((key) => (
+        <option key={key} value={key} selected={key === locale}>
+          {languageNameMap[key]}
         </option>
       ))}
     </select>
