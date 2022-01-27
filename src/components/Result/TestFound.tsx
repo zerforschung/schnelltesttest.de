@@ -15,6 +15,13 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
         Über <i>alle</i> Viruslasten erkennt der Test <b>{testdata.sensitivity_total}&nbsp;%</b> der
         Infizierten
       </p>
+      {testdata.notice ? (
+        <p>
+          <b>Hinweis:</b> <div dangerouslySetInnerHTML={{ __html: testdata.notice }}></div>
+        </p>
+      ) : (
+        <></>
+      )}
       <p style={{ fontStyle: 'italic' }}>
         Vorsicht: Diese Zahlen wurden vor Omikron erhoben, allerdings{' '}
         <a
