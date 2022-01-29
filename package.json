@@ -17,6 +17,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "fuse": "^0.4.0",
+    "fuse.js": "^6.5.3",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-device-detect": "^2.1.2",
