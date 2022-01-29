@@ -48,7 +48,7 @@ export function EnterCode(): JSX.Element {
       console.log('search', res);
       // res = res.filter((v,i,a)=>a.findIndex(t=>(t.value===v.value))===i)
       // console.log("dedup", res);
-      return res;
+      return res.map((x) => x.item);
     };
   }
   const options: SearchOption[] = Object.values(all).map((x) => {
