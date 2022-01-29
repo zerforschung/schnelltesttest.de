@@ -11,11 +11,7 @@ export default function TestFoundButLegalThreats({
   return (
     <LogoHeadingPage>
       <ResultIcon passed={false} />
-      <p>
-        Der Hersteller dieses Tests – <b>"{testdata.manufacturer}"</b> – hat uns mit rechtlichen
-        Schritten gedroht, falls wir weiterhin Informationen zum Test "{testdata.test_name}"
-        veröffentlichen.
-      </p>
+      <p>{testdata.legal_threat || ''}</p>
       <p>
         Die Daten zu allen Tests findet ihr beim{' '}
         <a
@@ -25,9 +21,6 @@ export default function TestFoundButLegalThreats({
         >
           Paul-Ehrlich-Institut.
         </a>
-      </p>
-      <p style={{ color: 'red', fontWeight: 'bold' }}>
-        Vom Verhalten dieses Herstellers rät schnelltesttest.de ab.
       </p>
       <p style={{ textAlign: 'center' }}>
         Falls ihr uns bei eventuellen Rechtsstreitigkeiten unterstützen wollt, findet ihr{' '}

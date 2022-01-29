@@ -465,7 +465,8 @@
     "manufacturer": "VivaChek Biotech (Hangzhou) Co., Ltd.",
     "ref_nr": "VCD05-01-011",
     "test_name": "VivaDiag SARS-CoV-2 Ag Rapid Test",
-    "target_antigen": "N"
+    "target_antigen": "N",
+    "notice": "Hierbei handelt es sich nicht um den als \"VERINO Pro\" verkauften Test. Laut PEI ist der VERINO Pro als \"<a href=\"/result/AT823%2F21\">MSP SARS-CoV-2 Antigen-Schnelltest</a>\" gelistet."
   },
   "AT069/20": {
     "at_nr": "AT069/20",
@@ -1270,7 +1271,7 @@
     "ref_nr": "SP-SW 106",
     "test_name": "SARS-Cov-2 Antigen Rapid Test Cassette (swab)",
     "target_antigen": "N+S",
-    "legal_threat": true
+    "legal_threat": "Der Hersteller dieses Tests – Spring Healthcare Services Sp zoo – hat uns mit rechtlichen Schritten gedroht, falls wir weiterhin Informationen zum Test \"SARS-Cov-2 Antigen Rapid Test Cassette (swab)\" veröffentlichen."
   },
   "AT228/20": {
     "at_nr": "AT228/20",
@@ -1438,7 +1439,8 @@
     "manufacturer": "VivaChek Biotech (Hangzhou) Co., Ltd.",
     "ref_nr": "VCD16-01-011",
     "test_name": "VivaDiag Pro SARS-CoV-2 Ag Rapid Test",
-    "target_antigen": "N"
+    "target_antigen": "N",
+    "notice": "Hierbei handelt es sich nicht um den als \"VERINO Pro\" verkauften Test. Laut PEI ist der VERINO Pro als \"<a href=\"/result/AT823%2F21\">MSP SARS-CoV-2 Antigen-Schnelltest</a>\" gelistet."
   },
   "AT302/21": {
     "at_nr": "AT302/21",
@@ -1810,7 +1812,8 @@
     "manufacturer": "Hangzhou Singclean Medical Products Co., Ltd.",
     "ref_nr": "n.a.",
     "test_name": "COVID-19 Test Kit (Colloidal Gold Method)",
-    "target_antigen": "N"
+    "target_antigen": "N",
+    "notice": "Laut Händler ist dieser Test (AT437/21) nicht mehr am Markt erhältlich. Die Neuentwicklung dieses Herstellers namens <a href=\"/result/AT1021%2F21\">Hangzhou Singclean Covid-19 Antigen Test Kit (Collodial Gold)</a> wurde noch nicht vom PEI evaluiert."
   },
   "AT441/20": {
     "at_nr": "AT441/20",
@@ -2602,7 +2605,8 @@
     "manufacturer": "MSP bodmann GmbH",
     "ref_nr": "0000000168",
     "test_name": "MSP SARS-CoV-2 Antigen-Schnelltest (auch: VivaDiagTM Pro SARS-CoV-2 Ag Rapid Test (self-test), VERINO Pro SARS-CoV-2-Ag-Schnelltest (self test))",
-    "target_antigen": "N"
+    "target_antigen": "N",
+    "notice": "Laut PEI wird dieser Test auch als VivaDiagTM Pro SARS-CoV-2 Ag Rapid Test (self-test) und VERINO Pro SARS-CoV-2-Ag-Schnelltest (self test) verkauft."
   },
   "AT825/21": {
     "at_nr": "AT825/21",
