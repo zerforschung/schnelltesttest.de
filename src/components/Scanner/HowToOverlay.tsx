@@ -2,11 +2,9 @@ import barcodeImage from './barcode.svg';
 import React, { CSSProperties } from 'react';
 export function HowToOverlay({
   toggleFrontCamera,
-  torchEnabled,
   toggleTorchEnabled,
 }: {
   toggleFrontCamera: () => void;
-  torchEnabled: boolean;
   toggleTorchEnabled: () => void;
 }): JSX.Element {
   const buttonStyle: CSSProperties = {

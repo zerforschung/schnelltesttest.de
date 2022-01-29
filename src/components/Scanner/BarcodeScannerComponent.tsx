@@ -97,7 +97,6 @@ const BarcodeScannerComponent = ({
         <>
           <HowToOverlay
             toggleFrontCamera={() => setFrontCamera(!frontCamera)}
-            torchEnabled={torchEnabled}
             toggleTorchEnabled={() => {
               const track = Quagga.CameraAccess.getActiveTrack();
               if (track && typeof track.getCapabilities === 'function') {
