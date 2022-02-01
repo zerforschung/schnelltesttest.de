@@ -826,7 +826,8 @@
     "manufacturer": "Genrui Biotech Inc.",
     "ref_nr": "52026075",
     "test_name": "Genrui SARS-CoV-2 Antigen Test Kit (Colloidal Gold)",
-    "target_antigen": "N"
+    "target_antigen": "N",
+    "notice": "Für die Chargen LOT-Nr. 20211008 und 20211125 dieses Tests <a href=\"https://www.hamburg.de/coronavirus/15814712/2022-01-25-sozialbehoerde-rueckruf-genrui-schnelltest/\">liegt der Stadt Hamburg ein Produktrückruf vor</a>. Als Grund nannte der Hersteller gehäufte falsch-positive Ergebnisse."
   },
   "AT116/20": {
     "at_nr": "AT116/20",
