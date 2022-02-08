@@ -2565,7 +2565,7 @@
     "sensitivity_cq>=30": 0.0,
     "sensitivity_total": 48.0,
     "target_antigen": "N",
-    "test_name": "MSP SARS-CoV-2 Antigen-Schnelltest"
+    "test_name": "MSP SARS-CoV-2 Antigen-Schnelltest  (auch: VivaDiagTM Pro SARS-CoV-2 Ag Rapid Test (self-test), VERINO Pro SARS-CoV-2-Ag-Schnelltest (self test))"
   },
   "AT825/21": {
     "at_nr": "AT825/21",
