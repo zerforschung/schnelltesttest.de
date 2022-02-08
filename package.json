@@ -58,6 +58,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-tsc": "^2.0.0",
     "husky": "^7.0.4"
   }
 }

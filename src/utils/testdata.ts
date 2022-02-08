@@ -23,9 +23,9 @@ export type TestData = {
   manufacturer: string;
   test_name: string;
   target_antigen: string;
-  'sensitivity_cq<25': number;
+  'sensitivity_cq<=25': number;
   'sensitivity_cq25-30': number;
-  'sensitivity_cq>30': number;
+  'sensitivity_cq>=30': number;
   sensitivity_total: number;
   ids?: string[];
   legal_threat?: string;

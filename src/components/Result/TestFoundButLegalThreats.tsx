@@ -22,6 +22,13 @@ export default function TestFoundButLegalThreats({
           Paul-Ehrlich-Institut.
         </a>
       </p>
+      {testdata.notice ? (
+        <p>
+          <b>Hinweis:</b> <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />
+        </p>
+      ) : (
+        <></>
+      )}
       <p style={{ textAlign: 'center' }}>
         Falls ihr uns bei eventuellen Rechtsstreitigkeiten unterstützen wollt, findet ihr{' '}
         <a href={'https://zerforschung.org/unterstuetzen/'}>hier Möglichkeiten.</a>
