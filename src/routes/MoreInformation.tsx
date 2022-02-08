@@ -63,9 +63,9 @@ export default function MoreInformation(): JSX.Element {
           <tr>
             <td>
               <Translate id="test.properties.sensitivityFor" />{' '}
-              <Translate id="test.properties.cq" /> &lt; 25:
+              <Translate id="test.properties.cq" /> &le; 25:
             </td>
-            <td>{test_data['sensitivity_cq<25']}&nbsp;%</td>
+            <td>{test_data['sensitivity_cq<=25']}&nbsp;%</td>
           </tr>
           <tr>
             <td>
@@ -77,9 +77,9 @@ export default function MoreInformation(): JSX.Element {
           <tr>
             <td>
               <Translate id="test.properties.sensitivityFor" />{' '}
-              <Translate id="test.properties.cq" /> &gt; 30:
+              <Translate id="test.properties.cq" /> &ge; 30:
             </td>
-            <td>{test_data['sensitivity_cq>30']}&nbsp;%</td>
+            <td>{test_data['sensitivity_cq>=30']}&nbsp;%</td>
           </tr>
           <tr>
             <td>

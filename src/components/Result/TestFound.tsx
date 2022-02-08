@@ -8,14 +8,14 @@ import { TestData } from '../../utils/testdata';
 export default function TestFound({ testdata }: { testdata: TestData }): JSX.Element {
   return (
     <LogoHeadingPage>
-      <ResultIcon passed={testdata['sensitivity_cq<25'] >= 75} />
+      <ResultIcon passed={testdata['sensitivity_cq<=25'] >= 75} />
       <p>
         <Translate
           id="test.found.body"
           values={{
             test_name: testdata.test_name,
             manufacturer: testdata.manufacturer,
-            sensitivity: testdata['sensitivity_cq<25'],
+            sensitivity: testdata['sensitivity_cq<=25'],
           }}
         />
       </p>
@@ -25,6 +25,13 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
           values={{ sensitivity_total: testdata.sensitivity_total }}
         />
       </p>
+      {testdata.notice ? (
+        <p>
+          <b>Hinweis:</b> <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />
+        </p>
+      ) : (
+        <></>
+      )}
       <p style={{ fontStyle: 'italic' }}>
         <Translate
           id="test.warning"

@@ -1,6 +1,7 @@
 import csv
 import sys
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     data = []
     headers = set()
     for filename in sys.argv[1:-1]:
@@ -13,6 +14,5 @@ if __name__ == '__main__':
     with open(sys.argv[-1], "w") as f:
         writer = csv.DictWriter(f, fieldnames=sorted(list(headers)))
         writer.writeheader()
-        for row in sorted(data, key=lambda x: x.get('AT-Nr. / AT-No.')):
+        for row in sorted(data, key=lambda x: x.get("AT-Nr. / AT-No.")):
             writer.writerow(row)
-

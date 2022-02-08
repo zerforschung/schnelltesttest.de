@@ -50,7 +50,7 @@ export function EnterCode(): JSX.Element {
       console.log('search', res);
       // res = res.filter((v,i,a)=>a.findIndex(t=>(t.value===v.value))===i)
       // console.log("dedup", res);
-      return res;
+      return res.map((x) => x.item);
     };
   }
 
@@ -68,9 +68,9 @@ export function EnterCode(): JSX.Element {
         ref_nr: '',
         manufacturer: '',
         test_name: '',
-        'sensitivity_cq<25': 0,
+        'sensitivity_cq<=25': 0,
         'sensitivity_cq25-30': 0,
-        'sensitivity_cq>30': 0,
+        'sensitivity_cq>=30': 0,
         target_antigen: '',
         sensitivity_total: 0,
       },

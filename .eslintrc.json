@@ -5,7 +5,7 @@
     "es6": true,
     "node": true
   },
-  "plugins": ["prettier", "react", "unused-imports", "@calm/react-intl"],
+  "plugins": ["prettier", "react", "unused-imports", "tsc", "@calm/react-intl"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -43,7 +43,12 @@
         "checkLoops": false
       }
     ],
-
+    "tsc/config": [
+      1,
+      {
+        "configFile": "tsconfig.json"
+      }
+    ],
     "@calm/react-intl/missing-attribute": "off",
     "@calm/react-intl/missing-formatted-message": "warn",
     "@calm/react-intl/missing-values": "warn"

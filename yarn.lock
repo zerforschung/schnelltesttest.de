@@ -4021,6 +4021,13 @@ eslint-plugin-testing-library@^5.0.1:
   dependencies:
     "@typescript-eslint/experimental-utils" "^5.9.0"
 
+eslint-plugin-tsc@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-tsc/-/eslint-plugin-tsc-2.0.0.tgz#3033815cf51bb0dd9e3956549e54de2498797003"
+  integrity sha512-we7n063HSoWDpXjuqgplrYxfWnlVgq7GXteEjxtc/Ve6C0BjGQyoNGjApSVspyru1cckAM9ASwPnSU8Y0OTwTA==
+  dependencies:
+    typescript-service "^2.0.3"
+
 eslint-plugin-unused-imports@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-unused-imports/-/eslint-plugin-unused-imports-2.0.0.tgz#d8db8c4d0cfa0637a8b51ce3fd7d1b6bc3f08520"
@@ -4523,6 +4530,11 @@ fuse.js@^3.4.5:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-3.6.1.tgz#7de85fdd6e1b3377c23ce010892656385fd9b10c"
   integrity sha512-hT9yh/tiinkmirKrlv4KWOjztdoZo1mx9Qh4KvWqC7isoXwdUY3PNWUxceF4/qO9R6riA2C29jdTOeQOIROjgw==
+
+fuse.js@^6.5.3:
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.5.3.tgz#7446c0acbc4ab0ab36fa602e97499bdb69452b93"
+  integrity sha512-sA5etGE7yD/pOqivZRBvUBd/NaL2sjAu6QuSaFoe1H2BrJSkH/T/UXAJ8CdXdw7DvY3Hs8CXKYkDWX7RiP5KOg==
 
 fuse@^0.4.0:
   version "0.4.0"
@@ -8621,7 +8633,7 @@ tsconfig-paths@^3.12.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@^1.8.1:
+tslib@^1.8.1, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
@@ -8698,6 +8710,13 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript-service@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/typescript-service/-/typescript-service-2.0.3.tgz#3a0a61500c4c1b3b2fe54f6b74a004307fd894ce"
+  integrity sha512-FzRlqRp965UBzGvGwc6rbeko84jLILZrHf++I4cN8usZUB7F8Lh8/WDiCOUvy2l5os+jBWEz4fbYkkj1DhYJcw==
+  dependencies:
+    tslib "^1.9.3"
 
 typescript@^4.4.2:
   version "4.5.4"

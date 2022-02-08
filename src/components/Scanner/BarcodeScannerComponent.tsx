@@ -11,12 +11,15 @@ const BarcodeScannerComponent = ({
 }): ReactElement => {
   const ref = useRef(null);
   const [showModal, setShowModal] = useState(false);
+  const [frontCamera, setFrontCamera] = useState(false);
+  const [torchEnabled, setTorchEnabled] = useState(false);
+
   const quaggaConfig = {
     inputStream: {
       constraints: {
         height: window.innerHeight * 0.8 * window.devicePixelRatio,
         width: window.innerWidth * window.devicePixelRatio,
-        facingMode: 'environment',
+        facingMode: frontCamera ? 'user' : 'environment',
         focusMode: 'continuous',
         aspectRatio: { ideal: (window.innerHeight * 0.8) / window.innerWidth },
       },
@@ -90,8 +93,19 @@ const BarcodeScannerComponent = ({
 
   return (
     <>
-      <HowToOverlay />
-      <div id="scanner" ref={ref} />
+      <HowToOverlay
+        toggleFrontCamera={() => setFrontCamera(!frontCamera)}
+        toggleTorchEnabled={() => {
+          const track = Quagga.CameraAccess.getActiveTrack();
+          if (track && typeof track.getCapabilities === 'function') {
+            track.applyConstraints({
+              advanced: [{ torch: !torchEnabled } as MediaTrackConstraintSet],
+            });
+            setTorchEnabled(!torchEnabled);
+          }
+        }}
+      />
+      <div id={'scanner'} ref={ref} />
     </>
   );
 };

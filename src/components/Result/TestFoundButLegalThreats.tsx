@@ -13,15 +13,7 @@ export default function TestFoundButLegalThreats({
   return (
     <LogoHeadingPage>
       <ResultIcon passed={false} />
-      <p>
-        <Translate
-          id="test.legalThreat.body"
-          values={{
-            test_name: testdata.test_name,
-            manufacturer: testdata.manufacturer,
-          }}
-        />
-      </p>
+      <p>{testdata.legal_threat || ''}</p>
       <p>
         <Translate
           id="test.allDataReference"
@@ -34,9 +26,13 @@ export default function TestFoundButLegalThreats({
           }}
         />
       </p>
-      <p style={{ color: 'red', fontWeight: 'bold' }}>
-        <Translate id="test.legalThreat.advise" />
-      </p>
+      {testdata.notice ? (
+        <p>
+          <b>Hinweis:</b> <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />
+        </p>
+      ) : (
+        <></>
+      )}
       <p style={{ textAlign: 'center' }}>
         <Translate
           id="test.legalThreat.advise"
