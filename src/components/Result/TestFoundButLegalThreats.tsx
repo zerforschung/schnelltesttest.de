@@ -28,7 +28,10 @@ export default function TestFoundButLegalThreats({
       </p>
       {testdata.notice ? (
         <p>
-          <b>Hinweis:</b> <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />
+          <b>
+            <Translate id="app.remark" />:
+          </b>{' '}
+          <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />
         </p>
       ) : (
         <></>
@@ -43,7 +46,7 @@ export default function TestFoundButLegalThreats({
       </p>
 
       <div style={{ flexGrow: 1 }} />
-      <BigBackButton content="Zurück" />
+      <BigBackButton content={<Translate id="app.back" />} />
     </LogoHeadingPage>
   );
 }

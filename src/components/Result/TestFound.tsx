@@ -27,7 +27,10 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
       </p>
       {testdata.notice ? (
         <p>
-          <b>Hinweis:</b> <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />
+          <b>
+            <Translate id="app.remark" />:
+          </b>{' '}
+          <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />
         </p>
       ) : (
         <></>
