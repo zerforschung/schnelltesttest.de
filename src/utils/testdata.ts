@@ -19,6 +19,7 @@ Object.keys(all).map((x) => {
 });
 export type TestData = {
   at_nr: string;
+  at_nr_self?: string;
   ref_nr: string;
   manufacturer: string;
   test_name: string;

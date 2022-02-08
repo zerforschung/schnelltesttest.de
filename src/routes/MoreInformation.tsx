@@ -41,6 +41,10 @@ export default function MoreInformation(): JSX.Element {
               <td>{test_data.at_nr}</td>
             </tr>
             <tr>
+              <td>AT-Nr. Selbsttest:</td>
+              <td>{test_data.at_nr_self || ''}</td>
+            </tr>
+            <tr>
               <td>Ref-Nr:</td>
               <td>{test_data.ref_nr}</td>
             </tr>

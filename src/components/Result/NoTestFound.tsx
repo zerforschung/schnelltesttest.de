@@ -22,7 +22,7 @@ export default function NoTestFound({ test_id }: { test_id: string }): JSX.Eleme
             fontSize: '2rem',
           }}
         >
-          Huch, diesen Test kennen wir garnicht!{' '}
+          Huch, diesen Test kennen wir gar nicht!{' '}
         </h1>
         <p style={{ justifyContent: 'center', textAlign: 'center' }}>
           Leider könnten wir unter <b>"{test_id}"</b> keinen Test finden. Es wäre cool, wenn du uns
