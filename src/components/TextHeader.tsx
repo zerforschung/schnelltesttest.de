@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function TextHeader({ text }: { text: string }): JSX.Element {
+export function TextHeader({ text }: { text: React.ReactNode }): JSX.Element {
   return (
     <>
       <div

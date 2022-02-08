@@ -87,29 +87,25 @@ const BarcodeScannerComponent = ({
     };
   }, [quaggaConfig]);
 
+  if (showModal) {
+    return <NoPermissionsModal />;
+  }
+
   return (
     <>
-      {showModal ? (
-        <>
-          <NoPermissionsModal />
-        </>
-      ) : (
-        <>
-          <HowToOverlay
-            toggleFrontCamera={() => setFrontCamera(!frontCamera)}
-            toggleTorchEnabled={() => {
-              const track = Quagga.CameraAccess.getActiveTrack();
-              if (track && typeof track.getCapabilities === 'function') {
-                track.applyConstraints({
-                  advanced: [{ torch: !torchEnabled } as MediaTrackConstraintSet],
-                });
-                setTorchEnabled(!torchEnabled);
-              }
-            }}
-          />
-          <div id={'scanner'} ref={ref} />
-        </>
-      )}
+      <HowToOverlay
+        toggleFrontCamera={() => setFrontCamera(!frontCamera)}
+        toggleTorchEnabled={() => {
+          const track = Quagga.CameraAccess.getActiveTrack();
+          if (track && typeof track.getCapabilities === 'function') {
+            track.applyConstraints({
+              advanced: [{ torch: !torchEnabled } as MediaTrackConstraintSet],
+            });
+            setTorchEnabled(!torchEnabled);
+          }
+        }}
+      />
+      <div id={'scanner'} ref={ref} />
     </>
   );
 };

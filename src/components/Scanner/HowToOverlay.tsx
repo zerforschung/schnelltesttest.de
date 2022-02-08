@@ -1,5 +1,7 @@
-import barcodeImage from './barcode.svg';
 import React, { CSSProperties } from 'react';
+import { Translate } from '../Localization';
+import barcodeImage from './barcode.svg';
+
 export function HowToOverlay({
   toggleFrontCamera,
   toggleTorchEnabled,
@@ -52,7 +54,7 @@ export function HowToOverlay({
           textAlign: 'center',
         }}
       >
-        Bitte scanne den Strichcode auf der Verpackung des Schnelltests
+        <Translate id="app.scanInstruction" />
       </div>
       <div
         style={{
@@ -61,10 +63,10 @@ export function HowToOverlay({
         }}
       >
         <button onClick={toggleFrontCamera} style={buttonStyle}>
-          Kamera wechseln
+          <Translate id="app.switchCamera" />
         </button>
         <button onClick={toggleTorchEnabled} style={buttonStyle}>
-          Taschenlampe
+          <Translate id="app.flashlight" />
         </button>
       </div>
     </div>

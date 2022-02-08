@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css';
-import Logo from './components/Logo';
+import { Translate } from './components/Localization';
 import { BigLinkButton } from './components/Buttons';
 import { LinkFooter } from './components/LinkFooter';
+import Logo from './components/Logo';
+import './App.css';
 
 function App(): JSX.Element {
   return (
@@ -11,32 +12,35 @@ function App(): JSX.Element {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%',
-        height: '100%',
         alignContent: 'center',
         flexDirection: 'column',
+        width: '100%',
+        height: '100%',
+        padding: '2em',
       }}
     >
       <div
         style={{
-          width: '100%',
-          maxWidth: '400px',
-          padding: '2em',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          height: '100%',
           flexDirection: 'column',
+          flex: 1,
+          width: '100%',
+          maxWidth: '400px',
+          paddingBottom: '2em',
         }}
       >
-        <div style={{ flexGrow: 1 }} />
         <Logo />
-        <BigLinkButton to={'/scan'} content={'Code scannen'} appearance={'primary'} />
-        <BigLinkButton to={'/search'} content={'Tests durchsuchen'} appearance={'primary'} />
-        <BigLinkButton to={'/about'} content={'Über'} />
-        <div style={{ flexGrow: 1 }} />
-        <LinkFooter />
+        <BigLinkButton to="/scan" content={<Translate id="app.scanCode" />} appearance="primary" />
+        <BigLinkButton
+          to="/search"
+          content={<Translate id="app.searchTests" />}
+          appearance="primary"
+        />
+        <BigLinkButton to="/about" content={<Translate id="app.about" />} />
       </div>
+      <LinkFooter />
     </div>
   );
 }

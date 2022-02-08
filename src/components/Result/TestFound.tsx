@@ -1,56 +1,65 @@
 import React from 'react';
-import { TestData } from '../../utils/testdata';
+import { Translate } from '../Localization';
 import { BigBackButton, BigLinkButton } from '../Buttons';
 import { ResultIcon } from './ResultIcon';
 import { LogoHeadingPage } from '../HeadingPageLayouts';
+import { TestData } from '../../utils/testdata';
+
 export default function TestFound({ testdata }: { testdata: TestData }): JSX.Element {
   return (
     <LogoHeadingPage>
       <ResultIcon passed={testdata['sensitivity_cq<=25'] >= 75} />
       <p>
-        <b>"{testdata.test_name}"</b> von <b>"{testdata.manufacturer}"</b> erkennt Infizierte mit{' '}
-        <i>sehr hoher</i> Viruslast zu <b>{testdata['sensitivity_cq<=25']}&nbsp;%</b>
+        <Translate
+          id="test.found.body"
+          values={{
+            test_name: testdata.test_name,
+            manufacturer: testdata.manufacturer,
+            sensitivity: testdata['sensitivity_cq<=25'],
+          }}
+        />
       </p>
       <p>
-        Über <i>alle</i> Viruslasten erkennt der Test <b>{testdata.sensitivity_total}&nbsp;%</b> der
-        Infizierten
+        <Translate
+          id="test.found.sensitivity_total"
+          values={{ sensitivity_total: testdata.sensitivity_total }}
+        />
       </p>
       {testdata.notice ? (
         <p>
-          <b>Hinweis:</b> <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />
+          <b>
+            <Translate id="app.remark" />:
+          </b>{' '}
+          <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />
         </p>
       ) : (
         <></>
       )}
       <p style={{ fontStyle: 'italic' }}>
-        Vorsicht: Diese Zahlen wurden vor Omikron erhoben, allerdings{' '}
-        <a
-          href={
-            'https://www.pei.de/DE/newsroom/hp-meldungen/2021/211230-antigentests-omikron-variante.html'
-          }
-        >
-          schätzt das PEI Antigentests auch für den Nachweis von Omikron-Infektionen als geeignet
-          ein
-        </a>
-        .
+        <Translate
+          id="test.warning"
+          values={{
+            a: (title: string) => (
+              <a href="https://www.pei.de/DE/newsroom/hp-meldungen/2021/211230-antigentests-omikron-variante.html">
+                {title}
+              </a>
+            ),
+          }}
+        />
       </p>
       <p>
-        Quelle:{' '}
-        <a
-          href={
-            'https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile&v=69'
-          }
-        >
+        <Translate id="app.source" />:{' '}
+        <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile&v=69">
           PEI
         </a>
       </p>
       <div style={{ flexGrow: 1 }} />
       <BigLinkButton
         to={`/result/${encodeURIComponent(testdata.at_nr)}/details`}
-        content={'Mehr Informationen'}
+        content={<Translate id="app.moreInfo" />}
         appearance="primary"
       />
-      <BigBackButton content={'Zurück'} />
+      <BigBackButton content={<Translate id="app.back" />} />
     </LogoHeadingPage>
   );
 }
