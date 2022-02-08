@@ -17,7 +17,7 @@ export default function About(): JSX.Element {
         <a href="https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile">
           "Vergleichende Evaluierung der Sensitivität von SARS-CoV-2 Antigenschnelltests"
         </a>{' '}
-        mit dem Stand vom 12.01.2022.
+        mit dem Stand vom 31.01.2022.
       </p>
       <p>
         Ein Test wird mit einem grünen Haken angezeigt, wenn die Sensitivität bei sehr hoher
