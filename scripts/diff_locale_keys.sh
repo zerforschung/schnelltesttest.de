@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # get all locale files and put them into an array
-IFS=$'\n'
-LOCALE_FILES=($(ls src/locale/*.json))
-unset IFS
+LOCALE_FILES=(src/locale/*.json)
 
 # variable to store all the diverging keys
 DIFF=""
