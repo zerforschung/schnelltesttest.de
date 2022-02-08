@@ -2,15 +2,6 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router';
 import { get_test, TestData } from './testdata';
 
-export type JSONValue<T = any> =
-  | T
-  | string
-  | number
-  | boolean
-  | null
-  | JSONValue<T>[]
-  | { [key: string]: JSONValue<T> };
-
 export function useTestData(): [string | null, TestData | 'NO_DATA' | null] {
   const params = useParams();
   const test_id = params.testId || null;
@@ -28,7 +19,7 @@ export function useTestData(): [string | null, TestData | 'NO_DATA' | null] {
   return [test_id, test_data];
 }
 
-export function safeJsonParse(string: string | null, defaultValue?: any): JSONValue {
+export function safeJsonParse(string: string | null, defaultValue?: any): any {
   if (!string) return defaultValue;
   try {
     return JSON.parse(string);
@@ -39,10 +30,10 @@ export function safeJsonParse(string: string | null, defaultValue?: any): JSONVa
 
 export function useLocalStorageState<T = any>(
   key: string,
-  initialValue?: JSONValue<T>
+  initialValue?: T
 ): [typeof state, typeof setState] {
-  const [state, setState] = useState<T>(
-    () => safeJsonParse(localStorage.getItem(key)) || initialValue
+  const [state, setState] = useState<T>(() =>
+    safeJsonParse(localStorage.getItem(key), initialValue)
   );
 
   useEffect(() => {

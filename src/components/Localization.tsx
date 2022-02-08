@@ -32,7 +32,7 @@ const LocaleContext = createContext<LocaleContextValue>({} as LocaleContextValue
 export const useLocale = (): LocaleContextValue => useContext(LocaleContext);
 
 export function LocaleProvider({ children }: { children: React.ReactNode }): JSX.Element {
-  const [locale, setLocale] = useLocalStorageState('locale', languagePreferredByUser);
+  const [locale, setLocale] = useLocalStorageState<string>('locale', languagePreferredByUser);
 
   const contextValue = useMemo(() => {
     const locales = Object.keys(localeMap);
