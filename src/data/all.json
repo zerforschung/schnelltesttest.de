@@ -1755,6 +1755,7 @@
     "at_nr": "AT430/20",
     "at_nr_self": "AT1289/21",
     "manufacturer": "Wuhan EasyDiagnosis Biomedicine Co., Ltd.",
+    "notice": "Dieser Test wird auch unter der Marke \"Medicovid\" vertrieben.",
     "ref_nr": "W-Ag03-20",
     "sensitivity_cq25-30": 73.9,
     "sensitivity_cq<=25": 100.0,
