@@ -1147,6 +1147,7 @@
   "AT201/20": {
     "at_nr": "AT201/20",
     "manufacturer": "Hangzhou AllTest Biotech Co. Ltd.",
+    "notice": "Hierbei handelt es sich um die Variante mit Nasen-Rachen-Abstrich (Nasopharyngeal swab). Der Selbst-Test mit Nasen-Abstich ist als  \"<a href=\"/result/AT766%2F21\">AllTest SARS-CoV-2 Antigen Rapid Test (Nasal Swab)</a>\" gelistet.",
     "ref_nr": "ICOV-502",
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq<=25": 16.7,
@@ -1374,6 +1375,7 @@
     "at_nr": "AT276/21",
     "at_nr_self": "AT1117/21",
     "manufacturer": "Hangzhou AllTest Biotech Co., Ltd.",
+    "notice": "Hierbei handelt es sich um einen Spuck-Test. Der Selbst-Test mit Nasen-Abstich ist als \"<a href=\"/result/AT766%2F21\">AllTest SARS-CoV-2 Antigen Rapid Test (Nasal Swab)</a>\" gelistet.",
     "ref_nr": "ICOV-802",
     "sensitivity_cq25-30": 55.0,
     "sensitivity_cq<=25": 100.0,
@@ -1409,7 +1411,7 @@
   "AT294/20": {
     "at_nr": "AT294/20",
     "manufacturer": "VivaChek Biotech (Hangzhou) Co., Ltd.",
-    "notice": "Hierbei handelt es sich nicht um den als \"VERINO Pro\" verkauften Test. Laut PEI ist der VERINO Pro als \"<a href=\"/result/AT823%2F21\">MSP SARS-CoV-2 Antigen-Schnelltest</a>\" gelistet.",
+    "notice": "Hierbei handelt es sich <b>nicht</b> um den als \"VERINO Pro\" verkauften Test. Laut PEI ist der VERINO Pro als \"<a href=\"/result/AT823%2F21\">MSP SARS-CoV-2 Antigen-Schnelltest</a>\" gelistet.",
     "ref_nr": "VCD16-01-011",
     "sensitivity_cq25-30": 0.0,
     "sensitivity_cq<=25": 64.7,
