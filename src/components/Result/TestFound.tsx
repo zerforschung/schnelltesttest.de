@@ -22,18 +22,15 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
       ) : (
         <></>
       )}
-      <p style={{ fontStyle: 'italic' }}>
-        Vorsicht: Diese Zahlen wurden vor Omikron erhoben, allerdings{' '}
-        <a
-          href={
-            'https://www.pei.de/DE/newsroom/hp-meldungen/2021/211230-antigentests-omikron-variante.html'
-          }
-        >
-          schätzt das PEI Antigentests auch für den Nachweis von Omikron-Infektionen als geeignet
-          ein
-        </a>
-        .
-      </p>
+      {!testdata.omicron_bridging ? (
+        <p style={{ fontStyle: 'italic' }}>
+          Vorsicht: Für diesen Test hat das PEI nicht angegeben, ob die Zielregion der verwendeten
+          Antikörper außerhalb der bei Omikron mutierten N-Regionen liegt. Die Sensitivität
+          gegenüber der Omikron-Variante kann daher abweichen.
+        </p>
+      ) : (
+        <></>
+      )}
       <p>
         Quelle:{' '}
         <a

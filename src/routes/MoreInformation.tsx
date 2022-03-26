@@ -53,6 +53,10 @@ export default function MoreInformation(): JSX.Element {
               <td>{getReadableAntigen(test_data.target_antigen)}</td>
             </tr>
             <tr>
+              <td>Omikron Erkennung ent­spre­chend der Bridging Prüfung des PEI</td>
+              <tr>{test_data.omicron_bridging ? 'Ja' : 'n/a'}</tr>
+            </tr>
+            <tr>
               <td>Sensitivität bei Cq&le;25:</td>
               <td>{test_data['sensitivity_cq<=25']}&nbsp;%</td>
             </tr>
