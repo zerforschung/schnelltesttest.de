@@ -69,6 +69,7 @@ export function EnterCode(): JSX.Element {
         'sensitivity_cq>=30': 0,
         target_antigen: '',
         sensitivity_total: 0,
+        omicron_bridging: false,
       },
     });
   }

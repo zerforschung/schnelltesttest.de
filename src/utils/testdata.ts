@@ -31,6 +31,7 @@ export type TestData = {
   ids?: string[];
   legal_threat?: string;
   notice?: string;
+  omicron_bridging: boolean;
 };
 
 export function get_test(identifier: string): TestData | 'NO_DATA' | null {
