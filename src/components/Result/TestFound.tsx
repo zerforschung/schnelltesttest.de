@@ -24,7 +24,8 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
       )}
       {!testdata.omicron_bridging ? (
         <p style={{ fontStyle: 'italic' }}>
-          Vorsicht: Für diesen Test hat das PEI nicht angegeben, ob die Werte auch für Omikron gelten.
+          Vorsicht: Für diesen Test hat das PEI nicht angegeben, ob die Werte auch für Omikron
+          gelten.
         </p>
       ) : (
         <></>
