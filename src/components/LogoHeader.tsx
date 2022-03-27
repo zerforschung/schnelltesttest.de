@@ -19,7 +19,7 @@ export default function LogoHeader(): JSX.Element {
         }}
       >
         <div style={{ position: 'relative', height: '70%', width: '100%', textAlign: 'center' }}>
-          <img src={logo} style={{ height: '100%' }} />
+          <img src={logo} style={{ height: '100%' }} alt="Logo mit der Aufschrift &quot;schnelltest test&quot; und weißem Haken auf grünem Grund" />
         </div>
       </Link>
     </>
