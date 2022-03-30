@@ -1,5 +1,7 @@
 import barcodeImage from './barcode.svg';
 import React, { CSSProperties } from 'react';
+import { engineName, isAndroid } from 'react-device-detect';
+
 export function HowToOverlay({
   toggleFrontCamera,
   toggleTorchEnabled,
@@ -63,9 +65,13 @@ export function HowToOverlay({
         <button onClick={toggleFrontCamera} style={buttonStyle}>
           Kamera wechseln
         </button>
-        <button onClick={toggleTorchEnabled} style={buttonStyle}>
-          Taschenlampe
-        </button>
+        {engineName === 'Blink' && isAndroid ? (
+          <button onClick={toggleTorchEnabled} style={buttonStyle}>
+            Taschenlampe
+          </button>
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );
