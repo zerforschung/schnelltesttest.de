@@ -431,6 +431,19 @@
     "target_antigen": "N",
     "test_name": "CerTest Biotec SARS-CoV-2 Ag Test"
   },
+  "AT052/22": {
+    "at_nr": "AT052/22",
+    "at_nr_self": "",
+    "manufacturer": "Sigmed Sp. Zoo",
+    "omicron_bridging": true,
+    "ref_nr": "CV19AGDE20P",
+    "sensitivity_cq25-30": 0.0,
+    "sensitivity_cq<=25": 80.0,
+    "sensitivity_cq>=30": 0.0,
+    "sensitivity_total": 32.0,
+    "target_antigen": "N",
+    "test_name": "Redtest Professional SARS-CoV-2 Ag"
+  },
   "AT054/20": {
     "at_nr": "AT054/20",
     "manufacturer": "Acro Biotech, Inc.",
@@ -688,6 +701,19 @@
     "sensitivity_total": 54.0,
     "target_antigen": "N",
     "test_name": "Novel Coronavirus(COVID-19) Antigen Test Kit (Colloidal Gold)"
+  },
+  "AT1012/21": {
+    "at_nr": "AT1012/21",
+    "at_nr_self": "AT1259/21",
+    "manufacturer": "Hangzhou Singclean Medical Products Co., Ltd.",
+    "omicron_bridging": false,
+    "ref_nr": "n.a.",
+    "sensitivity_cq25-30": 45.0,
+    "sensitivity_cq<=25": 100.0,
+    "sensitivity_cq>=30": 0.0,
+    "sensitivity_total": 58.0,
+    "target_antigen": "N",
+    "test_name": "Singclean COVID-19 Antigen Test Kit"
   },
   "AT1019/21": {
     "at_nr": "AT1019/21",
@@ -1865,7 +1891,7 @@
     "at_nr": "AT417/20",
     "at_nr_self": "",
     "manufacturer": "Shenzhen Lvshiyuan Biotechnology Co., Ltd.",
-    "omicron_bridging": false,
+    "omicron_bridging": true,
     "ref_nr": "n.a.",
     "sensitivity_cq25-30": 95.7,
     "sensitivity_cq<=25": 100.0,
