@@ -2,7 +2,8 @@ import _ean_map from '../data/ean_map.json';
 import _manual_map from '../data/manual_map.json';
 import _all from '../data/all.json';
 
-export const all: Record<string, TestData> = _all;
+export const all: Record<string, TestData> = _all.tests;
+export const metadata: { date: string; source: string } = _all.metadata;
 const ean_map: Record<string, string> = _ean_map;
 const manual_map: Record<string, string> = _manual_map;
 export const id_map: Record<string, string> = { ...ean_map, ...manual_map };

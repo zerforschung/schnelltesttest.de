@@ -1,5 +1,5 @@
 import React from 'react';
-import { TestData } from '../../utils/testdata';
+import { metadata, TestData } from '../../utils/testdata';
 import { BigBackButton, BigLinkButton } from '../Buttons';
 import { ResultIcon } from './ResultIcon';
 import { LogoHeadingPage } from '../HeadingPageLayouts';
@@ -31,14 +31,7 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
         <></>
       )}
       <p>
-        Quelle:{' '}
-        <a
-          href={
-            'https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile&v=69'
-          }
-        >
-          PEI
-        </a>
+        Quelle: <a href={metadata.source}>PEI</a>
       </p>
       <div style={{ flexGrow: 1 }} />
       <BigLinkButton

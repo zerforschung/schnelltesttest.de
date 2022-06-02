@@ -4,6 +4,7 @@ import NoTestFound from '../components/Result/NoTestFound';
 import { useTestData } from '../utils/hooks';
 import TestFoundButNoData from '../components/Result/TestFoundButNoData';
 import { BigLinkButton } from '../components/Buttons';
+import { metadata } from '../utils/testdata';
 function getReadableAntigen(antigen: string): string {
   if (antigen == 'N') {
     return 'Nucleoprotein';
@@ -83,14 +84,7 @@ export default function MoreInformation(): JSX.Element {
           </tbody>
         </table>
         <p>
-          Quelle:{' '}
-          <a
-            href={
-              'https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests.pdf?__blob=publicationFile&v=69'
-            }
-          >
-            PEI
-          </a>
+          Quelle: <a href={metadata.source}>PEI</a>
         </p>
         {/*<pre>*/}
         {/*  <code>{JSON.stringify(test_data, null, 4)}</code>*/}

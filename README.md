@@ -6,6 +6,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Updating the data
+
+To load the new data from the PEI, use the `xlsx2all.py` script in `src/data`:
+
+```
+cd src/data
+poetry install
+poetry run python xlsx2all.py all.json
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

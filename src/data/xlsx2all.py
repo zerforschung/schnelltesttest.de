@@ -3,18 +3,34 @@ from openpyxl import load_workbook
 import os.path
 import json
 import re
+import requests
+import tempfile
+import atexit
+import shutil
+from pathlib import Path
+
+XLSX_URL = "https://www.pei.de/SharedDocs/Downloads/DE/newsroom/dossiers/evaluierung-sensitivitaet-sars-cov-2-antigentests-excel.xlsx?__blob=publicationFile"
 
 parser = argparse.ArgumentParser()
-parser.add_argument("input")
 parser.add_argument("output")
 args = parser.parse_args()
+
+tmpdir = tempfile.mkdtemp()
+atexit.register(shutil.rmtree, tmpdir)
+tmppath = Path(tmpdir)
+data_file = tmppath / "data.xlsx"
+
+xlsx_req = requests.get(XLSX_URL)
+xlsx_req.raise_for_status()
+with open(data_file, "wb") as f:
+    f.write(xlsx_req.content)
 
 old_data = {}
 if os.path.exists(args.output):
     with open(args.output) as f:
-        old_data = json.load(f)
+        old_data = json.load(f)["tests"]
 
-wb = load_workbook(filename=args.input)
+wb = load_workbook(filename=data_file)
 sheet = wb["zur Veröffentlichung"]
 translation = {
     "AT-Nr. / AT-No.": "at_nr",
@@ -88,6 +104,7 @@ for row in sheet.rows:
 
 data = {}
 keep_keys = ["legal_threat", "notice"]
+file_date = None
 
 for row in sheet.rows:
     first_cell = row[0]
@@ -98,6 +115,8 @@ for row in sheet.rows:
 
     if "Stand" in first_value:
         date = re.search("\d+.\d+.\d+", first_value).group()
+        print("Stand", date)
+        file_date = date
 
     if re.match("AT(\d+)/(\d+)", first_value):
         test_data = dict((k, v) for k, v in zip(headers, map_row(row)) if k)
@@ -121,5 +140,10 @@ for row in sheet.rows:
         data[test_data["at_nr"]] = test_data
 
 with open(args.output, "w") as f:
-    json.dump(data, f, indent="  ", sort_keys=True)
+    json.dump(
+        {"tests": data, "metadata": {"date": file_date, "source": XLSX_URL}},
+        f,
+        indent="  ",
+        sort_keys=True,
+    )
     f.write("\n")
