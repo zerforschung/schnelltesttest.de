@@ -3,15 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Wie gut funktioniert Dein Corona Schnelltest? Finde es mit einem Scan heraus" />
+    <meta
+      name="description"
+      content="Wie gut funktioniert Dein Corona Schnelltest? Finde es mit einem Scan heraus"
+    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <meta property="og:title" content="schnelltesttest.de">
-    <meta property="og:url" content="https://schnelltesttest.de">
-    <meta property="og:image" content="https://schnelltesttest.de/logo192.png">
-    <meta property="og:description" content="Wie gut funktioniert Dein Corona Schnelltest? Finde es mit einem Scan heraus">
-    <meta property="og:type" content="website">
+    <meta property="og:title" content="schnelltesttest.de" />
+    <meta property="og:url" content="https://schnelltesttest.de" />
+    <meta property="og:image" content="https://schnelltesttest.de/logo192.png" />
+    <meta
+      property="og:description"
+      content="Wie gut funktioniert Dein Corona Schnelltest? Finde es mit einem Scan heraus"
+    />
+    <meta property="og:type" content="website" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -30,7 +39,60 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div style="display: flex; flex-direction: column; height: 100vh">
+      <div
+        style="
+          font-size: 1.2em;
+          padding: 1rem;
+          width: 100%;
+          position: fixed;
+          flex-grow: 0;
+          text-align: center;
+          padding: 0.5em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #FFCC00;
+          color: black;
+          font-weight: bold;
+          z-index: 100000;
+        "
+      >
+        <a href="https://zerforschung.org/posts/schnelltesttest/#update-2-time-to-say-goodbye" style="text-decoration: none; color: black">
+          <div>
+            ⚠️ schnelltesttest.de wird nicht mehr aktualisiert. ⚠️<br /><span
+              style="text-decoration: underline"
+              >Mehr Informationen...</span
+            >
+          </div>
+        </a>
+      </div>
+      <div
+        style="
+          font-size: 1.2em;
+          padding: 1rem;
+          visibility: hidden;
+          flex-grow: 0;
+          text-align: center;
+          padding: 0.5em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #FFCC00;
+          color: black;
+          font-weight: bold;
+        "
+      >
+        <div>
+          ⚠️ schnelltesttest.de wird nicht mehr aktualisiert. ⚠️<br /><span
+            style="text-decoration: underline"
+            >Mehr Informationen...</span
+          >
+        </div>
+      </div>
+
+      <div id="root" style="flex-grow: 1"></div>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

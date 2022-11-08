@@ -33,9 +33,11 @@ export default function NoTestFound({ test_id }: { test_id: string }): JSX.Eleme
         {/*<p>Du erreichst uns per:</p>*/}
         {/*<ContactInfo />*/}
         <p style={{ justifyContent: 'center', textAlign: 'center' }}>
-          Leider konnten wir unter <b>"{test_id}"</b> keinen Test finden. Wir haben inzwischen fast
-          9000 E-Mails mit weiteren Tests bekommen, die wir aktuell erst einmal abarbeiten müssen.
-          Vermutlich ist dein Test bereits dabei und du findest ihn hier in ein paar Tagen.
+          Leider konnten wir unter <b>"{test_id}"</b> keinen Test finden. schnelltesttest.de wird
+          nicht mehr aktualisiert,{' '}
+          <a href="https://zerforschung.org/posts/schnelltesttest/#update-2-time-to-say-goodbye">
+            mehr Informationen findest du hier
+          </a>
         </p>
         <p>Für weitere Fragen erreichst du uns unter</p>
         <ContactInfo />

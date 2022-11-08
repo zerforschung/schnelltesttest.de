@@ -15,6 +15,14 @@ export default function TestFound({ testdata }: { testdata: TestData }): JSX.Ele
         Über <i>alle</i> Viruslasten erkennt der Test <b>{testdata.sensitivity_total}&nbsp;%</b> der
         Infizierten
       </p>
+      <p>
+        <strong>Hinweis</strong>:{' '}
+        <em>
+          Seit dem 30.05.2022 werden diese Daten nicht mehr durch das PEI veröffentlicht.
+          schnelltesttest.de wurde auf diesem letzten Datenstand eingefroren und wird nicht mehr
+          aktualisiert
+        </em>
+      </p>
       {testdata.notice ? (
         <p>
           <b>Hinweis:</b> <div dangerouslySetInnerHTML={{ __html: testdata.notice }} />

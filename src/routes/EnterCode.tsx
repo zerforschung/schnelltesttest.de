@@ -16,8 +16,10 @@ function UnknownText(): JSX.Element {
         Leider konnten wir diesen Test nicht finden.
       </p>
       <p style={{ textAlign: 'center', fontWeight: 500, fontFamily: 'Open Sans' }}>
-        Du kennst uns helfen, besser zu werden, indem zu uns weiter Informationen über den Test
-        übermittelst.
+        schnelltesttest.de wird nicht mehr aktualisiert,{' '}
+        <a href="https://zerforschung.org/posts/schnelltesttest/#update-2-time-to-say-goodbye">
+          mehr Informationen findest du hier
+        </a>
       </p>
     </>
   );
@@ -118,12 +120,16 @@ export function EnterCode(): JSX.Element {
       />
       {!isTestKnown && testId.trim() ? <UnknownText /> : <></>}
       <div style={{ flexGrow: 1 }} />
-      <BigLinkButton
-        to={`/result/${encodeURIComponent(testId)}`}
-        content={isTestKnown ? 'Überprüfen' : 'Hilf uns!'}
-        appearance={'primary'}
-        disabled={testId.trim() == ''}
-      />
+      {isTestKnown ? (
+        <BigLinkButton
+          to={`/result/${encodeURIComponent(testId)}`}
+          content={isTestKnown ? 'Überprüfen' : 'Hilf uns!'}
+          appearance={'primary'}
+          disabled={testId.trim() == ''}
+        />
+      ) : (
+        <></>
+      )}
 
       <BigBackButton content={'Zurück'} />
     </LogoHeadingPage>
