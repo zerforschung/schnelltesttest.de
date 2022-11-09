@@ -40,7 +40,7 @@ export default function About(): JSX.Element {
       <p style={{ fontWeight: 300, textAlign: 'center' }}>
         schnelltesttest.de ist ein Projekt von
         <a href="https://zerforschung.org">
-          <img style={{ width: '100%', height: '5em' }} src={zerlogo} />
+          <img style={{ width: '100%', height: '5em' }} src={zerlogo} alt="Rotes Logo von Zerforschung mit der Aufschrift &quot;ZER REVERSE ENGINEERING ZENTRUM&quot;" />
         </a>
       </p>
       <LinkFooter />
